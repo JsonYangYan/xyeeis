@@ -1,0 +1,273 @@
+#container{
+	height: auto;
+}
+.allassessment_top {
+    border: 1px solid #dcdcdc;
+    float: right;
+    height: 515px;
+    margin: 20px 20px 20px 0;
+    width: 998px;
+}
+
+.total_situation{
+	background: rgba(0, 0, 0, 0) url('../images/total_situation.png') repeat scroll 0 0;
+	height: 45px;
+	width: 120px;
+}
+.typical_standard{
+	background: rgba(0, 0, 0, 0) url('../images/typical_standard.png') repeat scroll 0 0;
+	height: 45px;
+	width: 120px;
+}
+.detail_standard{
+	background: rgba(0, 0, 0, 0) url('../images/detail_standard.png') repeat scroll 0 0;
+	height: 45px;
+	width: 120px;
+}
+#left_side{
+	width: 80%;
+	height: 450px;
+	margin: 10px auto 0px auto ;
+}
+#right_side{
+	width: 48%;
+	height: 450px;
+	float: right;
+	margin: 10px 0 0 0;
+}
+
+.show_pie {
+    border: 1px solid #dcdcdc;
+    float: right;
+/*    height: 700px;*/
+    min-height: 565px;
+    margin: 0 20px 20px 0;
+    width: 998px;
+}
+
+.teacher_terminal{
+	width: 490px;
+	min-height: 500px;
+	float: left;
+}
+
+.student_terminal{
+	width: 490px;
+	min-height: 500px;
+	float: right;
+	 
+}
+#teacher_terminal_pie,#teacher_terminal_colum,#student_terminal_colum{
+	width: 490px;
+	min-height: 300px;
+}
+#student_terminal_pie{
+	width: 445px;
+	min-height: 300px;
+}
+
+
+#teacher_terminal,#student_terminal{
+	width: 490px;
+	height: 50px;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 18px;
+	font-family: Microsoft yahei;
+	color: #333333;	
+	font-weight: bolder;
+}
+
+#teacher_resources_colum{
+	float: left;
+	width: 490px;
+	height: 589px;
+	border-top:1px solid #dcdcdc;
+	padding-top:10px;
+/*width: 995px;
+	height: 400px;	
+margin: 0 auto;*/
+}
+#teacher_practice_colum{
+	/*width: 850px;
+	height: 360px;*/
+	
+	width: 490px;
+	height: 589px;
+	border-top:1px solid #dcdcdc;
+	padding-top:10px;
+	float: right;
+	
+}
+#school_management_system{
+	float: left;
+
+	width: 490px;
+	height: 589px;
+	border-top:1px solid #dcdcdc;
+	padding-top:10px;
+/*	width: 900px;
+	height: 470px;
+	margin-left: 78px;
+	margin: 0 auto;*/
+}
+#teacher_information_training{
+	
+	width: 490px;
+	height: 589px;
+	border-top:1px solid #dcdcdc;
+	padding-top:10px;
+	float: right;
+/*	width: 930px;
+	height: 355px;
+	margin-bottom: 2px;
+	margin-left: 65px;*/
+}
+
+#pie_01,#pie_03{
+	width: 450px;
+	height: 250px;
+	float: left;
+}
+
+#pie_02,#pie_04{
+	width: 450px;
+	height: 250px;
+	float: right;
+}
+
+#pie_01,#pie_02{
+	margin-top: 10px;
+}
+#pie_03,#pie_04{
+	margin-bottom: 10px;
+}
+.show_tree_data{
+	border: 1px solid #dcdcdc;
+    float: right;
+    min-height: 495px;
+    margin: 0 20px 20px 0;
+    width: 998px;
+}
+
+#displaydifferentMonth{
+	width: 99.1%;
+	padding: 10px;
+	border-top: 1px dashed #333333;
+	padding-right:0px;
+	height: auto;
+	background: #fff;
+	margin-top: 5px;
+}
+#displaydifferentMonth #month{
+	width: 20%;
+	height: auto;
+	float: left;
+}
+#displaydifferentMonth #month #btn_place{
+	width: 60%;
+	float: left;
+}
+#displaydifferentMonth #month .btn{
+	display:block;
+	width: 100%;
+	background: #FA915A;
+/*	box-shadow: 0.5px 0.5px 0.5px #888888;*/
+	font-size: 18px;
+	text-align: center;
+	cursor: pointer;
+	height: 50px;
+	line-height: 50px;
+	color: #fff;
+	margin-top: 5px;
+}
+#displaydifferentMonth #showMonth{
+	float: right;
+	width: 38%;
+}
+#displaydifferentMonth #month .btnMonth{
+	display:block;
+	width: 88px;
+	background: #FA915A;
+	margin:0 auto;
+/*	box-shadow: 0.5px 0.5px 0.5px #888888;*/
+	font-size: 18px;
+	text-align: center;
+	cursor: pointer;
+	height: 30px;
+	line-height: 30px;
+	color: #fff;
+	margin-top: 5px;
+}
+#displaydifferentMonth #month .btn:hover,#displaydifferentMonth #month .btnMonth:hover{
+	background: #FA708C;
+}
+.active{
+	background: #FA708C;
+}
+#leftChart{
+	float: left;
+	width: 40%;
+	height: 400px;
+	background: #fff;
+}
+#rightColumn{
+	float: right;
+	width: 39%;
+	height: 400px;
+	background: #fff;
+}
+
+#picture_data{
+	width: 99.1%;
+	padding: 10px;
+	border-top: 1px dashed #333333;
+	padding-right:0px;
+	height: auto;
+	background: #fff;
+	margin-top: 5px;
+}
+
+#picture_data_chart{
+	margin: 0 auto;
+	width: 80%;
+}
+
+#containeravg {
+    font-size: 18px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+}
+#firstIndex,#secondIndex,#thirdIndex,#IndexTitle{
+	width:998px;
+	margin-right:20px;
+	float:right;
+	margin-bottom:20px;
+	border:1px solid #dcdcdc;
+}
+#firstIndex table,#secondIndex table,#thirdIndex table
+{
+	width:998px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align:center;
+	line-height:40px;
+	font-size:14px;
+} 
+#firstIndex table tr:nth-child(odd),#secondIndex table tr:nth-child(odd),#thirdIndex table tr:nth-child(odd){
+	background-color:#c1e3ec;
+}
+.one_index {
+	background:url(../images/one_index.jpg) no-repeat;
+	padding-top:45px;
+}
+
+.two_index {
+	background:url(../images/two_index.jpg) no-repeat;
+	padding-top:45px;
+}
+.three_index {
+	background:url(../images/three_index.jpg) no-repeat;
+	padding-top:45px;
+}

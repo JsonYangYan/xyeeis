@@ -1,0 +1,62 @@
+[
+    {
+        "area_id": "1",
+        "area_name": "襄城区",
+        "school_name": "襄阳七中",
+        "value": 95
+    },
+    {
+        "area_id": "1",
+        "area_name": "襄城区",
+        "school_name": "襄阳四十中",
+        "value": 93
+    },
+    {
+        "area_id": "2",
+        "area_name": "樊城区",
+        "school_name": "襄阳市前进路小学",
+        "value": 90
+    },
+    {
+        "area_id": "3",
+        "area_name": "襄州区",
+        "school_name": "襄州区实验小学",
+        "value": 88
+    },
+    {
+        "area_id": "4",
+        "area_name": "高新区",
+        "school_name": "襄阳市第二十七中学",
+        "value": 85
+    },
+    {
+        "area_id": "5",
+        "area_name": "东津新区",
+        "school_name": "东津新区实验小学",
+        "value": 83
+    },
+    {
+        "area_id": "8",
+        "area_name": "宜城市",
+        "school_name": "宜城市城关初级中学",
+        "value": 80
+    },
+    {
+        "area_id": "7",
+        "area_name": "枣阳市",
+        "school_name": "枣阳市实验中学",
+        "value": 78
+    },
+    {
+        "area_id": "9",
+        "area_name": "老河口市",
+        "school_name": "实验小学",
+        "value": 77
+    },
+    {
+        "area_id": "12",
+        "area_name": "谷城县",
+        "school_name": "城关镇北辰小学",
+        "value": 77
+    }
+]

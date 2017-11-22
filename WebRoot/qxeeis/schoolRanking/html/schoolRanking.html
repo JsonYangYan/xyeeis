@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	<meta name="viewpoint" content="width=device-width; initial-scale=1" />
+	<title>襄阳市教育信息化发展水平评估系统</title>
+	<link rel="icon" href="../images/icon.png"/>
+	<link type="text/css" rel="stylesheet" href="../../qx_base/css/base.css" />
+	<link type="text/css" rel="stylesheet" href="../css/schoolRanking.css" />
+	<link rel="stylesheet" type="text/css" href="http://www.jq22.com/jquery/font-awesome.4.6.0.css">
+	<script src="../../qx_base/javascript/lib/jquery1.8.2.min.js"></script>
+	<script type="text/javascript" src="../../qx_base/javascript/lib/trimpath.js"></script>
+	<script type="text/javascript" src="../../qx_base/javascript/lib/paging.js"> </script>
+</head>
+<body>
+	<div class="header">襄阳市教育信息化发展水平评估系统<i id="em">教育局欢迎您</i></div>
+	<div id="container"> 
+		<div id="floatNavSchRanking"> </div>
+		<div style="height:1px"></div>
+		<div class="total_title">
+			月份：
+	     </div>
+		<div class="content">
+			
+			<div class="middle_score">
+			<div class="school_ranking"> </div>
+				<ul class="ranking_title">
+					<li>学校排名</li>
+					<li>区域名称</li>
+					<li>学校名称</li>
+					<li>综合得分
+					<i class="fa fa-arrow-down" id="fa-arrow-down"></i>
+					<i class="fa fa-arrow-up" id="fa-arrow-up"></i>
+					</li>
+				</ul>
+				<div class="middle_80" id="middle_school"> </div>
+				<div id="page_numbers"> </div>
+			</div>
+			
+		</div>
+		<div class="clear"></div>
+	</div>
+	<div class="clear"> </div>
+	<div id="footer"> </div>
+	<!-- 学校基本信息表的模版加载 -->
+	<!-- 学校基本信息表的模版加载 -->
+	<div id="list_template" style="display:none">
+		{var j = currentPageNo}
+			{var i = 1}
+			{for s in schoolData}
+			
+			{if i%2 == 0}
+				<ul style="background-color: #DCE9F9;">					
+					<li >${(j-1)*10+ (i++)}</li>
+					<li >${s.area_name}</li>
+					<li >${s.school_name}</li>
+					<li class="arrow-down">${s.value}
+						{if s.fig == 0}
+							<i class="fa fa-arrow-down"></i>
+						{/if}
+						{if s.fig == 1}
+							<i class="fa fa-arrow-up"></i>
+						{/if}
+						{if s.fig == 2}
+							<i class="fa fa-minus"></i>
+						{/if}
+					</li>
+				</ul>
+						
+			{elseif i%2 == 1}
+				<ul class="temp_list_style" style="">
+					<li >${(j-1)*10+ (i++)}</li>
+					<li >${s.area_name}</li>
+					<li >${s.school_name}</li>
+					<li >${s.value}
+						{if s.fig == 0}
+							<i class="fa fa-arrow-down"></i>
+						{/if}
+						{if s.fig == 1}
+							<i class="fa fa-arrow-up"></i>
+						{/if}
+						{if s.fig == 2}
+							<i class="fa fa-minus"></i>
+						{/if}
+					</li>
+				</ul>
+			{/if}
+		{/for} 
+	</div>
+
+</body>
+</html>
+<script src="../../qx_base/base.js"></script>
+<script src="../javascript/schoolRanking.js"></script>

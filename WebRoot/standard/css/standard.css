@@ -1,0 +1,238 @@
+#container{
+	width: 1200px;
+	min-height: 696px;
+	margin: 0 auto;
+	background: #FFFFFF;
+	font-family: Microsoft yahei;
+}
+#assetment_box{
+	width: 500px;
+	min-height: 990px;
+	float: left;
+	text-align: center;
+	padding-left: 10px;
+	border: 1px solid #dcdcdc;
+	margin: 20px;
+    padding: 0 10px;
+}
+div#assetment_box table#tb_box{
+	width: 100%;
+	margin:10px auto;
+}
+#tb_box tbody{
+	width: 100%;
+	font-family: Microsoft yahei;
+}
+td.title{
+	background-color:#b3cff4;
+	text-align: center;
+}
+table.title td{
+	text-align: center;
+}
+div#assetment_box table tr{
+	width: 100%;
+	height:auto;
+}
+td.column_tb table.rank2_tb td{
+	border-right:2px solid white;
+}
+td.column_tb table.rank2_tb {
+	width:100%;
+	background-color: #dfe9f7;
+	border-spacing: 0px;
+}
+td.column_rank1{
+	width:120px;
+	text-align:left;
+	background-color:#b3cff4;
+	text-align: center;
+}
+td.column_rank2{
+	width:150px;
+	text-align: center;
+	padding:5px;
+}
+td.assessment{
+	text-align:left;
+}
+
+td.assessment ul li{
+	
+	list-style-position:inside;
+	text-align:left;
+	padding: 5px;
+}
+td.score{
+	width:50px;
+	text-align:center;
+}
+#assetment_box caption{
+	height: 40px;
+	line-height: 40px;
+}
+.rule_explain_01{
+	width: 456px;
+	float: left;
+	text-align: center;
+	padding-top: 10px;	
+	border: 1px solid #dcdcdc;
+    margin-top: 20px;
+    padding-top: 10px;
+    text-align: center;
+    min-height: 250px;		
+}
+.rule_explain_02{
+	width: 456px;
+	float: left;
+	text-align: center;
+	padding-top: 10px;	
+	border: 1px solid #dcdcdc;
+    margin-top: 20px;
+    padding-top: 10px;
+    text-align: center;
+    min-height: 665px;
+    /*height: 545px;		*/
+}
+
+.rule_explain_01 h2,.rule_explain_02 h2,{
+	height: 40px;
+	line-height: 40px;
+}
+.rule_explain_01 img,.rule_explain_02 img{
+	margin: 0 auto 7px;
+	width: 95%;
+}
+
+
+td.weight_3{
+	width:50px;
+	text-align:center;
+}
+td.score input{
+	width:30px;
+	height:11px;
+}
+td.answer{
+	width:300px;
+	text-align:center;
+}
+a.rule_trip{
+	cursor: pointer;
+	color: blue;
+}
+form a{
+	cursor: pointer;
+	color: blue;
+}
+table.detail_table{
+	width: 100%;
+	height: 100%;
+	vertical-align:center;
+	border-spacing:0;
+}
+table.detail_table tr{
+	width:100%;
+	text-align:left;
+}
+table.detail_table tr td{
+	padding:5px;
+	border-right:0px solid white;
+}
+td.detail img{
+	width: 12px;
+}
+td.detail a{
+	color:blue;
+}
+td.detail a:hover{
+	text-decoration:underline;
+}
+td.detail span{
+	color:red;
+}
+td.detail span.rule_answer{
+	color:#808285;
+}
+
+td.answer input{
+	width:30px;
+	height:11px;
+}
+td.material{
+	width:120px;
+	text-align:center;
+}
+td.material a{
+	text-decoration:none;
+	color:blue;
+	cursor: pointer;
+}
+td.material a:hover{
+	text-decoration:underline;
+}
+td.material span{
+	color:#808285;
+}
+td.advice{
+	width:130px;
+	height:100%;
+}
+td.advice input{
+	width:90%;
+	height:90%;
+}
+td.grade input{
+	width:50px;
+}
+
+.container{
+	width:1190px;
+	margin: 0 auto;
+}
+
+.container div {
+	text-align: center;
+}
+div.header a{display: none;}
+.back_btn{background-color: #3979b7;height: 20px;width: 100%; padding-left: 94%;padding-bottom:2px;}
+/*
+ * 样式设置style.css
+ */
+nav {
+	background: #fff;
+	margin: 15vh 2rem;
+}
+nav ul {
+	list-style: none;
+}
+nav ul li {
+	display: inline-block;
+	text-transform: uppercase;
+	font-size: 1.5 rem;
+	letter-spacing: 0.05 rem;
+}
+nav ul li a {
+	display: inline-block;
+	padding: 1rem;
+	color: #000;
+	text-decoration: none;
+	-webkit-transition: -webkit-transform 0.3s ease 0s;
+	transition: transform 0.3s ease 0s;
+	-webkit-transform-origin: 50% 0px 0px;
+	-ms-transform-origin: 50% 0px 0px;
+	transform-origin: 50% 0px 0px;
+	-webkit-transform-style: preserve-3d;
+	-ms-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+}
+nav ul li a:hover {
+	background: #fff;
+	color: #000;
+	-webkit-transform: rotateX(19deg) translateY(-22px);
+	-ms-transform: rotateX(19deg) translateY(-22px);
+	transform: rotateX(19deg) translateY(-22px);/* rotateX控制图片上下运动幅度*/
+}
+
+.icon_container{text-align: center;padding-top: 2em;}
+.icon_container img{margin-right:0.5em;}*/

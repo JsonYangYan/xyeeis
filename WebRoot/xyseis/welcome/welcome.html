@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<meta name="viewpoint" content="width=device-width; initial-scale=1" />
+<title>襄阳市中小学教育信息化发展水平填报系统</title>
+<link rel="icon" href="../images/icon.png"/>
+<link type="text/css" rel="stylesheet" href="../../base/css/base.css" />
+<link type="text/css" rel="stylesheet" href="css/welcome.css" />
+<link type="text/css" rel="stylesheet" href="css/jquery-ui.css" />
+<link type="text/css" rel="stylesheet" href="css/jquery_alert.css" />
+<script src="../../base/javascript/lib/jquery1.8.2.min.js"></script>
+<script src="javascript/lib/jquery-1.9.1.js"></script>
+<script src="javascript/lib/jquery-ui.js"></script>
+<script src="../../base/javascript/lib/trimpath.js"></script>
+<script type="text/javascript">
+	$(function() {
+		$(".noteawoke").hide();
+		$(".noteok").hide();
+		$("#testDialog").dialog({
+			autoOpen : false,
+			height : 320,
+			width : 350,
+			modal : true,
+			buttons : {
+				"确定" : function() {
+					var pass1V = $("#pass1").val();
+					var pass2V = $("#pass2").val();
+					if (checkRegexp(pass1V, pass2V)) {
+						if (pass1V != pass2V) {
+							$(".errorTip2").html("两次密码输入不一致!");
+				 			$(".errorTip1").html("");
+							//alert("两次密码输入不一致!");
+							$("#pass1").val("");
+							$("#pass2").val("");
+							return false;
+						} else {
+							$(this).dialog("close");
+							//后台更新密码				
+							$.ajax({
+								type : "POST",
+								url : "../../servlet/Welcome",
+								data : {
+									"operation" : "updata_password",
+									"password" : pass1V,
+								},
+								success : function(data) {
+									if (data = "ok") {
+										//alert("密码修改成功！");
+										var txt=  "密码修改成功！";
+										window.wxc.xcConfirm(txt, window.wxc.xcConfirm.typeEnum.info);
+									}
+	
+								},
+								error : function(data) {
+									//alert("更新失败，请重新填写！");
+									var txt=  "更新失败，请重新填写！";
+									window.wxc.xcConfirm(txt, window.wxc.xcConfirm.typeEnum.info);
+									window.location.reload();
+								}
+	
+							});
+						}
+						
+
+					} else {
+						$(".errorTip1").html("请正确输入6-12位字母、数字组合密码。");
+					 	$(".errorTip2").html("");
+						//alert("请正确输入6-12位字母、数字组合密码");
+						$("#pass1").val("");
+						$("#pass2").val("");
+					}
+				}/* ,
+
+				"取消" : function() {
+					$(this).dialog("close");
+					window.location.href = "../login.html";
+				} */
+			}
+		});//dialog end;
+
+		//验证密码为a-zA-Z0-9 6-12位
+		function checkRegexp(passVal1, passVal2) {
+			if (passVal1.length<6||passVal1.length>12) {
+				return false;
+			}
+			var regexp = /^(?![^a-zA-Z]+$)(?!\D+$).{6,12}/;
+			if (!(regexp.test(passVal1))) {
+				return false;
+			}
+			return true;
+		}
+
+	});//jquery end;
+	var change_pwd = function() {
+		
+		$("#testDialog").dialog("open");
+	}
+</script>
+</head>
+<body onload="change_pwd();">
+	<div id="testDialog" title="修改密码">
+		<p class="validateTips">请立即修改您的初始密码！</p>
+		<span class="chPwd"> <label for="password">请输入6~12位、字母数字组合新密码</label>
+			<input type="password" id="pass1" class="text ui-widget-content ui-corner-all" />
+		</span> 
+		<div class="errorTip1"></div>
+		<span class="chPwd"> <label for="password">请您再次输入新密码</label> <input
+			type="password" id="pass2"
+			class="text ui-widget-content ui-corner-all" />
+		</span>
+		<div class="errorTip2"></div>
+	</div>
+	<div class="header">襄阳市中小学教育信息化发展水平填报系统</div>
+	<div id="container">
+		<div id="main_container">
+			<div class="survey_title">襄阳市教育信息化发展状况调查问卷(2017)</div>
+			<div class="survey_illustrate">
+				<div class="text_1">
+					说明：根据工作安排，对贵单位教育信息化发展状况进行调研，本调研问卷仅限了解我市各中小学信息化发展水平，我们会对相关信息按国家
+					有关法律规定严格保密，请根据贵单位的真实情况填写。衷心感谢您的支持！</div>
+				<!-- <div class="text_2">襄阳市教育装备与信息技术中心</div>
+				<div class="text_3">2016年11月21日</div> -->
+			</div>
+			<div class="survey_container">
+				<div id="formbox">
+					<form id="formpersonal" method="post" onsubmit="return false;">
+						<div class="form">
+							<div class="item">
+								<span class="info_font">地址：</span>
+								<div class="fl">
+									<span class="user_info"> <input type="text" id="area"
+										name="area" disabled="disabled" /> <span>区(县级市/县)</span>
+									</span>
+									<div class="clear"></div>
+								</div>
+							</div>
+							<div class="item_radio">
+								<span class="info_font">所在地：</span>
+								<div class="fl_radio">
+									<input type="radio" value="城镇" name="school_area" /><span>城镇</span>
+								</div>
+								<div class="fl_radio">
+									<input type="radio" value="农村" name="school_area" /><span>农村</span>
+								</div>
+								<div class="clear"></div>
+							</div>
+							<div class="item">
+								<span class="info_font">学校名称：</span>
+								<div class="fl">
+									<span class="user_info"> <input type="text"
+										name="school_addr" disabled="disabled" />
+									</span>
+								</div>
+							</div>
+							<div class="item_radio">
+								<span class="info_font">学校类型：</span>
+								<div class="fl_radio">
+									<input type="radio" value="小学" name="school_type" class="norm_radio"/><span>小学</span>
+								</div>
+								<div class="fl_radio">
+									<input type="radio" value="初中" name="school_type" class="norm_radio"/><span>初中</span>
+								</div>
+								<div class="fl_radio">
+									<input type="radio" value="高中" name="school_type" class="norm_radio"/><span>高中</span>
+								</div>
+								<div class="fl_radio">
+									<input type="radio" value="教学点" name="school_type" class="tp_radio"/><span>教学点</span>
+								</div>
+								<div class="fl_radio">
+									<input type="radio" value="其他" name="school_type" class="norm_radio"/><span>其他</span>
+								</div>
+								<div class="clear"> </div>
+							</div>
+							
+							<div class="item">
+								<span class="info_font">问卷填写人：</span>
+								<div class="fl">
+									<input type="text" name="relation" id="relation"/>
+									<div class="clear"></div>
+								</div>
+								<div id="warningRelationErrorInfo" class="noteawoke">
+									<span><img src="images/InfoMistake.gif" />姓名格式输入错误！</span>
+								</div>
+								<div id="warningRelationRightInfo" class="noteok">
+									<span><img src="images/InfoSucceed.gif" />姓名格式输入正确。</span>
+								</div>
+							</div>
+							<div class="item">
+								<span class="info_font">电话：</span>
+								<div class="fl">
+									<input type="text" name="mobile" id="mobile" />
+									<div class="clear"></div>
+								</div>
+								<div id="warningMobileErrorInfo" class="noteawoke">
+									<span><img src="images/InfoMistake.gif" />电话号码格式输入错误！</span>
+								</div>
+								<div id="warningMobileRightInfo" class="noteok">
+									<span><img src="images/InfoSucceed.gif" />电话号码格式输入正确。</span>
+								</div>
+							</div>
+							<div class="item">
+								<span class="info_font">E-mail:</span>
+								<div class="fl">
+									<input type="text" name="email" id="email" />
+									<div class="clear"></div>
+								</div>
+								<div id="warningEmailErrorInfo" class="noteawoke">
+									<span><img src="images/InfoMistake.gif" />邮件地址格式输入错误！</span>
+								</div>
+								<div id="warningEmailRightInfo" class="noteok">
+									<span><img src="images/InfoSucceed.gif" />邮件地址格式输入正确。</span>
+								</div>
+							</div>
+							<div class="item">
+								<span class="info_font">班级数：</span>
+								<div class="fl">
+									<input type="text" name="class_num" id="class_num" class="text" />
+									<div class="clear"></div>
+								</div>
+								<div id="warningCNErrorInfo" class="noteawoke">
+									<span><img src="images/InfoMistake.gif" />班级数量格式输入错误！</span>
+								</div>
+								<div id="warningCNRightInfo" class="noteok">
+									<span><img src="images/InfoSucceed.gif" />班级数量格式输入正确。</span>
+								</div>
+							</div>
+							<div class="item">
+								<span class="info_font">学校在职教师人数：</span>
+								<div class="fl">
+									<input type="text" name="staffteacher" id="staffteacher" />
+									<div class="clear"></div>
+								</div>
+								<div id="warningSTErrorInfo" class="noteawoke">
+									<span><img src="images/InfoMistake.gif" />教师数量格式输入错误！</span>
+								</div>
+								<div id="warningSTRightInfo" class="noteok">
+									<span><img src="images/InfoSucceed.gif" />教师数量格式输入正确。</span>
+								</div>
+							</div>
+							<div class="item">
+								<span class="info_font">在籍学生总数：</span>
+								<div class="fl">
+									<input type="text" name="nativestudent" id="nativestudent" />
+									<div class="clear"></div>
+								</div>
+								<div id="warningNSErrorInfo" class="noteawoke">
+									<span><img src="images/InfoMistake.gif" />学生数量格式输入错误！</span>
+								</div>
+								<div id="warningNSRightInfo" class="noteok">
+									<span><img src="images/InfoSucceed.gif" />学生数量格式输入正确。</span>
+								</div>
+							</div>
+							<!--按钮-->
+							<div id="login">
+								<div class="button" id="add_information">
+									<strong>下一步</strong>
+								</div>
+							</div>
+							<!--item end-->
+
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	<div class="clear"></div>
+	<!-- 问卷的问题输出模板 -->
+
+	<div id="footer"></div>
+</body>
+</html>
+<script type="text/javascript" src="../base/base.js"></script>
+<script type="text/javascript" src="javascript/welcome.js"></script>
+<script type="text/javascript" src="javascript/jquery_alert.js"></script>

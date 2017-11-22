@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	<meta name="viewpoint" content="width=device-width; initial-scale=1" />
+	<title>襄阳市教育信息化发展水平评估系统</title>
+	<link rel="icon" href="../images/icon.png"/>
+	<link type="text/css" rel="stylesheet" href="../../qx_base/css/base.css" />
+	<link type="text/css" rel="stylesheet" href="../../qx_base/treeview/jquery.treeview.css" />
+	<link type="text/css" rel="stylesheet" href="../css/school.css" />
+	<script src="../../qx_base/javascript/lib/jquery1.8.2.min.js"></script>
+	<script type="text/javascript" src="../../qx_base/javascript/lib/jquery.query-2.1.7.js" ></script>
+	<script type="text/javascript" src="../../qx_base/javascript/lib/trimpath.js"></script>
+    <script type="text/javascript" src="../../qx_base/javascript/lib/highcharts.js"></script>
+    <script type="text/javascript" src="../../qx_base/javascript/lib/highcharts-more.js"></script>
+
+</head>
+<body>
+	<div class="header">襄阳市教育信息化发展水平评估系统</div>
+	<div id="container"> 
+		<div id="floatNavSchool"> </div>
+		<!-- 	本校、本地区和襄阳市的各指标得分雷达图	 -->
+		<div class="allassessment_top">
+    		<div class="total_situation" > </div>
+	        <div id="left_side" class="left_side"> </div>
+	        <div class="clear"> </div>
+        </div>
+        <div class="show_school_data">
+        	<div class="downLoad"></div>
+        	<div class="typical_standard" > </div>
+        	<div id="right_side" class="right_side">
+	        	<ul class="list_basicinfo">
+        			<li> </li>
+        			<li>班级(个)&nbsp;:&nbsp;</li>
+        			<li>教师(名)&nbsp;:&nbsp;</li>
+        			<li>学生(名)&nbsp;:&nbsp;</li>
+        			<li>校园网出口带宽(兆/M)&nbsp;:&nbsp;</li>
+        			<li>校园网平均带宽(兆/M)&nbsp;:&nbsp;</li>
+        			<li>有线网络的覆盖率(%)&nbsp;:&nbsp;</li>
+        			<li>无线网络的覆盖率(%)&nbsp;:&nbsp;</li>
+        			<li>电子备课教室(间)&nbsp;:&nbsp;</li>
+        			<li>计算机教室(间)&nbsp;:&nbsp;</li>
+        			<li>计算机教室座位(个)&nbsp;:&nbsp;</li>
+        			<li>是否联网(是/否)&nbsp;:&nbsp;</li>
+        			<li>使用率(课时/周)&nbsp;:&nbsp;</li>
+        			<li>非故障电脑比例(%)&nbsp;:&nbsp;</li>
+        			<li>录播教室(间)&nbsp;:&nbsp;</li>
+        			<li>多媒体教室(间)&nbsp;:&nbsp;</li>
+        			<li>教师终端-台式计算机(台)&nbsp;:&nbsp;</li>
+        			<li>教师终端-笔记本电脑(台)&nbsp;:&nbsp;</li>
+        			<li>教师终端-平板电脑(台)&nbsp;:&nbsp;</li>
+        			<li>学生终端-台式计算机(台)&nbsp;:&nbsp;</li>
+        			<li>学生终端-笔记本电脑(台)&nbsp;:&nbsp;</li>
+        			<li>学生终端-平板电脑(台)&nbsp;:&nbsp;</li>
+        			<li>教师开通网络学习空间比例(%)&nbsp;:&nbsp;</li>
+        			<li>学生开通网络学习空间比例(%)&nbsp;:&nbsp;</li>
+        			<li>应用数字化资源的课程比例(%)&nbsp;:&nbsp;</li>
+        			<li>使用互动平台与家长交流的班级比例(%)&nbsp;:&nbsp;</li>
+        			<li>去年信息化经费投入经费(万元)&nbsp;:&nbsp;</li>
+        			<li>最近一年教育总经费(万元)&nbsp;:&nbsp;</li>
+        			<li>信息化经费投入经费(万元)&nbsp;:&nbsp;</li>
+        			<li>网络建设与设备购置的费用(万元)&nbsp;:&nbsp;</li>
+        			<li>资源与平台开发的费用(万元)&nbsp;:&nbsp;</li>
+        			<li>培训的费用(万元)&nbsp;:&nbsp;</li>
+        			<li>运行和维护的费用(万元)&nbsp;:&nbsp;</li>
+        			<li>研究及其他费用(万元)&nbsp;:&nbsp;</li>
+        			<li>信息技术课程教师(名)&nbsp;:&nbsp;</li>
+        			<li>信息技术课程教师中的专职人员(名)&nbsp;:&nbsp;</li>
+        			<li>信息技术课程教师中的兼职人员(名)&nbsp;:&nbsp;</li>
+        			<li>信息化支持人员(名)&nbsp;:&nbsp;</li>
+        			<li>聘请专职人员(名)&nbsp;:&nbsp;</li>
+        			<li>信息技术专业兼任教师(名)&nbsp;:&nbsp;</li>
+        			<li>其他专业兼任教师(名)&nbsp;:&nbsp;</li>
+        			<li>参与信息技术能力培训的教师(名)&nbsp;:&nbsp;</li>
+        			<li>教师人均参加信息技术能力培训(课时)&nbsp;:&nbsp;</li>
+        		</ul>
+	        	<div id="basicInfo_list">
+	        		
+	        	</div><!-- 本校、本地区、襄阳 基本信息 -->
+	        <div class="clear"> </div>
+	        </div>
+        </div>
+		<!-- 
+		
+		<div class="show_pie">
+        	<div class="typical_standard" > </div>
+        	<div class="teacher_terminal">
+        		<div id="teacher_terminal_pie"> </div>
+        	</div>
+        	
+        	<div class="student_terminal">
+        		<div id="student_terminal_pie"> </div>
+        	</div>
+        	<div class="clear"> </div>
+        	 </div>
+		 -->
+   		<!--	<div id="teacher_resources_colum"> </div>	  教师用数字教学资源		 -->
+    	<!--	<div id="teacher_practice_colum"> </div>	 教师使用的信息化教学环节 -->
+        <!--	<div id="school_management_system"> </div>   学校使用信息管理系统 -->
+        <!--	<div id="teacher_information_training"> </div>   教师参加教育信息化培训 --> 
+       
+		
+		
+		
+	</div>
+	<div class="clear"> </div>
+	<div id="footer"> </div>
+	
+	<!-- 学校基本信息表的模版加载 -->
+	<div id="list_template" style="display:none">
+		<ul class="template ">
+			{for q in infoData}
+			<li>
+				<ul class="school_data_list">					
+					<li ><h3>${q.c1}</h3></li>
+					<li >${q.c2}</li>
+					<li >${q.c3}</li>
+					<li >${q.c4}</li>
+					<li >${q.c5}</li>
+					<li >${q.c6}</li>
+					<li >${q.c7}</li>
+					<li >${q.c8}</li>
+					<li >${q.c9}</li>
+					<li >${q.c10}</li>
+					<li >${q.c11}</li>
+					<li >${q.c12}</li>
+					<li >${q.c13}</li>
+					<li >${q.c14}</li>
+					<li >${q.c15}</li>
+					<li >${q.c16}</li>
+					<li >${q.c17}</li>
+					<li >${q.c18}</li>
+					<li >${q.c19}</li>
+					<li >${q.c20}</li>
+					<li >${q.c21}</li>
+					<li >${q.c22}</li>
+					<li >${q.c23}</li>
+					<li >${q.c24}</li>
+					<li >${q.c25}</li>
+					<li >${q.c26}</li>
+					<li >${q.c27}</li>
+					<li >${q.c28}</li>
+					<li >${q.c29}</li>
+					<li >${q.c30}</li>
+					<li >${q.c31}</li>
+					<li >${q.c32}</li>
+					<li >${q.c33}</li>
+					<li >${q.c34}</li>
+					<li >${q.c35}</li>
+					<li >${q.c36}</li>
+					<li >${q.c37}</li>
+					<li >${q.c38}</li>
+					<li >${q.c39}</li>
+					<li >${q.c40}</li>
+					<li >${q.c41}</li>
+					<li >${q.c42}</li>
+					<li >${q.c43}</li>
+					
+				</ul>
+				
+			</li>
+			{/for}
+		</ul>
+	</div>
+	
+</body>
+</html>
+<script src="../../qx_base/base.js"></script>
+<script src="../javascript/school_detail.js"></script>

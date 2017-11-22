@@ -1,0 +1,478 @@
+a{text-decoration:none;color:black;}
+a:link {
+ text-decoration: none;
+}
+a:visited {
+ text-decoration: none;
+}
+a:hover {
+ text-decoration: none;
+}
+a:active {
+ text-decoration: none;
+}
+li {list-style-type: none;}
+
+#school_container{
+	width: 1200px;
+	min-height: 942px;
+	margin: 0 auto;
+	background: #FFFFFF;
+	font-family: Microsoft yahei;
+	padding-bottom:20px;
+/*	min-height: 650px;*/
+}
+#container{
+	min-height: 2355px;
+}
+/****************school---list---start***********************/
+#areaSchoolList{
+	width: 998px;
+	margin: 20px 20px 0 0;
+	float: right;
+}
+.school_list_title{
+	width: 80%;
+	height: 40px;
+	line-height: 40px;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	color: #000000;
+}
+
+#treeview_conainer_12{
+	float:left;
+	display:inline-block;
+	width:200px;
+	height: 600px;
+	font-size: 16px; 
+	margin: 10px 0 0 20px;
+	list-style-type: none;
+}
+
+#school_list{
+	float: left;
+    font-size: 18px;
+    min-height: 150px;
+    margin: 0 auto;
+    text-align: center;
+    width: 500px;
+}
+#school_list ul li{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;	
+}
+#school_list ul li a:hover{
+	text-decoration:none;color:black;
+}
+
+/**************school----list---End*********************/
+/***********page---start**************/
+#school_page{
+	width: 490px;
+	min-height: 300px;
+	float: left;
+}
+#page_numbers{
+	width: 490px;
+	height: 20px;
+	margin: 0 auto;
+}
+.page_menu {
+    padding: 3px;
+    text-align: center;
+}
+
+/***********page---end**************/
+/**************search---school---start*********************/
+#school_search{
+	margin-bottom: 20px;
+    width: 998px;
+	height: 30px;
+	float: right;
+}
+.button_query{
+	float: right;
+	width: 300px;
+	height: 30px;
+}
+.button_query input{
+	width: 200px;
+	height: 30px;
+}
+#school_button_query{
+	margin-left: 15px;
+}
+#school_button_query{
+	width: 50px;
+	height: 30px; 
+	background-color: #3bb2d0;
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 12px;
+    margin-left: 8px;
+    padding: 2px;
+
+}
+
+/**************search---school---end*********************/
+
+/***************school---detail---strat*****************/
+.allassessment_top {
+    border: 1px solid #dcdcdc;
+    float: right;
+    min-height: 515px;
+    margin: 20px 20px 20px 0;
+    width: 998px;
+}
+
+.total_situation{
+	background: rgba(0, 0, 0, 0) url('../images/total_situation.png') repeat scroll 0 0;
+	height: 45px;
+	width: 120px;
+}
+#left_side{
+/*	width: 48%;*/
+	width: 98%;
+	height: 400px;
+/*	float: left;*/
+	margin: 10px 0 0 10px;
+}
+
+/**
+ *ï¿½ï¿½Ê¾Ñ§Ð£ï¿½ï¿½ï¿½ï¿½Ï¸ï¿½ï¿½Ï¢	
+ * 
+ */
+
+.show_school_data {
+    border: 1px solid #dcdcdc;
+    float: right;
+    min-height: 515px;
+    margin: 0px 20px 20px 0;
+    width: 998px;
+}
+
+.school_basic_deta{
+	background: rgba(0, 0, 0, 0) url('../images/school_basic_deta.png') repeat scroll 0 0;
+	height: 45px;
+	width: 120px;
+}
+
+
+
+#right_side{
+	min-height: 500px;
+    margin: 0 auto;
+    width: 996px;
+}
+.list_basicinfo{
+	width: 396px;
+	min-height: 200px;
+	text-align: right;
+	font-size: 14px;
+	float: left;
+	display: inline-block;
+	
+}
+.list_basicinfo  li{
+	width: 392px;
+	height: 40px;
+	line-height: 40px;
+	border-top: none;
+	letter-spacing: 1px;
+	border-right: 2px solid #FFFFFF;
+	border-left: 2px solid #FFFFFF; 
+/*	border-bottom: 2px dashed #c8e3ee;*/
+}
+.list_basicinfo  li:first-child,.school_data_list li:first-child{
+	font-weight: bold;
+/*	border-bottom: none;*/
+}
+.list_basicinfo  li:nth-child(even),.school_data_list li:nth-child(even){
+/*	background-color: #B3CFF4;*/
+	background-color: #FFFFFF;
+}
+.list_basicinfo  li:nth-child(odd),.school_data_list li:nth-child(odd){
+	background-color: #DFE9F7;
+}
+#basicInfo_list{
+	width: 600px;
+	height: 200px;
+	text-align: center;
+	font-size: 14px;
+	float: left;
+}
+.school_data_list li{
+	width: 198px;
+	height: 40px;
+	line-height: 40px;
+	letter-spacing: 1px;
+	border-right: 2px solid #FFFFFF;
+}
+.template ul{
+	float: left;
+}
+
+
+
+.show_pie {
+    border: 1px solid #dcdcdc;
+    float: right;
+    min-height: 565px;
+    margin: 0 20px 20px 0;
+    width: 998px;
+}
+.typical_standard{
+	background: rgba(0, 0, 0, 0) url('../images/typical_standard.png') no-repeat;
+	height: 55px;
+	width: 120px;
+}
+.teacher_terminal{
+	width: 490px;
+	min-height: 320px;
+	float: left;
+}
+
+.student_terminal{
+	width: 490px;
+	min-height: 320px;
+	float: right;
+	 
+}
+#teacher_terminal_pie,#teacher_terminal_colum,#student_terminal_colum{
+	width: 500px;
+	min-height: 300px;
+}
+#student_terminal_pie{
+	width: 445px;
+	min-height: 300px;
+}
+
+
+#teacher_terminal,#student_terminal{
+	width: 490px;
+	height: 50px;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 16px;
+	font-family: Microsoft yahei;	
+}
+
+#teacher_resources_colum{
+	width: 995px;
+	height: 400px;
+}
+#teacher_practice_colum{
+	width: 850px;
+	height: 360px;
+	margin-left: 144px;
+}
+#school_management_system{
+	width: 955px;
+	height: 470px;
+	margin-left: 40px;
+}
+#teacher_information_training{
+	width: 930px;
+	height: 355px;
+	margin-bottom: 2px;
+	margin-left: 64px;
+}
+.downLoad{
+	float:right;
+	width:155px;
+	height:51px;
+	background:url(../images/down_load.jpg);
+	cursor:pointer;
+	margin-bottom: 4px;
+}
+/***************school---detail---end*****************/
+
+
+/****tabï¿½ï¿½Ç©****/
+
+.tab_box {
+	width:970px;
+	margin:0 auto;
+}
+.lyz_tab_left {
+	background:url(../images/left3.jpg) no-repeat top right;
+	padding-top: 16px;
+	float: left;
+	width: 259px;
+	height: auto !important;
+	min-height:500px;
+	height:500px;
+}
+.pro_con1111 {
+	float: left;
+	overflow: hidden;
+	width: 249px;
+	height: auto;
+}
+.pro_con111 UL {
+	padding: 0px;
+	width: 259px;
+	list-style-type: none;
+}
+.pro_con111 UL LI {
+	padding-right: 30px;
+	display: inline;
+	font-weight: bold;
+	font-size: 14px;
+	background-color: #3bb2d0;
+	border-radius: 4px;
+	float: left;
+	margin-bottom: 5px;
+	width: 219px;
+	cursor: pointer;
+	color: #fff;
+	line-height: 34px;
+	height: 34px;
+	text-align: center;
+}
+.pro_con111 UL LI.hover {
+	padding-right: 30px;
+	display: inline;
+	font-weight: bold;
+	font-size: 14px;
+	background: url(../images/baibj.jpg) no-repeat right 50%;
+	float: left;
+	margin-bottom: 5px;
+	width: 229px;
+	cursor: pointer;
+	color: #3c3c3c;
+	line-height: 34px;
+	height: 34px;
+	text-align: center;
+}
+.lyz_tab_right {
+	padding-right: 10px;
+	display: inline;
+	padding-left: 20px;
+	background: url(../images/right4.jpg) no-repeat left top;
+	float: left;
+	padding-bottom: 20px;
+	width: 675px;
+	padding-top: 20px;
+	height:500px;
+}
+.clear {
+	clear:both
+}
+.sch_det{
+	width: 665px;
+	line-height: 30px;
+	font-size: 14px;
+	text-align: center;
+}
+.sch_det ul li{
+	float: left;
+	height: 30px;
+	line-height: 30px;
+}
+.sch_det ul li:first-child{
+	width: 400px;
+}
+.sch_det ul li:last-child{
+	width: 150px;
+	
+}
+#firstIndex,#secondIndex,#thirdIndex,#IndexTitle{
+	width:998px;
+	margin-right:20px;
+	float:right;
+	margin-bottom:20px;
+	border:1px solid #dcdcdc;
+}
+
+#small_school table,#middle_school table,#high_school table,#other_school table
+{
+	width:998px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align:center;
+	line-height:40px;
+	font-size:14px;
+} 
+#small_school table tr:nth-child(odd),#middle_school table tr:nth-child(odd),#high_school table tr:nth-child(odd),#other_school table tr:nth-child(odd){
+	background-color:#c1e3ec;
+}
+#small_school {
+	background:url(../images/samll_school.jpg) no-repeat;
+	padding-top:45px;
+}
+
+#middle_school {
+	background:url(../images/middle_school.jpg) no-repeat;
+	padding-top:45px;
+}
+#high_school {
+	background:url(../images/high_school.jpg) no-repeat;
+	padding-top:45px;
+}
+
+#other_school {
+	background:url(../images/other_school.jpg) no-repeat;
+	padding-top:45px;
+}
+#small_school_page{
+	margin-top:10px;
+	margin-bottom:10px
+}
+#middle_school_page{
+	margin-top:10px;
+	margin-bottom:10px
+
+}
+#high_school_page{
+	margin-top:10px;
+	margin-bottom:10px
+	
+}
+#other_school_page{
+	margin-top:10px;
+	margin-bottom:10px
+}
+
+/************page_menu**************/
+#page_numbers{
+	height: 20px;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.page_menu A {
+	color: #000000; 
+	text-decoration: none;
+}
+.page_menu A:hover {
+	color: red;
+}
+.page_menu A:active {
+	color: #666;
+}
+.page_menu .current {
+	font-weight: bold;  
+
+	color: #fff; 
+	background: #036cb4;
+}
+.page_menu .disabled {
+
+	color: #AAA;
+}
+
+#page_numbers_city{margin-top:12px;}
+#topTitle{
+	font: 38px/1.5 Tahoma,Helvetica,Arial,'ËÎÌå',sans-serif;
+	font-weight:bold;
+	margin-top:15px;
+	margin-left:20px;
+}

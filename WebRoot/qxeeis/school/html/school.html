@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	<meta name="viewpoint" content="width=device-width; initial-scale=1" />
+	<title>襄阳市教育信息化发展水平评估系统</title>
+	<link rel="icon" href="../images/icon.png"/>
+	<link type="text/css" rel="stylesheet" href="../../qx_base/css/base.css" />
+	<link type="text/css" rel="stylesheet" href="../../qx_base/treeview/jquery.treeview.css" />
+	<link type="text/css" rel="stylesheet" href="../css/school.css" />
+	<script src="../../qx_base/javascript/lib/jquery1.8.2.min.js"></script>
+	<script type="text/javascript" src="../../qx_base/javascript/lib/trimpath.js"></script>
+	<script type="text/javascript" src="../../qx_base/javascript/lib/paging.js"> </script>
+    <script type="text/javascript" src="../../qx_base/treeview/jquery.treeview.js"></script>
+    <script type="text/javascript" src="../../qx_base/javascript/lib/highcharts.js"></script>
+    <script type="text/javascript" src="../../qx_base/javascript/lib/highcharts-more.js"></script>
+    	<script type="text/javascript" src="../../../base/javascript/lib/trimpath.js"></script>
+	<script type="text/javascript" src="../../../base/javascript/lib/paging.js"></script>
+
+</head>
+<body>
+	<div class="header">襄阳市教育信息化发展水平评估系统<i id="em">教育局欢迎您</i></div>
+	<div id="school_container"> 
+		<div id="floatNavSchool"> </div>
+		<div style="height:1px"></div>
+		<div class="total_title">
+			月份：
+	      </div>
+		<div id="areaSchoolList">
+			<div class="school_list_title">襄阳市教育各地区中小学</div>
+ 						
+			<div id="small_school" style="border:1px solid #cdcdcd;margin-bottom:20px;min-height:35px;">
+			</div>
+			<div id="small_school_page"></div>
+			<div id="middle_school" style="border:1px solid #cdcdcd; margin-bottom:20px;min-height:35px;">
+			</div>
+			<div id="middle_school_page"></div>		
+			<div id="high_school" style="border:1px solid #cdcdcd; margin-bottom:20px;min-height:35px;">
+			</div>
+			<div id="high_school_page"></div>
+			<div id="other_school" style="border:1px solid #cdcdcd;min-height:35px;">
+			</div>
+			<div id="other_school_page"></div>
+			<div class="clear"> </div>
+		</div>
+		<div class="clear"> </div>
+	</div>
+	<div class="clear"> </div>
+	<div id="footer"> </div>
+	<textarea id="small_school_temple" style="display:none">
+		{if schoolData == ''}
+		<div style='text-align:center;font-size:14px;background:#c1e3ec;height:40px;line-height:40px' >无数据</div>
+		{else}
+			<table>
+			{for data in schoolData}	
+				<tr>
+					<td width=50%>${data.name}</td>
+					<td width=50%><a href="school_detail.html?name=${data.name}" target="_blank" class="to_show_detail">详情</a></td>
+				</tr>
+			{/for}
+			</table>
+		{/if}
+	</textarea>
+	<textarea id="middle_school_temple" style="display:none">
+		{if schoolData == ''}
+		<div style='text-align:center;font-size:14px;background:#c1e3ec;height:40px;line-height:40px' >无数据</div>
+		{else}
+			<table>
+			{for data in schoolData}	
+				<tr>
+					<td width=50%>${data.name}</td>
+					<td width=50%><a href="school_detail.html?name=${data.name}" target="_blank" class="to_show_detail">详情</a></td>
+				</tr>
+			{/for}
+			</table>
+			
+		{/if}
+	</textarea>
+	<textarea id="high_school_temple" style="display:none">
+		{if schoolData == ''}
+		<div style='text-align:center;font-size:14px;background:#c1e3ec;height:40px;line-height:40px' >无数据</div>
+		{else}
+			<table>
+			{for data in schoolData}	
+				<tr>
+					<td width=50%>${data.name}</td>
+					<td width=50%><a href="school_detail.html?name=${data.name}" target="_blank" class="to_show_detail">详情</a></td>
+				</tr>
+			{/for}
+			</table>
+			
+		{/if}
+	</textarea>
+	
+	<textarea id="other_school_temple" style="display:none">
+		{if schoolData == ''}
+		<div style='text-align:center;font-size:14px;background:#c1e3ec;height:40px;line-height:40px' >无数据</div>
+		{else}
+			<table>
+			{for data in schoolData}	
+				<tr>
+					<td width=50%>${data.name}</td>
+					<td width=50%><a href="school_detail.html?name=${data.name}" target="_blank" class="to_show_detail">详情</a></td>
+				</tr>
+			{/for}
+			</table>
+			
+		{/if}
+	</textarea>
+	
+</body>
+</html>
+<script src="../../qx_base/base.js"></script>
+<script src="../javascript/school.js"></script>

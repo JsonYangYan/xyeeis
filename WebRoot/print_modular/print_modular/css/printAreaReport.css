@@ -1,0 +1,159 @@
+/*清除浮动主流写法*/
+.clearfix:before,
+.clearfix:after {
+  content: ' ';
+  display: table;
+  height: 0;
+}
+.clearfix:after {
+  clear: both;
+}
+#btn_place{
+	width: 30%;
+	float:left;
+}
+
+#btn_place .btn,#showMonth .btnMonth{
+	display:block;
+	width: 80%;
+	background: #FA915A;
+/*	box-shadow: 0.5px 0.5px 0.5px #888888;*/
+	font-size: 18px;
+	text-align: center;
+	cursor: pointer;
+	height: 50px;
+	line-height: 50px;
+	color: #fff;
+	margin: 3px auto;
+}
+#btn_place .btn:hover,#showMonth .btnMonth:hover{
+	background: #FA708C;
+}
+#showMonth{
+	float: left;
+	width: 50%;
+}
+
+.print_body{
+	background-color:#f5f9fc;
+	width:1200px;
+	min-height:1312px;
+	margin: 0 auto;
+}
+.print_outer{
+	width:998px;
+	float:right;
+	margin-right:20px;
+	margin-top:20px;
+	min-height:231px;
+	background:white url(../images/all_report.png) top left no-repeat;
+	border: 1px solid #dcdcdc;
+}
+.print_inside{
+	margin-top:70px;
+	padding:20px 20px;
+	line-height:30px;
+	text-indent: 2em;
+	font-size:14px;
+	font-family:'微软雅黑' "
+}
+.print_allreport{
+	background:url(../images/pdf_download.jpg);
+	width:198px;
+	height:72px;
+	margin-top:20px;
+	margin-left:276px;
+	margin-right:60px;
+	cursor:pointer;
+	float:left;
+	margin-bottom:20px;
+}
+.report_fenlei{
+	width:998px;
+	float:right;
+	margin-right:20px;
+	margin-top:20px;
+	min-height:231px;
+	background:white url(../images/part_report.png) top left no-repeat;
+	border: 1px solid #dcdcdc;
+	margin-bottom:20px;
+}
+.fenlei_inside{
+	width:325px;
+	height:177px;
+	padding-left:auto;
+	text-align:center;
+}
+
+.print_body {
+    background-color: #f5f9fc;
+    margin: 0 auto;
+    min-height: 1642px;
+    width: 1200px;
+}
+.print_report{
+	
+	background:url(../images/excel_download.jpg);
+	width:198px;
+	height:72px;
+	float:left;
+	margin-top:20px;
+	margin-bottom:20px;
+	cursor:pointer;
+}
+.laohekou{
+	width:327px;
+	height:63px;
+	background:url(../images/download_lhk.jpg) 16px 0px no-repeat;
+	margin-left:20px;
+	cursor:pointer;
+}
+#laohe{
+	width:327px;
+	height:63px;
+	/*border: 1px solid;*/
+}
+.guchengxian{
+	width:327;
+	height:63px;
+	background:url(../images/download_gcx.jpg) 44px 0px no-repeat;
+	margin-left:20px;
+	cursor:pointer;
+}
+#gucheng{
+	width:327;
+	height:63px;
+	/*border: 1px solid;*/
+}
+.baokangxian{
+	width:327;height:63px;background:url(../images/download_bkx.jpg) 44px 0px no-repeat;margin-left:20px;cursor:pointer;
+}
+.fanzhouqu{
+	width:327;height:63px;background:url(../images/download_fzq.jpg) 16px 0px no-repeat;margin-left:20px;cursor:pointer;
+}
+.fanchengqu{
+	width:327;height:63px;background:url(../images/download_fcq.jpg) 44px 0px no-repeat;margin-left:20px;cursor:pointer;
+}
+.yichengshi{
+	width:327;height:63px;background:url(../images/download_ycs.jpg) 44px 0px no-repeat;margin-left:20px;cursor:pointer;
+}
+.xiangchengqu{
+	width:327;height:63px;background:url(../images/download_xcq.jpg) 16px 0px no-repeat;margin-left:20px;cursor:pointer;
+}
+.nanzhangxian{
+	width:327;height:63px;background:url(../images/download_nzx.jpg) 44px 0px no-repeat;margin-left:20px;cursor:pointer
+}
+.zaoyangshi{
+	width:327;height:63px;background:url(../images/download_zys.jpg) 44px 0px no-repeat;margin-left:20px;cursor:pointer
+}
+.gaoxinqu{
+	width:327;height:63px;background:url(../images/download_gx.jpg) 16px 0px no-repeat;margin-left:20px;cursor:pointer
+}
+.yuliangzhou{
+	width:327;height:63px;background:url(../images/download_ylz.jpg) 44px 0px no-repeat;margin-left:20px;cursor:pointer
+}
+.dongjinxinqu{
+	width:327;height:63px;background:url(../images/download_djx.jpg) 44px 0px no-repeat;margin-left:20px;cursor:pointer
+}
+
+

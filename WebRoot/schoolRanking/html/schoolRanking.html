@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	<meta name="viewpoint" content="width=device-width; initial-scale=1" />
+	<title>襄阳市教育信息化发展水平评估系统</title>
+	<link rel="icon" href="../images/icon.png"/>
+	<link type="text/css" rel="stylesheet" href="../../base/css/base.css" />
+	<link type="text/css" rel="stylesheet" href="../css/schoolRanking.css" />
+	<script src="../../base/javascript/lib/jquery1.8.2.min.js"></script>
+	<script type="text/javascript" src="../../base/javascript/lib/trimpath.js"></script>
+	<script type="text/javascript" src="../../base/javascript/lib/paging.js"> </script>
+</head>
+<body>
+	<div class="header">襄阳市教育信息化发展水平评估系统</div>
+	<div id="container"> 
+		<div id="floatNavSchRanking"> </div>
+		<div style="border:none;height:1px"></div>
+			<div class="total_title">
+				月份：
+	        </div>
+		<div class="content">
+			<div class="heigh_score">
+			<div class="school_ranking"> </div>
+				<ul class="ranking_title">
+					<li>学校排名</li>
+					<li>区域名称</li>
+					<li>学校名称</li>
+					<li>综合得分</li>
+				</ul>
+				<div class="top_10"> </div>
+			</div>
+			<div class="middle_score">
+			<div class="school_ranking"> </div>
+				<ul class="ranking_title">
+					<li>学校排名</li>
+					<li>区域名称</li>
+					<li>学校名称</li>
+					<li>综合得分</li>
+				</ul>
+				<div class="middle_80"> </div>
+				<div id="page_numbers"> </div>
+			</div>
+			<div class="low_score">
+			<div class="school_ranking"> </div>
+				<ul class="ranking_title">
+					<li>学校排名</li>
+					<li>区域名称</li>
+					<li>学校名称</li>
+					<li>综合得分</li>
+				</ul>
+				<div class="last_10"> </div>
+				
+			</div>
+			
+		</div>
+		<div class="clear"> </div>
+	</div>
+	<div class="clear"> </div>
+	<div id="footer"> </div>
+	<!-- 学校基本信息表的模版加载 -->
+	<!-- 学校基本信息表的模版加载 -->
+	<div id="list_template" style="display:none">
+		{var j = currentPageNo*10 + 1}
+			{for s in schoolData}
+			 <!-- <ul class="temp_list_style" >					
+				<li class="temp_list_box">${j}</li>
+				<li class="temp_list_box">${s.area_name}</li>
+				<li class="temp_list_box">${s.school_name}</li>
+				<li class="temp_list_box">${s.value}</li>
+			</ul>  -->
+			{if j%2 == 0}
+				<ul style="background-color: #DCE9F9;">					
+					<li >${j}</li>
+					<li >${s.area_name}</li>
+					<li >${s.school_name}</li>
+					<li >${s.value}</li>
+				</ul>
+			{elseif j%2 == 1}
+				<ul class="temp_list_style" style="">					
+					<li >${j}</li>
+					<li >${s.area_name}</li>
+					<li >${s.school_name}</li>
+					<li >${s.value}</li>
+				</ul>
+				{/if}
+			{var j = j+1}
+			{/for} 
+	</div>
+
+</body>
+</html>
+<script src="../../base/base.js"></script>
+<script src="../javascript/schoolRanking.js"></script>

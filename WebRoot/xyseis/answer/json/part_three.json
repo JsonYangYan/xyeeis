@@ -1,0 +1,153 @@
+﻿[
+    {
+        "groupId": 9,
+        "children": [
+            {
+                "groupId": "9",
+                "indexType": "3",
+                "testType": "2",
+                "queContent": "学校建设并应用的数字化教研资源有哪些？",
+                "queId": "146",
+                "unitSymbol": "",
+                "children": [
+                    {
+                        "choiceContent": "无",
+                        "is_checked": "0",
+                        "queId": "146",
+                        "order": "A",
+                        "choiceId": "1",
+                        "autoId": "236",
+                        "hasBlank": "0"
+                    },
+                    {
+                        "choiceContent": "学术文献数据库",
+                        "is_checked": "0",
+                        "queId": "146",
+                        "order": "B",
+                        "choiceId": "2",
+                        "autoId": "237",
+                        "hasBlank": "0"
+                    },
+                    {
+                        "choiceContent": "教研信息资源库",
+                        "is_checked": "1",
+                        "queId": "146",
+                        "order": "C",
+                        "choiceId": "3",
+                        "autoId": "238",
+                        "hasBlank": "0",
+                        "answer": "\"null\""
+                    },
+                    {
+                        "choiceContent": "案例",
+                        "is_checked": "1",
+                        "queId": "146",
+                        "order": "D",
+                        "choiceId": "4",
+                        "autoId": "239",
+                        "hasBlank": "0",
+                        "answer": "\"null\""
+                    },
+                    {
+                        "choiceContent": "教案",
+                        "is_checked": "0",
+                        "queId": "146",
+                        "order": "E",
+                        "choiceId": "5",
+                        "autoId": "240",
+                        "hasBlank": "0"
+                    },
+                    {
+                        "choiceContent": "课件",
+                        "is_checked": "0",
+                        "queId": "146",
+                        "order": "F",
+                        "choiceId": "6",
+                        "autoId": "241",
+                        "hasBlank": "0"
+                    },
+                    {
+                        "choiceContent": "其他",
+                        "is_checked": "0",
+                        "queId": "146",
+                        "order": "G",
+                        "choiceId": "7",
+                        "autoId": "242",
+                        "hasBlank": "0"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "groupId": 10,
+        "children": [
+            {
+                "groupId": "10",
+                "indexType": "3",
+                "testType": "2",
+                "queContent": "学校应用的数字化教研系统有哪些？",
+                "queId": "147",
+                "unitSymbol": "",
+                "children": [
+                    {
+                        "choiceContent": "无",
+                        "is_checked": "0",
+                        "queId": "147",
+                        "order": "A",
+                        "choiceId": "1",
+                        "autoId": "243",
+                        "hasBlank": "0"
+                    },
+                    {
+                        "choiceContent": "网络教研平台",
+                        "is_checked": "0",
+                        "queId": "147",
+                        "order": "B",
+                        "choiceId": "2",
+                        "autoId": "244",
+                        "hasBlank": "0"
+                    },
+                    {
+                        "choiceContent": "教研信息管理平台",
+                        "is_checked": "1",
+                        "queId": "147",
+                        "order": "C",
+                        "choiceId": "3",
+                        "autoId": "245",
+                        "hasBlank": "0",
+                        "answer": "\"null\""
+                    },
+                    {
+                        "choiceContent": "教研资源共享平台",
+                        "is_checked": "1",
+                        "queId": "147",
+                        "order": "D",
+                        "choiceId": "4",
+                        "autoId": "246",
+                        "hasBlank": "0",
+                        "answer": "\"null\""
+                    },
+                    {
+                        "choiceContent": "电子阅览系统",
+                        "is_checked": "0",
+                        "queId": "147",
+                        "order": "E",
+                        "choiceId": "5",
+                        "autoId": "247",
+                        "hasBlank": "0"
+                    },
+                    {
+                        "choiceContent": "其他",
+                        "is_checked": "0",
+                        "queId": "147",
+                        "order": "F",
+                        "choiceId": "6",
+                        "autoId": "248",
+                        "hasBlank": "0"
+                    }
+                ]
+            }
+        ]
+    }
+]

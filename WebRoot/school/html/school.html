@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	<meta name="viewpoint" content="width=device-width; initial-scale=1" />
+	<title>襄阳市教育信息化发展水平评估系统</title>
+	<link rel="icon" href="../images/icon.png"/>
+	<link type="text/css" rel="stylesheet" href="../../base/css/base.css" />
+	<link type="text/css" rel="stylesheet" href="../../base/treeview/jquery.treeview.css" />
+<!--     <link type="text/css" rel="stylesheet" href="../../base/treeview/screen.css" /> -->
+	<link type="text/css" rel="stylesheet" href="../css/school.css" />
+	<script src="../../base/javascript/lib/jquery1.8.2.min.js"></script>
+	<script type="text/javascript" src="../../base/javascript/lib/trimpath.js"></script>
+	<script type="text/javascript" src="../../base/javascript/lib/paging.js"> </script>
+    <script type="text/javascript" src="../../base/treeview/jquery.treeview.js"></script>
+    <script type="text/javascript" src="../../base/javascript/lib/highcharts.js"></script>
+    <script type="text/javascript" src="../../base/javascript/lib/highcharts-more.js"></script>
+
+</head>
+<body>
+	<div class="header">襄阳市教育信息化发展水平评估系统</div>
+	<div id="school_container"> 
+		<div id="floatNavSchool"> </div>
+		<div style="height:1px"></div>
+		<div class="total_title">
+			月份：
+	      </div>
+		<div id="areaSchoolList">
+			<div class="school_list_title">襄阳市教育各地区中小学</div>
+ 			<div id="school_search"><!--搜索学校 -->
+				<span class="button_query">
+					<input type="search" id="school_name" name="school_name" placeholder="学校名" />
+					<button id="school_button_query" class="button" type="submit" >
+						<span class="buttonInner">搜 索</span>
+					</button>
+				</span>
+				
+			</div>
+			<div id="treeview_conainer_12">
+	            
+	            <div class="sub_nav_ul treeview" id="treeview_list"> </div>
+	        </div>
+	        <div id="school_page">
+	        	<div id="school_list"> </div><!-- 学校列表 -->
+ 				<div id="page_numbers"> </div><!--分页 -->
+	        </div>
+	        
+		</div>
+
+	</div>
+	<div class="clear"> </div>
+	<div id="footer"> </div>
+	
+	<!--treeview template-->
+	<textarea id="treeview_template" style="display:none">
+		<ul class="nav_treeview">
+	 	{for nav_1 in school.children}
+		   <li>
+		   		<span>${nav_1.rank1}</span>
+		   		<ul>
+	   		   		{for nav_2 in nav_1.children }
+	   		   	    	<li>
+	   		   	    		<a style="text-decoration: none;cursor: pointer" onclick="eventBind('${nav_1.rank1},${nav_2.rank2}');">
+	   		   	    			<span id="${nav_2.rank2id}">${nav_2.rank2}</span>
+	   		   	    		</a>
+		   	    		</li>
+	   		  	 	{/for}
+		   		</ul>
+		   	</li>
+		{/for}
+	   	</ul>	
+	</textarea>
+	
+	<!-- 学校列表的模版加载 -->
+	<div id="list_template" style="display:none">
+		<ul class="template news_box">
+			{for s in schoolData}
+			<li class="temp_list_box news_box_line">
+				<!-- <a href="school_detail.html?id='${s.name}'" target="_blank" class="list_title to_show_detail" title="${s.name}" id="${s.id}">${s.name}</a> -->
+				<a href="school_detail.html?id=${s.name}" target="_blank" class="list_title to_show_detail" title="${s.name}" id="${s.id}">${s.name}</a>
+			</li>
+			{/for}
+		</ul>
+	</div>
+</body>
+</html>
+<script src="../../base/base.js"></script>
+<script src="../javascript/school.js"></script>

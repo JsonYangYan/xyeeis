@@ -1,0 +1,17 @@
+.content{
+	width: 958px;
+	height: 860px;
+	border: solid 1px #DCDCDC;
+	float: right;
+	margin: 20px 20px 0 0;
+	font-size: 16px;
+	padding: 20px;
+	text-indent: 2em;
+	line-height: 30px;
+}
+.school_info{
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	
+}

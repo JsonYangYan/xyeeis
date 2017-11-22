@@ -1,0 +1,29 @@
+[
+    {
+        "id": "1",
+        "name": "襄城市第一小学",
+        "teacher": 100,
+        "student": 300,
+        "computer": 150,
+        "equipment": 3,
+        "Multimedia": 2   
+    },
+    {
+        "id": "1",
+        "name": "襄城市",
+        "teacher": 800,
+        "student": 2400,
+        "computer": 1500,
+        "equipment": 13,
+        "Multimedia": 8   
+    },
+    {
+        "id": "1",
+        "name": "襄阳市",
+        "teacher": 5000,
+        "student": 30720,
+        "computer": 14150,
+        "equipment": 213,
+        "Multimedia": 258   
+    }
+]

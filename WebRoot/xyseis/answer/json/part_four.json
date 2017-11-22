@@ -1,0 +1,519 @@
+﻿[
+    {
+        "groupId": 11,
+        "children": [
+            {
+                "groupId": "11",
+                "indexType": "4",
+                "testType": "2",
+                "queContent": "学校应用的信息管理系统有哪些？",
+                "queId": "148",
+                "unitSymbol": "",
+                "children": [
+                    {
+                        "choiceContent": "无",
+                        "is_checked": "0",
+                        "queId": "148",
+                        "order": "A",
+                        "choiceId": "1",
+                        "autoId": "249",
+                        "hasBlank": "0"
+                    },
+                    {
+                        "choiceContent": "教学教务信息系统",
+                        "is_checked": "0",
+                        "queId": "148",
+                        "order": "B",
+                        "choiceId": "2",
+                        "autoId": "250",
+                        "hasBlank": "0"
+                    },
+                    {
+                        "choiceContent": "图书信息管理系统",
+                        "is_checked": "1",
+                        "queId": "148",
+                        "order": "C",
+                        "choiceId": "3",
+                        "autoId": "251",
+                        "hasBlank": "0",
+                        "answer": "\"null\""
+                    },
+                    {
+                        "choiceContent": "办公自动化（OA）系统",
+                        "is_checked": "1",
+                        "queId": "148",
+                        "order": "D",
+                        "choiceId": "4",
+                        "autoId": "252",
+                        "hasBlank": "0",
+                        "answer": "\"null\""
+                    },
+                    {
+                        "choiceContent": "设备资产管理信息系统",
+                        "is_checked": "1",
+                        "queId": "148",
+                        "order": "E",
+                        "choiceId": "5",
+                        "autoId": "253",
+                        "hasBlank": "0",
+                        "answer": "\"null\""
+                    },
+                    {
+                        "choiceContent": "人事管理信息系统",
+                        "is_checked": "0",
+                        "queId": "148",
+                        "order": "F",
+                        "choiceId": "6",
+                        "autoId": "254",
+                        "hasBlank": "0"
+                    },
+                    {
+                        "choiceContent": "后勤服务信息系统",
+                        "is_checked": "1",
+                        "queId": "148",
+                        "order": "G",
+                        "choiceId": "7",
+                        "autoId": "255",
+                        "hasBlank": "0",
+                        "answer": "\"null\""
+                    },
+                    {
+                        "choiceContent": "学生管理信息系统",
+                        "is_checked": "0",
+                        "queId": "148",
+                        "order": "H",
+                        "choiceId": "8",
+                        "autoId": "256",
+                        "hasBlank": "0"
+                    },
+                    {
+                        "choiceContent": "毕业信息管理系统",
+                        "is_checked": "0",
+                        "queId": "148",
+                        "order": "I",
+                        "choiceId": "9",
+                        "autoId": "257",
+                        "hasBlank": "0"
+                    },
+                    {
+                        "choiceContent": "档案管理信息系统",
+                        "is_checked": "0",
+                        "queId": "148",
+                        "order": "J",
+                        "choiceId": "10",
+                        "autoId": "258",
+                        "hasBlank": "0"
+                    },
+                    {
+                        "choiceContent": "财务信息系统",
+                        "is_checked": "0",
+                        "queId": "148",
+                        "order": "K",
+                        "choiceId": "11",
+                        "autoId": "259",
+                        "hasBlank": "0"
+                    },
+                    {
+                        "choiceContent": "其他",
+                        "is_checked": "0",
+                        "queId": "148",
+                        "order": "L",
+                        "choiceId": "12",
+                        "autoId": "260",
+                        "hasBlank": "0"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "groupId": 12,
+        "children": [
+            {
+                "groupId": "12",
+                "indexType": "4",
+                "testType": "2",
+                "queContent": "学校一卡通系统能够实现的功能包括哪些？",
+                "queId": "149",
+                "unitSymbol": "",
+                "children": [
+                    {
+                        "choiceContent": "无 ",
+                        "is_checked": "0",
+                        "queId": "149",
+                        "order": "A",
+                        "choiceId": "1",
+                        "autoId": "261",
+                        "hasBlank": "0"
+                    },
+                    {
+                        "choiceContent": "学生证",
+                        "is_checked": "1",
+                        "queId": "149",
+                        "order": "B",
+                        "choiceId": "2",
+                        "autoId": "262",
+                        "hasBlank": "0",
+                        "answer": "\"null\""
+                    },
+                    {
+                        "choiceContent": "上机证",
+                        "is_checked": "0",
+                        "queId": "149",
+                        "order": "C",
+                        "choiceId": "3",
+                        "autoId": "263",
+                        "hasBlank": "0"
+                    },
+                    {
+                        "choiceContent": "图书证",
+                        "is_checked": "1",
+                        "queId": "149",
+                        "order": "D",
+                        "choiceId": "4",
+                        "autoId": "264",
+                        "hasBlank": "0",
+                        "answer": "\"null\""
+                    },
+                    {
+                        "choiceContent": "教职工证 ",
+                        "is_checked": "1",
+                        "queId": "149",
+                        "order": "E",
+                        "choiceId": "4",
+                        "autoId": "265",
+                        "hasBlank": "0",
+                        "answer": "\"null\""
+                    },
+                    {
+                        "choiceContent": "考勤卡",
+                        "is_checked": "0",
+                        "queId": "149",
+                        "order": "F",
+                        "choiceId": "5",
+                        "autoId": "266",
+                        "hasBlank": "0"
+                    },
+                    {
+                        "choiceContent": "餐卡",
+                        "is_checked": "0",
+                        "queId": "149",
+                        "order": "G",
+                        "choiceId": "6",
+                        "autoId": "267",
+                        "hasBlank": "0"
+                    },
+                    {
+                        "choiceContent": "家校通",
+                        "is_checked": "0",
+                        "queId": "149",
+                        "order": "H",
+                        "choiceId": "7",
+                        "autoId": "268",
+                        "hasBlank": "0"
+                    },
+                    {
+                        "choiceContent": "其他",
+                        "is_checked": "0",
+                        "queId": "149",
+                        "order": "I",
+                        "choiceId": "8",
+                        "autoId": "269",
+                        "hasBlank": "0"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "groupId": 13,
+        "children": [
+            {
+                "groupId": "13",
+                "indexType": "4",
+                "testType": "2",
+                "queContent": "学校经常运用以下哪种手段进行信息发布与对外宣传？",
+                "queId": "150",
+                "unitSymbol": "",
+                "children": [
+                    {
+                        "choiceContent": "无",
+                        "is_checked": "0",
+                        "queId": "150",
+                        "order": "A",
+                        "choiceId": "1",
+                        "autoId": "270",
+                        "hasBlank": "0"
+                    },
+                    {
+                        "choiceContent": "学校网站",
+                        "is_checked": "0",
+                        "queId": "150",
+                        "order": "B",
+                        "choiceId": "2",
+                        "autoId": "271",
+                        "hasBlank": "0"
+                    },
+                    {
+                        "choiceContent": "微信/QQ",
+                        "is_checked": "1",
+                        "queId": "150",
+                        "order": "C",
+                        "choiceId": "3",
+                        "autoId": "272",
+                        "hasBlank": "0",
+                        "answer": "\"null\""
+                    },
+                    {
+                        "choiceContent": "邮箱",
+                        "is_checked": "1",
+                        "queId": "150",
+                        "order": "D",
+                        "choiceId": "4",
+                        "autoId": "273",
+                        "hasBlank": "0",
+                        "answer": "\"null\""
+                    },
+                    {
+                        "choiceContent": "家校通平台",
+                        "is_checked": "1",
+                        "queId": "150",
+                        "order": "E",
+                        "choiceId": "5",
+                        "autoId": "274",
+                        "hasBlank": "0",
+                        "answer": "\"null\""
+                    },
+                    {
+                        "choiceContent": "校校通平台",
+                        "is_checked": "0",
+                        "queId": "150",
+                        "order": "F",
+                        "choiceId": "6",
+                        "autoId": "275",
+                        "hasBlank": "0"
+                    },
+                    {
+                        "choiceContent": "其他",
+                        "is_checked": "0",
+                        "queId": "150",
+                        "order": "G",
+                        "choiceId": "7",
+                        "autoId": "276",
+                        "hasBlank": "0"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "groupId": 14,
+        "children": [
+            {
+                "groupId": "14",
+                "indexType": "4",
+                "testType": "1",
+                "queContent": "学校是否有学校网站？",
+                "queId": "152",
+                "unitSymbol": "",
+                "children": [
+                    {
+                        "choiceContent": "是 ",
+                        "is_checked": "1",
+                        "queId": "152",
+                        "order": "A",
+                        "choiceId": "1",
+                        "autoId": "277",
+                        "hasBlank": "0",
+                        "answer": "\"null\""
+                    },
+                    {
+                        "choiceContent": "否",
+                        "is_checked": "1",
+                        "queId": "152",
+                        "order": "B",
+                        "choiceId": "2",
+                        "autoId": "278",
+                        "hasBlank": "0",
+                        "answer": "\"null\""
+                    }
+                ]
+            },
+            {
+                "groupId": "14",
+                "indexType": "4",
+                "testType": "1",
+                "queContent": "网站是否统计访问量？",
+                "queId": "153",
+                "unitSymbol": "",
+                "children": [
+                    {
+                        "choiceContent": "是",
+                        "is_checked": "1",
+                        "queId": "153",
+                        "order": "A",
+                        "choiceId": "1",
+                        "autoId": "279",
+                        "hasBlank": "0",
+                        "answer": "\"null\""
+                    },
+                    {
+                        "choiceContent": "否",
+                        "is_checked": "0",
+                        "queId": "153",
+                        "order": "B",
+                        "choiceId": "2",
+                        "autoId": "280",
+                        "hasBlank": "0"
+                    }
+                ]
+            },
+            {
+                "groupId": "14",
+                "indexType": "4",
+                "testType": "1",
+                "queContent": "核心信息是否上传？",
+                "queId": "154",
+                "unitSymbol": "",
+                "children": [
+                    {
+                        "choiceContent": "是",
+                        "is_checked": "1",
+                        "queId": "154",
+                        "order": "A",
+                        "choiceId": "1",
+                        "autoId": "281",
+                        "hasBlank": "0",
+                        "answer": "\"null\""
+                    },
+                    {
+                        "choiceContent": "否",
+                        "is_checked": "0",
+                        "queId": "154",
+                        "order": "B",
+                        "choiceId": "2",
+                        "autoId": "282",
+                        "hasBlank": "0"
+                    }
+                ]
+            },
+            {
+                "groupId": "14",
+                "indexType": "4",
+                "testType": "1",
+                "queContent": "校外网是否可以访问学校网站？",
+                "queId": "155",
+                "unitSymbol": "",
+                "children": [
+                    {
+                        "choiceContent": "是",
+                        "is_checked": "1",
+                        "queId": "155",
+                        "order": "A",
+                        "choiceId": "1",
+                        "autoId": "283",
+                        "hasBlank": "0",
+                        "answer": "\"null\""
+                    },
+                    {
+                        "choiceContent": "否",
+                        "is_checked": "0",
+                        "queId": "155",
+                        "order": "B",
+                        "choiceId": "2",
+                        "autoId": "284",
+                        "hasBlank": "0"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "groupId": 16,
+        "children": [
+            {
+                "groupId": "16",
+                "indexType": "4",
+                "testType": "2",
+                "queContent": "学校门户网站可支持的语言有哪些？",
+                "queId": "156",
+                "unitSymbol": "",
+                "children": [
+                    {
+                        "choiceContent": "中文",
+                        "is_checked": "1",
+                        "queId": "156",
+                        "order": "A",
+                        "choiceId": "1",
+                        "autoId": "285",
+                        "hasBlank": "0",
+                        "answer": "\"null\""
+                    },
+                    {
+                        "choiceContent": "英文",
+                        "is_checked": "1",
+                        "queId": "156",
+                        "order": "B",
+                        "choiceId": "2",
+                        "autoId": "286",
+                        "hasBlank": "0",
+                        "answer": "\"null\""
+                    },
+                    {
+                        "choiceContent": "其他",
+                        "is_checked": "0",
+                        "queId": "156",
+                        "order": "C",
+                        "choiceId": "3",
+                        "autoId": "287",
+                        "hasBlank": "0"
+                    }
+                ]
+            },
+            {
+                "groupId": "16",
+                "indexType": "4",
+                "testType": "2",
+                "queContent": "学校门户网站可在哪些设备上自适应呈现？",
+                "queId": "157",
+                "unitSymbol": "",
+                "children": [
+                    {
+                        "choiceContent": "电脑（台式电脑、笔记本电脑）",
+                        "is_checked": "0",
+                        "queId": "157",
+                        "order": "A",
+                        "choiceId": "1",
+                        "autoId": "288",
+                        "hasBlank": "0"
+                    },
+                    {
+                        "choiceContent": "移动终端 （手机、平板等）",
+                        "is_checked": "1",
+                        "queId": "157",
+                        "order": "B",
+                        "choiceId": "2",
+                        "autoId": "289",
+                        "hasBlank": "0",
+                        "answer": "\"null\""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "groupId": 17,
+        "children": [
+            {
+                "groupId": "17",
+                "indexType": "4",
+                "testType": "4",
+                "queContent": " 学校经常使用互动平台（包括QQ、微信、家校通平台等）与家长交流的班级比例",
+                "queId": "158",
+                "userAns": "1",
+                "unitSymbol": "。（比例=使用互动平台与家长交流的班级数/总班级数）",
+                "children": []
+            }
+        ]
+    }
+]

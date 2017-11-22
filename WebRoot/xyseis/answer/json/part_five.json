@@ -1,0 +1,727 @@
+﻿[
+    {
+        "groupId": 18,
+        "children": [
+            {
+                "groupId": "18",
+                "indexType": "5",
+                "testType": "2",
+                "queContent": "学校信息化经费主要来源有哪些？",
+                "queId": "159",
+                "unitSymbol": "",
+                "children": [
+                    {
+                        "choiceContent": "无信息化经费",
+                        "is_checked": "0",
+                        "queId": "159",
+                        "order": "A",
+                        "choiceId": "1",
+                        "autoId": "290",
+                        "hasBlank": "0"
+                    },
+                    {
+                        "choiceContent": "公用经费",
+                        "is_checked": "1",
+                        "queId": "159",
+                        "order": "B",
+                        "choiceId": "2",
+                        "autoId": "291",
+                        "hasBlank": "0",
+                        "answer": "\"null\""
+                    },
+                    {
+                        "choiceContent": "专项经费",
+                        "is_checked": "1",
+                        "queId": "159",
+                        "order": "C",
+                        "choiceId": "3",
+                        "autoId": "292",
+                        "hasBlank": "0",
+                        "answer": "\"null\""
+                    },
+                    {
+                        "choiceContent": "自筹经费",
+                        "is_checked": "0",
+                        "queId": "159",
+                        "order": "D",
+                        "choiceId": "4",
+                        "autoId": "293",
+                        "hasBlank": "0"
+                    },
+                    {
+                        "choiceContent": "其他",
+                        "is_checked": "0",
+                        "queId": "159",
+                        "order": "E",
+                        "choiceId": "5",
+                        "autoId": "294",
+                        "hasBlank": "0"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "groupId": 19,
+        "children": [
+            {
+                "groupId": "19",
+                "indexType": "5",
+                "testType": "1",
+                "queContent": "学校信息化领导的级别？",
+                "queId": "160",
+                "unitSymbol": "",
+                "children": [
+                    {
+                        "choiceContent": "无信息化领导",
+                        "is_checked": "0",
+                        "queId": "160",
+                        "order": "A",
+                        "choiceId": "1",
+                        "autoId": "295",
+                        "hasBlank": "0"
+                    },
+                    {
+                        "choiceContent": "正校级",
+                        "is_checked": "0",
+                        "queId": "160",
+                        "order": "B",
+                        "choiceId": "2",
+                        "autoId": "296",
+                        "hasBlank": "0"
+                    },
+                    {
+                        "choiceContent": "副校级",
+                        "is_checked": "0",
+                        "queId": "160",
+                        "order": "C",
+                        "choiceId": "3",
+                        "autoId": "297",
+                        "hasBlank": "0"
+                    },
+                    {
+                        "choiceContent": "教务处主任",
+                        "is_checked": "0",
+                        "queId": "160",
+                        "order": "D",
+                        "choiceId": "4",
+                        "autoId": "298",
+                        "hasBlank": "0"
+                    },
+                    {
+                        "choiceContent": "其他",
+                        "is_checked": "0",
+                        "queId": "160",
+                        "order": "E",
+                        "choiceId": "5",
+                        "autoId": "299",
+                        "hasBlank": "0"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "groupId": 20,
+        "children": [
+            {
+                "groupId": "20",
+                "indexType": "5",
+                "testType": "2",
+                "queContent": "学校教师信息技术能力培训的渠道有哪些？",
+                "queId": "161",
+                "unitSymbol": "",
+                "children": [
+                    {
+                        "choiceContent": "无信息技术能力培训",
+                        "is_checked": "0",
+                        "queId": "161",
+                        "order": "A",
+                        "choiceId": "1",
+                        "autoId": "300",
+                        "hasBlank": "0"
+                    },
+                    {
+                        "choiceContent": "国家培训",
+                        "is_checked": "0",
+                        "queId": "161",
+                        "order": "B",
+                        "choiceId": "2",
+                        "autoId": "301",
+                        "hasBlank": "0"
+                    },
+                    {
+                        "choiceContent": "省市级培训",
+                        "is_checked": "1",
+                        "queId": "161",
+                        "order": "C",
+                        "choiceId": "3",
+                        "autoId": "302",
+                        "hasBlank": "0",
+                        "answer": "\"null\""
+                    },
+                    {
+                        "choiceContent": "区县培训",
+                        "is_checked": "1",
+                        "queId": "161",
+                        "order": "D",
+                        "choiceId": "4",
+                        "autoId": "303",
+                        "hasBlank": "0",
+                        "answer": "\"null\""
+                    },
+                    {
+                        "choiceContent": "校本培训",
+                        "is_checked": "1",
+                        "queId": "161",
+                        "order": "E",
+                        "choiceId": "5",
+                        "autoId": "304",
+                        "hasBlank": "0",
+                        "answer": "\"null\""
+                    },
+                    {
+                        "choiceContent": "自学",
+                        "is_checked": "0",
+                        "queId": "161",
+                        "order": "F",
+                        "choiceId": "6",
+                        "autoId": "305",
+                        "hasBlank": "0"
+                    },
+                    {
+                        "choiceContent": "其他",
+                        "is_checked": "0",
+                        "queId": "161",
+                        "order": "G",
+                        "choiceId": "7",
+                        "autoId": "306",
+                        "hasBlank": "0"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "groupId": 21,
+        "children": [
+            {
+                "groupId": "21",
+                "indexType": "5",
+                "testType": "2",
+                "queContent": "学校教师信息技术培训的内容有哪些？",
+                "queId": "162",
+                "unitSymbol": "",
+                "children": [
+                    {
+                        "choiceContent": "无信息技术培训",
+                        "is_checked": "0",
+                        "queId": "162",
+                        "order": "A",
+                        "choiceId": "1",
+                        "autoId": "307",
+                        "hasBlank": "0"
+                    },
+                    {
+                        "choiceContent": "信息技术基本操作",
+                        "is_checked": "1",
+                        "queId": "162",
+                        "order": "B",
+                        "choiceId": "2",
+                        "autoId": "308",
+                        "hasBlank": "0",
+                        "answer": "\"null\""
+                    },
+                    {
+                        "choiceContent": "课件制作技术",
+                        "is_checked": "1",
+                        "queId": "162",
+                        "order": "C",
+                        "choiceId": "3",
+                        "autoId": "309",
+                        "hasBlank": "0",
+                        "answer": "\"null\""
+                    },
+                    {
+                        "choiceContent": "信息化教学设计",
+                        "is_checked": "1",
+                        "queId": "162",
+                        "order": "D",
+                        "choiceId": "4",
+                        "autoId": "310",
+                        "hasBlank": "0",
+                        "answer": "\"null\""
+                    },
+                    {
+                        "choiceContent": "学科教学工具使用",
+                        "is_checked": "0",
+                        "queId": "162",
+                        "order": "E",
+                        "choiceId": "5",
+                        "autoId": "311",
+                        "hasBlank": "0"
+                    },
+                    {
+                        "choiceContent": "信息化教育资源获取技能",
+                        "is_checked": "0",
+                        "queId": "162",
+                        "order": "F",
+                        "choiceId": "6",
+                        "autoId": "312",
+                        "hasBlank": "0"
+                    },
+                    {
+                        "choiceContent": "平台及白板应用",
+                        "is_checked": "0",
+                        "queId": "162",
+                        "order": "G",
+                        "choiceId": "7",
+                        "autoId": "313",
+                        "hasBlank": "0"
+                    },
+                    {
+                        "choiceContent": "微课制作及应用",
+                        "is_checked": "0",
+                        "queId": "162",
+                        "order": "H",
+                        "choiceId": "8",
+                        "autoId": "314",
+                        "hasBlank": "0"
+                    },
+                    {
+                        "choiceContent": "其他",
+                        "is_checked": "0",
+                        "queId": "162",
+                        "order": "I",
+                        "choiceId": "9",
+                        "autoId": "315",
+                        "hasBlank": "0"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "groupId": 22,
+        "children": [
+            {
+                "groupId": "22",
+                "indexType": "5",
+                "testType": "2",
+                "queContent": "学校已经实现的信息安全保障有哪些？",
+                "queId": "163",
+                "unitSymbol": "",
+                "children": [
+                    {
+                        "choiceContent": "无",
+                        "is_checked": "0",
+                        "queId": "163",
+                        "order": "A",
+                        "choiceId": "1",
+                        "autoId": "334",
+                        "hasBlank": "0"
+                    },
+                    {
+                        "choiceContent": "信息安全工作培训",
+                        "is_checked": "1",
+                        "queId": "163",
+                        "order": "B",
+                        "choiceId": "2",
+                        "autoId": "335",
+                        "hasBlank": "0",
+                        "answer": "\"null\""
+                    },
+                    {
+                        "choiceContent": "网络安全规划",
+                        "is_checked": "0",
+                        "queId": "163",
+                        "order": "C",
+                        "choiceId": "3",
+                        "autoId": "345",
+                        "hasBlank": "0"
+                    },
+                    {
+                        "choiceContent": "信息安全工作经费保障",
+                        "is_checked": "1",
+                        "queId": "163",
+                        "order": "D",
+                        "choiceId": "4",
+                        "autoId": "346",
+                        "hasBlank": "0",
+                        "answer": "\"null\""
+                    },
+                    {
+                        "choiceContent": "数据备份和容灾系统",
+                        "is_checked": "0",
+                        "queId": "163",
+                        "order": "E",
+                        "choiceId": "5",
+                        "autoId": "347",
+                        "hasBlank": "0"
+                    },
+                    {
+                        "choiceContent": "防火墙等信息安全过滤系统",
+                        "is_checked": "1",
+                        "queId": "163",
+                        "order": "F",
+                        "choiceId": "6",
+                        "autoId": "348",
+                        "hasBlank": "0",
+                        "answer": "\"null\""
+                    },
+                    {
+                        "choiceContent": "网络病毒系统",
+                        "is_checked": "0",
+                        "queId": "163",
+                        "order": "G",
+                        "choiceId": "7",
+                        "autoId": "349",
+                        "hasBlank": "0"
+                    },
+                    {
+                        "choiceContent": "网络运行故障检测系统",
+                        "is_checked": "0",
+                        "queId": "163",
+                        "order": "H",
+                        "choiceId": "8",
+                        "autoId": "350",
+                        "hasBlank": "0"
+                    },
+                    {
+                        "choiceContent": "入侵检测系统",
+                        "is_checked": "0",
+                        "queId": "163",
+                        "order": "I",
+                        "choiceId": "9",
+                        "autoId": "351",
+                        "hasBlank": "0"
+                    },
+                    {
+                        "choiceContent": "其他",
+                        "is_checked": "0",
+                        "queId": "163",
+                        "order": "J",
+                        "choiceId": "10",
+                        "autoId": "352",
+                        "hasBlank": "0"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "groupId": 23,
+        "children": [
+            {
+                "groupId": "23",
+                "indexType": "5",
+                "testType": "1",
+                "queContent": "学校信息化发展规划制定情况？",
+                "queId": "164",
+                "unitSymbol": "",
+                "children": [
+                    {
+                        "choiceContent": "无信息化发展规划",
+                        "is_checked": "0",
+                        "queId": "164",
+                        "order": "A",
+                        "choiceId": "1",
+                        "autoId": "325",
+                        "hasBlank": "0"
+                    },
+                    {
+                        "choiceContent": "已发布",
+                        "is_checked": "0",
+                        "queId": "164",
+                        "order": "B",
+                        "choiceId": "2",
+                        "autoId": "326",
+                        "hasBlank": "0"
+                    },
+                    {
+                        "choiceContent": "制定中",
+                        "is_checked": "1",
+                        "queId": "164",
+                        "order": "C",
+                        "choiceId": "3",
+                        "autoId": "327",
+                        "hasBlank": "0",
+                        "answer": "\"null\""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "groupId": 24,
+        "children": [
+            {
+                "groupId": "24",
+                "indexType": "5",
+                "testType": "2",
+                "queContent": "若信息化发展规划编制已发布，其公布形式为？",
+                "queId": "165",
+                "unitSymbol": "",
+                "children": [
+                    {
+                        "choiceContent": "无",
+                        "is_checked": "0",
+                        "queId": "165",
+                        "order": "A",
+                        "choiceId": "1",
+                        "autoId": "328",
+                        "hasBlank": "0"
+                    },
+                    {
+                        "choiceContent": "纸质版",
+                        "is_checked": "1",
+                        "queId": "165",
+                        "order": "B",
+                        "choiceId": "2",
+                        "autoId": "329",
+                        "hasBlank": "0",
+                        "answer": "\"null\""
+                    },
+                    {
+                        "choiceContent": "网上公布",
+                        "is_checked": "1",
+                        "queId": "165",
+                        "order": "C",
+                        "choiceId": "3",
+                        "autoId": "330",
+                        "hasBlank": "1",
+                        "answer": "22222"
+                    },
+                    {
+                        "choiceContent": "其他形式",
+                        "is_checked": "0",
+                        "queId": "165",
+                        "order": "D",
+                        "choiceId": "4",
+                        "autoId": "331",
+                        "hasBlank": "0"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "groupId": 25,
+        "children": [
+            {
+                "groupId": "25",
+                "indexType": "5",
+                "testType": "1",
+                "queContent": "学校是否可以及时的做出数据备份与恢复？",
+                "queId": "166",
+                "unitSymbol": "",
+                "children": [
+                    {
+                        "choiceContent": "是",
+                        "is_checked": "1",
+                        "queId": "166",
+                        "order": "A",
+                        "choiceId": "1",
+                        "autoId": "332",
+                        "hasBlank": "0",
+                        "answer": "\"null\""
+                    },
+                    {
+                        "choiceContent": "否",
+                        "is_checked": "0",
+                        "queId": "166",
+                        "order": "B",
+                        "choiceId": "2",
+                        "autoId": "333",
+                        "hasBlank": "0"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "groupId": 26,
+        "children": [
+            {
+                "groupId": "26",
+                "indexType": "5",
+                "testType": "4",
+                "queContent": "学校去年信息化经费投入经费为",
+                "queId": "167",
+                "userAns": "2",
+                "unitSymbol": "万元；",
+                "children": []
+            },
+            {
+                "groupId": "26",
+                "indexType": "5",
+                "testType": "4",
+                "queContent": "学校最近一年教育总经费支出",
+                "queId": "168",
+                "userAns": "4",
+                "unitSymbol": "万元，",
+                "children": []
+            },
+            {
+                "groupId": "26",
+                "indexType": "5",
+                "testType": "4",
+                "queContent": "信息化经费投入经费为",
+                "queId": "169",
+                "userAns": "1",
+                "unitSymbol": "万元；",
+                "children": []
+            },
+            {
+                "groupId": "26",
+                "indexType": "5",
+                "testType": "4",
+                "queContent": "其中用于网络建设与设备购置的费用约为",
+                "queId": "170",
+                "userAns": "1",
+                "unitSymbol": "万元，",
+                "children": []
+            },
+            {
+                "groupId": "26",
+                "indexType": "5",
+                "testType": "4",
+                "queContent": "用于资源与平台开发的费用约为",
+                "queId": "171",
+                "userAns": "1",
+                "unitSymbol": "万元，",
+                "children": []
+            },
+            {
+                "groupId": "26",
+                "indexType": "5",
+                "testType": "4",
+                "queContent": "用于培训的费用约为",
+                "queId": "172",
+                "userAns": "1",
+                "unitSymbol": "万元，",
+                "children": []
+            },
+            {
+                "groupId": "26",
+                "indexType": "5",
+                "testType": "4",
+                "queContent": "用于运行和维护的费用约为",
+                "queId": "173",
+                "userAns": "1",
+                "unitSymbol": "万元，",
+                "children": []
+            },
+            {
+                "groupId": "26",
+                "indexType": "5",
+                "testType": "4",
+                "queContent": "研究及其他费用约占",
+                "queId": "174",
+                "userAns": "1",
+                "unitSymbol": "万元。",
+                "children": []
+            }
+        ]
+    },
+    {
+        "groupId": 27,
+        "children": [
+            {
+                "groupId": "27",
+                "indexType": "5",
+                "testType": "4",
+                "queContent": "学校信息技术课程教师人数",
+                "queId": "175",
+                "userAns": "1",
+                "unitSymbol": "名，",
+                "children": []
+            },
+            {
+                "groupId": "27",
+                "indexType": "5",
+                "testType": "4",
+                "queContent": "其中专职信息技术教师有",
+                "queId": "176",
+                "userAns": "1",
+                "unitSymbol": "名，",
+                "children": []
+            },
+            {
+                "groupId": "27",
+                "indexType": "5",
+                "testType": "4",
+                "queContent": "其中兼职信息技术课程教师有",
+                "queId": "177",
+                "userAns": "1",
+                "unitSymbol": "名。",
+                "children": []
+            },
+            {
+                "groupId": "27",
+                "indexType": "5",
+                "testType": "4",
+                "queContent": "信息化支持人员（指进行网络管理与信息化设备器材维护的人员，如网管人员，电教管理人员等）的人数约为",
+                "queId": "178",
+                "userAns": "1",
+                "unitSymbol": "名，",
+                "children": []
+            },
+            {
+                "groupId": "27",
+                "indexType": "5",
+                "testType": "4",
+                "queContent": "聘请专职人员有",
+                "queId": "179",
+                "userAns": "1",
+                "unitSymbol": "名，",
+                "children": []
+            },
+            {
+                "groupId": "27",
+                "indexType": "5",
+                "testType": "4",
+                "queContent": "由信息技术专业教师兼任的有",
+                "queId": "180",
+                "userAns": "1",
+                "unitSymbol": "名，",
+                "children": []
+            },
+            {
+                "groupId": "27",
+                "indexType": "5",
+                "testType": "4",
+                "queContent": "由其他专业教师兼任的有",
+                "queId": "181",
+                "userAns": "1",
+                "unitSymbol": "名。",
+                "children": []
+            }
+        ]
+    },
+    {
+        "groupId": 28,
+        "children": [
+            {
+                "groupId": "28",
+                "indexType": "5",
+                "testType": "4",
+                "queContent": "最近一学期，学校参与信息技术能力培训的教师人数",
+                "queId": "183",
+                "userAns": "1",
+                "unitSymbol": "名，",
+                "children": []
+            },
+            {
+                "groupId": "28",
+                "indexType": "5",
+                "testType": "4",
+                "queContent": "教师人均参加信息技术能力培训的课时数",
+                "queId": "184",
+                "userAns": "1",
+                "unitSymbol": "。（一课时=45分钟）",
+                "children": []
+            }
+        ]
+    }
+]

@@ -1,0 +1,269 @@
+{
+    "quizTitle": "襄阳市各地区中小学学校分布",
+    "children": [
+        {
+            "id": 1,
+            "rank1": "襄城区",
+            "children": [
+                {
+                    "rank2id": "1",
+                    "rank2": "小学"
+                },
+                {
+                    "rank2id": "2",
+                    "rank2": "初中"
+                },
+                {
+                    "rank2id": "3",
+                    "rank2": "高中"
+                },
+				 {
+                    "rank2id": "4",
+                    "rank2": "其他"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "rank1": "樊城区",
+                "children": [
+                {
+                    "rank2id": "1",
+                    "rank2": "小学"
+                },
+                {
+                    "rank2id": "2",
+                    "rank2": "初中"
+                },
+                {
+                    "rank2id": "3",
+                    "rank2": "高中"
+                },
+				 {
+                    "rank2id": "4",
+                    "rank2": "其他"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "rank1": "襄州区",
+                "children": [
+                {
+                    "rank2id": "1",
+                    "rank2": "小学"
+                },
+                {
+                    "rank2id": "2",
+                    "rank2": "初中"
+                },
+                {
+                    "rank2id": "3",
+                    "rank2": "高中"
+                },
+				 {
+                    "rank2id": "4",
+                    "rank2": "其他"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "rank1": "高新区",
+               "children": [
+                {
+                    "rank2id": "1",
+                    "rank2": "小学"
+                },
+                {
+                    "rank2id": "2",
+                    "rank2": "初中"
+                },
+                {
+                    "rank2id": "3",
+                    "rank2": "高中"
+                },
+				 {
+                    "rank2id": "4",
+                    "rank2": "其他"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "rank1": "东津新区",
+               "children": [
+                {
+                    "rank2id": "1",
+                    "rank2": "小学"
+                },
+                {
+                    "rank2id": "2",
+                    "rank2": "初中"
+                },
+                {
+                    "rank2id": "3",
+                    "rank2": "高中"
+                },
+				 {
+                    "rank2id": "4",
+                    "rank2": "其他"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "rank1": "枣阳市",
+                "children": [
+                {
+                    "rank2id": "1",
+                    "rank2": "小学"
+                },
+                {
+                    "rank2id": "2",
+                    "rank2": "初中"
+                },
+                {
+                    "rank2id": "3",
+                    "rank2": "高中"
+                },
+				 {
+                    "rank2id": "4",
+                    "rank2": "其他"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "rank1": "宜城市",
+                "children": [
+                {
+                    "rank2id": "1",
+                    "rank2": "小学"
+                },
+                {
+                    "rank2id": "2",
+                    "rank2": "初中"
+                },
+                {
+                    "rank2id": "3",
+                    "rank2": "高中"
+                },
+				 {
+                    "rank2id": "4",
+                    "rank2": "其他"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "rank1": "老河口市",
+                "children": [
+                {
+                    "rank2id": "1",
+                    "rank2": "小学"
+                },
+                {
+                    "rank2id": "2",
+                    "rank2": "初中"
+                },
+                {
+                    "rank2id": "3",
+                    "rank2": "高中"
+                },
+				 {
+                    "rank2id": "4",
+                    "rank2": "其他"
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "rank1": "南漳县",
+                "children": [
+                {
+                    "rank2id": "1",
+                    "rank2": "小学"
+                },
+                {
+                    "rank2id": "2",
+                    "rank2": "初中"
+                },
+                {
+                    "rank2id": "3",
+                    "rank2": "高中"
+                },
+				 {
+                    "rank2id": "4",
+                    "rank2": "其他"
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "rank1": "保康县",
+                "children": [
+                {
+                    "rank2id": "1",
+                    "rank2": "小学"
+                },
+                {
+                    "rank2id": "2",
+                    "rank2": "初中"
+                },
+                {
+                    "rank2id": "3",
+                    "rank2": "高中"
+                },
+				 {
+                    "rank2id": "4",
+                    "rank2": "其他"
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "rank1": "谷城县",
+                "children": [
+                {
+                    "rank2id": "1",
+                    "rank2": "小学"
+                },
+                {
+                    "rank2id": "2",
+                    "rank2": "初中"
+                },
+                {
+                    "rank2id": "3",
+                    "rank2": "高中"
+                },
+				 {
+                    "rank2id": "4",
+                    "rank2": "其他"
+                }
+            ]
+        },
+		   {
+            "id": 12,
+            "rank1": "鱼梁洲",
+                "children": [
+                {
+                    "rank2id": "1",
+                    "rank2": "小学"
+                },
+                {
+                    "rank2id": "2",
+                    "rank2": "初中"
+                },
+                {
+                    "rank2id": "3",
+                    "rank2": "高中"
+                },
+				 {
+                    "rank2id": "4",
+                    "rank2": "其他"
+                }
+            ]
+        }
+    ]
+}

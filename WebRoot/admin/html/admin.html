@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type"  charset="UTF-8" />
+    <title>管理员页面</title>
+    <link rel="icon" href="../images/icon.png"/>
+    <link rel="stylesheet" type="text/css" href="../../base/css/base.css" />
+    <link type="text/css" rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="../css/jquery_alert.css"/>
+    <script type="text/javascript" src="../base/javascript/lib/jquery1.8.2.min.js" ></script>
+</head>
+    
+<body>
+	<div class="header">襄阳市教育信息化发展水平评估系统
+		<span class="quit"><a href="../../index.html">退出</a></span>
+	</div>
+	
+    <div id="main_admin">
+    	<div id="nav">
+    		<div class="adminmg1" id="adminManage"></div>
+    		<div class="usermg" id="userManage"></div>
+    		<div class="schoolmg" id="schoolManage"></div>
+    		<div class="jixiao_normal" id="jixiao"></div>
+    	</div>
+    	<div id="show">
+    		<div id="admin">
+	    		<div class="lef use_title">用户名 <label>不可修改</label></div>
+	    		<div class="lef use_input padd"><input id="name" type="text" value="" readonly="readonly" /></div>
+	    		<div class="lef use_title ">密码*<label>必须填写</label></div>
+	    		<div class="lef padd pwd_input"><input type="password" id="password1" name="password1" /></div>
+	    		<div class="lef use_title">确认密码*<label>必须填写</label></div>
+	    		<div class="lef padd pwd_input"><input type="password" id="password2" name="password2"  /></div>
+	    		<div class="lef butto" id="submit"></div>
+		    	
+   			</div>
+   			<!-- 区县用户管理 -->
+    		<div id="user" style="display: none;width:1060px;margin:auto;">
+    			<div id="sldisplayData"></div>
+ 
+    		</div>
+    		<!-- 学校用户管理 -->
+    		<div id="school" style="display:none">
+    		
+    			<div id="selectSchool">
+    				<input type="text" id="schoolName" placeholder="输入学校名称..." name="schoolName" />
+    				<div id="search"></div>
+    			</div>
+    			
+    			<div id="displayData"></div>
+    			<div id="delete_all" style="float:left;margin-top:10px;width:120px;height: 33px;line-height:33px;cursor:pointer;margin-left:100px;text-align:center;background:#0e90d2;color: white; font-size: 16px;">批量删除</div>
+    			<div id="page_school" style="float:left;margin-left:350px;margin-top:10px;width: 550px;"></div>  
+    			
+    		</div>
+    		<div id="jixiaoContent" style="display:none">
+    			<button  class="jixiaoBtn jixiao_able">计算绩效</button>
+    		</div>
+    	</div>
+	    
+    </div>
+	<div id="footer"> </div>
+</body>
+</html>
+
+<script src="../javascript/admin.js"></script>
+
+<script src="../../base/base.js"></script>
+
+<script src="../javascript/jquery_alert.js" type="text/javascript" charset="utf-8"></script>

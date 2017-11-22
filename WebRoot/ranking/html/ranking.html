@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta content="text/html;charset=utf-8" http-equiv="content-type">
+    <title>襄阳市教育信息化发展水平评估系统</title>
+    <link type="text/css" rel="stylesheet" href="../../base/css/base.css" />
+    <link rel="stylesheet" href="../css/ranking.css" />
+    <link rel="icon" href="../images/icon.png"/>
+    <script type="text/javascript" src="../../base/javascript/lib/jquery1.8.2.min.js"></script>
+    <script type="text/javascript" src="../../base/javascript/lib/trimpath.js"></script>
+    <script type="text/javascript" src="../../base/javascript/lib/highcharts.js"></script>
+   	<script type="text/javascript" src="../../base/javascript/charts/echarts.min.js"></script>
+   	<script type="text/javascript" src="../../base/javascript/lib/paging.js"> </script>
+</head>
+<body>
+	<div class="header">襄阳市教育信息化发展水平评估系统</div>
+	<div id="container" style="padding-bottom: 20px;">
+		<div id="floatNavRanking"> </div>
+		<div style="height:1px"></div>
+		<div class="total_title">
+			月份：
+	     </div>
+		
+		<div style="width: 998px;float: right;margin-top:20px;margin-right:20px;">
+
+			<div style="border: 1px solid #DCDCDC;margin-bottom: 20px;background: url('../images/score_rangking.png') left top no-repeat">
+		        <div id="histogram2"> </div>
+		        <div id="rightContent">
+		        	<div>最高值:<label id="max_value"></label>(<label id="max_area"></label>)</div>
+		        	<div>最低值:<label id="min_value"></label>(<label id="min_area"></label>)</div>
+		        	<div>平均值:<label id="avg_value"></label></div>
+		        	<div>高于平均值的个数:<label id="up_avg_num"></label></div>
+		        	<div>低于平均值的个数:<label id="down_avg_num"></label></div>
+		        </div>
+		    	<div style="clear: both;height: 20px;"></div>
+		    </div>
+		    
+		    <div id="month_ranking" style="background:url('../images/score_rangking.jpg') left top no-repeat;">
+		   		<div id="month_ranking_center">
+		   		</div>
+		    </div>
+		  
+		   
+			<div style="border: 1px solid #DCDCDC;background: url('../images/class_ranking.png') left top no-repeat">
+		        
+		        <div id="histogram"> </div>
+		        
+		        <div style="float:left">
+		    		<span id="1" onclick="changeHisogram(1)" class="button_style">基础设施</span>
+		    		<span id="2" onclick="changeHisogram(2)" class="button_style">教学信息化应用</span>
+		    		<span id="3" onclick="changeHisogram(3)" class="button_style">教研信息化应用</span>
+		    		<span id="4" onclick="changeHisogram(4)" class="button_style">管理与服务信息化应用</span>
+		    		<span id="5" onclick="changeHisogram(5)" class="button_style">信息化保障</span>
+		    	</div>
+		    	<div style="clear: both;height: 20px;"></div>
+		    </div>
+		    
+		    
+		    
+	        <!--表格输出区域-->
+	    <div  style="border: 1px solid #DCDCDC;width:998px;margin-top: 20px;background: url('../images/ranking_all.png') left top no-repeat;padding-top: 50px;">  
+	    	<select id="fig_sel">
+				<option id="0" value="0">请选择排名方式</option>
+				<option id="1" value="1">基础设施</option>
+				<option id="2" value="2">教学信息化应用</option>
+				<option id="3" value="3">教研信息化应用</option>
+				<option id="4" value="4">管理与服务信息化应用</option>
+				<option id="5" value="5">信息化保障</option>
+				<option id="6" value="6">绩效总得分</option>
+			</select>
+		     <div id="tb_content" style="width:100%">	
+			 </div>
+		</div>  	
+    	</div>
+    	<div class="clear"> </div>
+	</div>	
+	<div id="footer"> </div>
+	<textarea id="tb_content_template" style="display: none">		
+
+	    <table class="bordered" id="tb_data">
+			<tr style="background-color: #FFF;">
+				<td colspan="7"><h2>襄阳市各区县发展水平排名</h2></td>
+			</tr>
+			<tr>
+				<td>地区</td>
+				<td id='ranking_1' class='ranking_hover'>基础设施</td>
+				<td id='ranking_2' class='ranking_hover'>教学信息化应用</td>
+				<td id='ranking_3' class='ranking_hover'>教研信息化应用</td>
+				<td id='ranking_4' class='ranking_hover'>管理与服务信息化应用</td>
+				<td id='ranking_5' class='ranking_hover'>信息化保障</td>
+				<td id='ranking_6' class='ranking_hover'>绩效总得分</td>
+			</tr>
+			{for p in schoolJSON}	
+			<tr> 
+				<td>${p.area}</td>
+				{for q in p.data}
+				<td>${q}</td>								
+			    {/for}
+			</tr>
+			{/for}
+	    </table>	    
+	</textarea> 	
+</body>
+</html>
+<script type="text/javascript" src="../../base/base.js"></script>
+<script type="text/javascript" src="../../ranking/javascript/ranking.js"></script>
+<script type="text/javascript" src="../../ranking/javascript/high.js"></script>
+<script type="text/javascript" src="../../base/javascript/highcharts_func.js"> </script>

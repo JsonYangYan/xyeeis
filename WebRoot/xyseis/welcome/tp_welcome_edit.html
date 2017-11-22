@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	<meta name="viewpoint" content="width=device-width; initial-scale=1" />
+	<title>襄阳市中小学教育信息化发展水平填报系统</title>
+	<link rel="icon" href="../images/icon.png"/>
+	<link type="text/css" rel="stylesheet" href="../../base/css/base.css" />
+	<link type="text/css" rel="stylesheet" href="css/welcome.css" />
+	<link type="text/css" rel="stylesheet" href="css/jquery_alert.css" />
+	<script src="../../base/javascript/lib/jquery1.8.2.min.js"></script>
+	<script src="../../base/javascript/lib/trimpath.js"></script>
+	<script src="../../base/javascript/charts/echarts.min.js"></script>
+</head>
+<body>
+	<div class="header">襄阳市中小学教育信息化发展水平填报系统
+		<div id="header_div"><a href="../login.html">退出</a></div>
+	</div>
+	<div id="container"> 
+		<div id="main_container">
+		
+		<div style="float:left;width:610px;border:1px dotted gainsboro;margin-left:-60px;" id="part_date">
+			<div style="text-align:center;font-size:17px;font-weight:600;margin-top:10px;"><label id="lastMonth"></label>部分数据(上个月数据)</div>
+			<table id="somedtab" style="margin-top:10px;margin-left:10px;margin-right:5px;margin-bottom:10px;">
+			</table>
+		</div>
+		
+		<div style="float:right;width:530px;border:1px dotted gainsboro;margin-right:-60px;height:420px" id="base_info_top">
+			<div style="text-align:center;font-size:17px;font-weight:600;margin-top:10px;">基本信息</div>
+			<table id="base_info">
+				<tr>
+					<td class="td_name">*地址:</td>
+					<td class="td_label"><label id="area"></label></td>
+				</tr>
+				<tr>
+					<td class="td_name">*所在地:</td>
+					<td class="td_label"><label id="school_area"></label></td>
+				</tr>
+				<tr>
+					<td class="td_name">*学校名称:</td>
+					<td class="td_label"><label id="school_addr"></label></td>
+				</tr>
+				<tr>
+					<td class="td_name">*学校类型:</td>
+					<td class="td_label"><label id="school_type"></label></td>
+				</tr>
+				<tr>
+					<td class="td_name">*问卷填写人:</td>
+					<td class="td_label"><label id="relation"></label></td>
+				</tr>
+				<tr>
+					<td class="td_name">*电话:</td>
+					<td class="td_label"><label id="mobile"></label></td>
+				</tr>
+				<tr>
+					<td class="td_name">*email:</td>
+					<td class="td_label"><label id="email"></label></td>
+				</tr>
+				<tr>
+					<td class="td_name">*班级数量:</td>
+					<td class="td_label"><label id="class_num"></label></td>
+				</tr>
+				<tr>
+					<td class="td_name">*学校在职教师人数:</td>
+					<td class="td_label"><label id="staffteacher"></label></td>
+				</tr>
+				<tr>
+					<td class="td_name">*在籍学生总数:</td>
+					<td class="td_label"><label id="nativestudent"></label></td>
+				</tr>
+			</table>
+			<div class="flex-container" >
+				<div class="button_info_span"><a href="userinfo_edit.html" class="button_info">修改信息</a></div>
+				<div class="button_info_span"><a href="pwd_edit.html" class="button_info">修改密码</a></div>
+				<div class="button_info_span update_submit"><a href="../tpquesion/tpquiz.html" class="button_info ">有更新修改</a></div>
+				<div class="button_info_span submit"><a href="" class="button_info ">无更新提交</a></div>
+				<div class="button_time_diff">距上次提交0天</div>
+			</div>
+		</div>
+		
+		
+		
+		<div class="clear"> </div>				
+	</div>	
+	<div class="clear"> </div>
+	<!-- 问卷的问题输出模板 -->
+	
+	<div id="footer"> </div>
+</body>
+</html>
+<script type="text/javascript" src="../base/base.js"></script>
+<script type="text/javascript" src="javascript/tp_welcome_edit.js"></script>
+<script type="text/javascript" src="javascript/jquery_alert.js"></script>

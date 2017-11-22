@@ -1,0 +1,388 @@
+{
+    "tb": [
+        {
+            "section_id": "1",
+            "weight_1": "0.208",
+            "rank1": "基础设施",
+            "reg_tb": [
+                {
+                    "id": "1",
+                    "rank2": "校园网",
+                    "weight_2": "0.172",
+                    "detail_tb": [
+                        {
+                            "detail_id": "1",
+                            "up_limit": "85.35",
+                            "weight_3": "1",
+                            "target": "80",
+                            "detail": "校园网带宽"
+                        },
+{
+                            "detail_id": "2",
+                            "up_limit": "85.35",
+                            "weight_3": "2",
+                            "target": "80",
+                            "detail": "有线网络覆盖率"
+                        },
+{
+                            "detail_id": "3",
+                            "up_limit": "85.35",
+                            "weight_3": "3",
+                            "target": "80",
+                            "detail": "无线网络覆盖率"
+                        }
+
+                    ]
+                },
+                {
+                    "id": "2",
+                    "rank2": "信息化教学环境",
+                    "weight_2": "0.175",
+                    "detail_tb": [
+                        {
+                            "detail_id": "4",
+                            "up_limit": "12.73",
+                            "weight_3": "1",
+                            "target": "80",
+                            "detail": "电子备课室"
+                        },
+{
+                            "detail_id": "5",
+                            "up_limit": "12.73",
+                            "weight_3": "2",
+                            "target": "80",
+                            "detail": "计算机教室"
+                        },
+{
+                            "detail_id": "6",
+                            "up_limit": "12.73",
+                            "weight_3": "1",
+                            "target": "80",
+                            "detail": "录播教室"
+                        },
+{
+                            "detail_id": "7",
+                            "up_limit": "12.73",
+                            "weight_3": "2",
+                            "target": "80",
+                            "detail": "多媒体教室"
+                        }
+                    ]
+                },
+                {
+                    "id": "3",
+                    "rank2": "个人信息化终端",
+                    "weight_2": "0.198",
+                    "detail_tb": [
+                        {
+                            "detail_id": "8",
+                            "up_limit": "1.096",
+                            "weight_3": "0.561",
+                            "target": "80",
+                            "detail": "教师信息化终端设备"
+                        },
+                        {
+                            "detail_id": "9",
+                            "up_limit": "86.2",
+                            "weight_3": "0.439 ",
+                            "target": "80",
+                            "detail": "学生信息化终端设备"
+                        }
+                    ]
+                }]},
+        {
+            "section_id": "2",
+            "weight_1": "0.190",
+            "rank1": "教学信息化应用",
+            "reg_tb": [
+                {
+                    "id": "4",
+                    "rank2": "数字化教学资源应用",
+                    "weight_2": "0.337",
+                    "detail_tb": [
+                        {
+                            "detail_id": "10",
+                            "up_limit": "45.43",
+                            "weight_3": "0.304",
+                            "target": "80",
+                            "detail": "已应用的数字化教学资源"
+                        }
+                    ]
+                },
+                {
+                    "id": "5",
+                    "rank2": "数字化教学系统应用",
+                    "weight_2": "0.373",
+                    "detail_tb": [
+                        {
+                            "detail_id": "11",
+                            "up_limit": "2.71",
+                            "weight_3": "1",
+                            "target": "80",
+                            "detail": "已应用的数字化教学系统"
+                        }
+                    ]
+                },
+                {
+                    "id": "6",
+                    "rank2": "网络学习空间应用",
+                    "weight_2": "0.290",
+                    "detail_tb": [
+                        {
+                            "detail_id": "12",
+                            "up_limit": "11.56",
+                            "weight_3": "1",
+                            "target": "80",
+                            "detail": "学生开通比例"
+                        },
+{
+                            "detail_id": "13",
+                            "up_limit": "11.56",
+                            "weight_3": "1",
+                            "target": "80",
+                            "detail": "教师开通比例"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "section_id": "3",
+            "weight_1": "0.228",
+            "rank1": "教研信息化应用",
+            "reg_tb": [
+                {
+                    "id": "7",
+                    "rank2": "数字化教研资源应用",
+                    "weight_2": "0.356",
+                    "detail_tb": [
+                        {
+                            "detail_id": "14",
+                            "up_limit": "49.08",
+                            "weight_3": "0.455",
+                            "target": "80",
+                            "detail": "已应用的数字化教研资源"
+                        }
+                    ]
+                },
+                {
+                    "id": "8",
+                    "rank2": "数字化教研系统应用",
+                    "weight_2": "0.328",
+                    "detail_tb": [
+                        {
+                            "detail_id": "15",
+                            "up_limit": "69.41",
+                            "weight_3": "0.477",
+                            "target": "80",
+                            "detail": "已应用的数字化教研系统"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "section_id": "4",
+            "weight_1": "0.186",
+            "rank1": "管理与服务信息化应用",
+            "reg_tb": [
+                {
+                    "id": "9",
+                    "rank2": "校园门户网站",
+                    "weight_2": "0.236",
+                    "detail_tb": [
+                        {
+                            "detail_id": "16",
+                            "up_limit": "73.56",
+                            "weight_3": "1",
+                            "target": "80",
+                            "detail": "校园门户网站的建设"
+                        },
+{
+                            "detail_id": "17",
+                            "up_limit": "73.56",
+                            "weight_3": "1",
+                            "target": "80",
+                            "detail": "校园门户网站的应用"
+                        }
+                    ]
+                },
+                {
+                    "id": "10",
+                    "rank2": "信息管理系统的应用",
+                    "weight_2": "0.251",
+                    "detail_tb": [
+                        {
+                            "detail_id": "18",
+                            "up_limit": "4.62",
+                            "weight_3": "1",
+                            "target": "80",
+                            "detail": "已应用的信息管理系统"
+                        }
+                    ]
+                },
+                {
+                    "id": "11",
+                    "rank2": "一卡通系统应用",
+                    "weight_2": "0.218",
+                    "detail_tb": [
+                        {
+                            "detail_id": "19",
+                            "up_limit": "4.21",
+                            "weight_3": "1",
+                            "target": "80",
+                            "detail": "一卡通系统的应用"
+                        }
+                    ]
+                },
+                {
+                    "id": "12",
+                    "rank2": "信息发布与宣传",
+                    "weight_2": "0.295",
+                    "detail_tb": [
+                        {
+                            "detail_id": "20",
+                            "up_limit": "72.41",
+                            "weight_3": "1",
+                            "target": "80",
+                            "detail": "信息发布"
+                        },
+{
+                            "detail_id": "21",
+                            "up_limit": "72.41",
+                            "weight_3": "1",
+                            "target": "80",
+                            "detail": "信息宣传"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "section_id": "5",
+            "weight_1": "0.188",
+            "rank1": "信息化保障",
+            "reg_tb": [
+                {
+                    "id": "13",
+                    "rank2": "信息化规划",
+                    "weight_2": "0.235",
+                    "detail_tb": [
+                        {
+                            "detail_id": "22",
+                            "up_limit": "82.96",
+                            "weight_3": "0.408",
+                            "target": "80",
+                            "detail": "信息化规划编制"
+                        }
+                    ]
+                },
+                {
+                    "id": "14",
+                    "rank2": "信息化经费",
+                    "weight_2": "0.291",
+                    "detail_tb": [
+                        {
+                            "detail_id": "23",
+                            "up_limit": "55.57",
+                            "weight_3": "0.480",
+                            "target": "80",
+                            "detail": "当年信息化经费投入"
+                        },
+                        {
+                            "detail_id": "24",
+                            "up_limit": "16.74",
+                            "weight_3": "0.520",
+                            "target": "80",
+                            "detail": "当年信息化经费增长"
+                        },
+                        {
+                            "detail_id": "25",
+                            "up_limit": "16.74",
+                            "weight_3": "0.520",
+                            "target": "80",
+                            "detail": "当年信息化经费列支"
+                        }
+                    ]
+                },
+                {
+                    "id": "15",
+                    "rank2": "人员队伍",
+                    "weight_2": "0.242",
+                    "detail_tb": [
+                        {
+                            "detail_id": "26",
+                            "up_limit": "15.99",
+                            "weight_3": "1",
+                            "target": "80",
+                            "detail": "信息化领导队伍"
+                        },
+{
+                            "detail_id": "27",
+                            "up_limit": "15.99",
+                            "weight_3": "1",
+                            "target": "80",
+                            "detail": "信息化工作人员队伍"
+                        }
+                    ]
+                },
+                {
+                    "id": "16",
+                    "rank2": "信息化培训",
+                    "weight_2": "0.232",
+                    "detail_tb": [
+                        {
+                            "detail_id": "28",
+                            "up_limit": "6.08",
+                            "weight_3": "1",
+                            "target": "80",
+                            "detail": "教师信息技术能力培训渠道"
+                        },
+{
+                            "detail_id": "29",
+                            "up_limit": "6.08",
+                            "weight_3": "1",
+                            "target": "80",
+                            "detail": "信息化培训课时数"
+                        },
+{
+                            "detail_id": "30",
+                            "up_limit": "6.08",
+                            "weight_3": "1",
+                            "target": "80",
+                            "detail": "信息化培训内容"
+                        },
+{
+                            "detail_id": "31",
+                            "up_limit": "6.08",
+                            "weight_3": "1",
+                            "target": "80",
+                            "detail": "参与培训的教师比例"
+                        }
+                    ]
+                },
+{
+                    "id": "17",
+                    "rank2": "信息安全",
+                    "weight_2": "0.242",
+                    "detail_tb": [
+                        {
+                            "detail_id": "32",
+                            "up_limit": "15.99",
+                            "weight_3": "1",
+                            "target": "80",
+                            "detail": "安全保障"
+                        },
+{
+                            "detail_id": "33",
+                            "up_limit": "15.99",
+                            "weight_3": "1",
+                            "target": "80",
+                            "detail": "数据备份和恢复"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

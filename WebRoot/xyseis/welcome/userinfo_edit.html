@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	<meta name="viewpoint" content="width=device-width; initial-scale=1" />
+	<title>襄阳市中小学教育信息化发展水平填报系统</title>
+	<link rel="icon" href="../images/icon.png"/>
+	<link type="text/css" rel="stylesheet" href="../../base/css/base.css" />
+	<link type="text/css" rel="stylesheet" href="css/welcome.css" />
+	<link type="text/css" rel="stylesheet" href="css/jquery_alert.css" />
+	<script src="../../base/javascript/lib/jquery1.8.2.min.js"></script>
+	<script src="../../base/javascript/lib/trimpath.js"></script>
+</head>
+<style type="text/css">
+a:hover{text-decoration:none;}
+</style>
+<body>
+	<div class="header">襄阳市中小学教育信息化发展水平填报系统</div>
+	<div id="container"> 
+		<div id="show_container" class="show_two">
+			<img src="images/amend_info.jpg" id="amend"/>
+			<div class="survey_container_edit">										
+				<div id="formbox">
+					<form id="formpersonal" method="post" onsubmit="return false;">
+						<div class="form">																								
+							<div class="item">
+								<span class="info_font">地址：</span>
+								<div class="fl">
+									<span class="user_info">
+										<input type="text" id="area" name="area" disabled="disabled"/> 
+										<span>区(县级市/县)</span>
+									</span>
+									<div class="clear"> </div>
+								</div>
+							</div>
+							<div class="item_radio">
+								<span class="info_font">所在地：</span>
+								<div class="fl_radio"><input type="radio" value="城镇" id="town" name="school_area" /><span>城镇</span></div>	
+								<div class="fl_radio"><input type="radio" value="农村" id="village" name="school_area" /><span>农村</span></div>	
+								<div class="clear"> </div>
+							</div>
+							<div class="item">
+								<span class="info_font">学校名称：</span>
+								<div class="fl">
+									<span class="user_info">
+										<input type="text" name="school_addr" disabled="disabled"/>
+									</span>
+									<div class="clear"> </div>
+								</div>
+							</div>
+							<div class="item_radio">
+								<span class="info_font">学校类型：</span>
+								<div class="fl_radio">
+									<input type="radio" value="小学" name="school_type" /><span>小学</span>
+								</div>
+								<div class="fl_radio">
+									<input type="radio" value="初中" name="school_type" /><span>初中</span>
+								</div>
+								<div class="fl_radio">
+									<input type="radio" value="高中" name="school_type" /><span>高中</span>
+								</div>
+								<div class="fl_radio">
+									<input type="radio" value="其他" name="school_type" /><span>其他</span>
+								</div>
+								<div class="fl_radio">
+									<input type="radio" value="教学点" name="school_type" /><span>教学点</span>
+								</div>
+								<div class="clear"> </div>
+							</div>
+							<div class="item">
+								<span class="info_font">问卷填写人：</span>
+								<div class="fl">
+									<input type="text" name="relation" id="relation"/>
+									<div class="clear"></div>
+								</div>
+								<div id="warningRelationErrorInfo" class="noteawoke">
+									<span><img src="images/InfoMistake.gif" />姓名格式输入错误！</span>
+								</div>
+								<div id="warningRelationRightInfo" class="noteok">
+									<span><img src="images/InfoSucceed.gif" />姓名格式输入正确。</span>
+								</div>
+							</div>
+							<div class="item">
+								<span class="info_font">电话：</span>
+								<div class="fl">
+									<input type="text" name="mobile" id="mobile"/>
+									<div class="clear"> </div>
+								</div>
+								<div id="warningMobileErrorInfo" class="noteawoke">
+									<span ><img src="images/InfoMistake.gif"/>电话号码格式输入错误！</span>
+								</div>
+								<div id="warningMobileRightInfo" class="noteok">
+									<span ><img src="images/InfoSucceed.gif"/>电话号码格式输入正确。</span>
+								</div>
+							</div>
+							<div class="item">
+								<span class="info_font">E-mail:</span>
+								<div class="fl">
+									<input type="text" name="email" id="email"/>
+									<div class="clear"> </div>
+								</div>
+								<div id="warningEmailErrorInfo" class="noteawoke">
+									<span ><img src="images/InfoMistake.gif"/>邮件地址格式输入错误！</span>
+								</div>
+								<div id="warningEmailRightInfo" class="noteok">
+									<span ><img src="images/InfoSucceed.gif"/>邮件地址格式输入正确。</span>
+								</div>
+							</div>
+							<div class="item">
+								<span class="info_font">班级数：</span>
+								<div class="fl">
+									<input type="text" name="class_num" id="class_num" class="text"/>
+									<div class="clear"> </div>
+								</div>
+								<div id="warningCNErrorInfo" class="noteawoke">
+									<span ><img src="images/InfoMistake.gif"/>班级数量格式输入错误！</span>
+								</div>
+								<div id="warningCNRightInfo" class="noteok">
+									<span ><img src="images/InfoSucceed.gif"/>班级数量格式输入正确。</span>
+								</div>
+							</div>
+							<div class="item">
+								<span class="info_font">学校在职教师人数：</span>
+								<div class="fl">
+									<input type="text" name="staffteacher" id="staffteacher"/>
+									<div class="clear"> </div>
+								</div>
+								<div id="warningSTErrorInfo" class="noteawoke">
+									<span ><img src="images/InfoMistake.gif"/>教师数量格式输入错误！</span>
+								</div>
+								<div id="warningSTRightInfo" class="noteok">
+									<span ><img src="images/InfoSucceed.gif"/>教师数量格式输入正确。</span>
+								</div>
+							</div>
+							<div class="item">
+								<span class="info_font">在籍学生总数：</span>
+								<div class="fl">
+									<input type="text" name="nativestudent" id="nativestudent"/>
+									<div class="clear"> </div>
+								</div>
+								<div id="warningNSErrorInfo" class="noteawoke">
+									<span ><img src="images/InfoMistake.gif"/>学生数量格式输入错误！</span>
+								</div>
+								<div id="warningNSRightInfo" class="noteok">
+									<span ><img src="images/InfoSucceed.gif"/>学生数量格式输入正确。</span>
+								</div>
+							</div>	
+					
+					<!--按钮-->
+					<div  id="info_edit">
+						<div class="button" id="edit_information"><strong>更&nbsp;&nbsp;&nbsp;&nbsp;新</strong></div>										
+					</div>
+					<div  id="login_edit">
+						<a href="welcome_edit.html"><div class="button" style="color:#fff;" id="next_information" ><strong>返&nbsp;&nbsp;&nbsp;&nbsp;回</strong></div>	</a>									
+					</div>
+					
+				</div>
+			</div>
+		</div>
+				
+	</div>	
+	<div class="clear"> </div>
+	<!-- 问卷的问题输出模板 -->
+	<div id="footer" style="margin-top:50px" > </div>
+</body>
+</html>
+<script type="text/javascript" src="../base/base.js"></script>
+<script type="text/javascript" src="javascript/userinfo_edit.js"></script>
+<script type="text/javascript" src="javascript/jquery_alert.js"></script>

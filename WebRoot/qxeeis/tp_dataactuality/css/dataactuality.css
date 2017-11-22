@@ -1,0 +1,380 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.content{
+	width: 958px;
+	/*border: solid 1px #DCDCDC;*/
+	float: right;
+	margin: 0 20px 0 0;
+	padding: 20px;
+	line-height: 30px;
+}
+/*���*/
+.clearfix:before,
+.clearfix:after {
+  content: ' ';
+  display: table;
+  height: 0;
+}
+.clearfix:after {
+  clear: both;
+}
+.nowData{
+	width: 998px;
+	margin-left: -20px;
+	border: solid 1px #DCDCDC;
+	background:url(../images/info_now_list.png) no-repeat 0 0;
+	min-height:350px;
+}
+.data_title{
+	width: 472px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 14px;
+	margin: 0 auto;
+	margin-left:1px;
+	background-color: #DCE9F9;
+	margin-left:11px;
+}
+.data_title li{
+	/* width:122px; */
+	height: 40px;
+	line-height: 40px;
+	float:left;
+	text-align: center;
+	border-right: 2px solid #FFFFFF;
+	list-style:none;
+}
+.data_title li:first-child{
+	/* width:232px; */
+	text-align: left;
+	padding-left:10px;
+}
+.data_now{
+	font-size: 14px;
+	/*background-color: #DCE9F9;*/
+	margin-left:10px;
+	position: relative;
+}
+.data_now ul{
+	width: 475px;
+	width: auto\9;
+	height: 40px;
+	line-height: 40px;
+	font-size: 14px;
+	margin: 0 auto;
+	background-color: #FFFFFF;
+}
+.data_now ul li{
+	float: left;
+	/* width: 122px; */
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	border-right: 2px solid #FFFFFF;
+}
+.data_now ul:last-child{
+	border-bottom: 2px solid #DCE9F9;
+}
+.data_now ul li:first-child{
+	/* width:230px; */
+	text-align: left;
+	padding-left:10px;
+}
+
+.data_now_right{
+	width: 452px;
+	font-size: 14px;
+	/*background-color: #DCE9F9;*/
+	margin-left:10px;
+	position: relative;
+}
+.data_now_right ul{
+	width: 475px;
+	width: auto\9;
+	height: 40px;
+	line-height: 40px;
+	font-size: 14px;
+	margin: 0 auto;
+	background-color: #FFFFFF;
+}
+.data_now_right ul li{
+	float: left;
+	/* width: 122px; */
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	border-right: 2px solid #FFFFFF;
+}
+.data_now_right ul:last-child{
+	border-bottom: 2px solid #DCE9F9;
+}
+.data_now_right ul li:first-child{
+	width:230px;
+	text-align: left;
+	padding-left:10px;
+}
+/*��״ͼ*/
+.data_column{
+	width:998px;
+	margin-top:30px;
+	border: solid 1px #DCDCDC;
+	margin-left:-20px;
+}
+.data_left{
+	float: left;
+	width: 470px;
+	height: 589px;
+	border-top:1px solid #dcdcdc;
+	padding-top:10px;
+
+}
+.data_left_last{
+	float: left;
+	width: 470px;
+	height: 589px;
+	border-top:1px solid #dcdcdc;
+	padding-top:10px;
+	margin-left:250px;
+}
+.data_right{
+	width: 470px;
+	height: 589px;
+	border-top:1px solid #dcdcdc;
+	padding-top:10px;
+	float: right;
+	
+}
+.data_right_last{
+	width: 470px;
+	height: 589px;
+	border-top:1px solid #dcdcdc;
+	padding-top:10px;
+
+	margin-left:200px;
+	
+}
+/*����ſ�*/
+.edu_now ul{
+	width: 994px;
+	width: auto\9;
+	height: 40px;
+	line-height: 40px;
+	font-size: 14px;
+	margin: 0 auto;
+	background-color: #FFFFFF;
+}
+.edu_now ul li{
+	float: left;
+	width: 495px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	border-right: 2px solid #FFFFFF;
+}
+.edu_now ul:last-child{
+	border-bottom: 2px solid #DCE9F9;
+}
+.edu_status{
+	margin-left: -20px;
+	margin-top:30px;
+	width: 998px;
+	font-size: 14px;
+	border: solid 1px #DCDCDC;
+
+}
+.data_now ul:nth-child(20){
+	position: absolute;
+	left:491px;
+	top:-40px;
+	background-color: #DCE9F9;
+	
+}
+.data_now ul:nth-child(21){
+	position: absolute;
+	left:491px;
+	top:0px;
+	background-color:white !important;
+}
+.data_now ul:nth-child(22){
+	position: absolute;
+	left:491px;
+	top:40px;
+	background-color: #DCE9F9;
+	
+}
+.data_now ul:nth-child(23){
+	position: absolute;
+	left:491px;
+	top:80px;
+	background-color:white !important;
+}
+.data_now ul:nth-child(24){
+position: absolute;
+	left:491px;
+	top:120px;
+	background-color: #DCE9F9;
+	
+}
+.data_now ul:nth-child(25){
+	position: absolute;
+	left:491px;
+	top:160px;
+	background-color:white !important;
+}
+.data_now ul:nth-child(26){
+	position: absolute;
+	left:491px;
+	top:200px;
+	background-color: #DCE9F9;
+	
+}
+.data_now ul:nth-child(27){
+position: absolute;
+	left:491px;
+	top:240px;
+	background-color:white !important;
+}
+.data_now ul:nth-child(28){
+	position: absolute;
+	left:491px;
+	top:280px;
+	background-color: #DCE9F9;
+	
+}
+.data_now ul:nth-child(29){
+	position: absolute;
+	left:491px;
+	top:320px;
+	background-color:white !important;
+}
+
+.data_now ul:nth-child(30){
+	position: absolute;
+	left:491px;
+	top:360px;
+	background-color: #DCE9F9;
+	
+}
+.data_now ul:nth-child(31){
+	position: absolute;
+	left:491px;
+	top:400px;
+	background-color:white !important;
+}
+
+.data_now ul:nth-child(32){
+	position: absolute;
+	left:491px;
+	top:440px;
+	background-color: #DCE9F9;
+	
+}
+.data_now ul:nth-child(33){
+	position: absolute;
+	left:491px;
+	top:480px;
+	background-color:white !important;
+}
+
+.data_now ul:nth-child(34){
+	position: absolute;
+	left:491px;
+	top:520px;
+	background-color: #DCE9F9;
+	
+}
+.data_now ul:nth-child(35){
+	position: absolute;
+	left:491px;
+	top:560px;
+	background-color:white !important;
+}
+
+.data_now ul:nth-child(36){
+	position: absolute;
+	left:491px;
+	top:600px;
+	background-color: #DCE9F9;
+	
+}
+.data_now ul:nth-child(37){
+	position: absolute;
+	left:491px;
+	top:640px;
+	background-color:white !important;
+}
+.data_now ul:nth-child(38){
+	position: absolute;
+	left:491px;
+	top:680px;
+	background-color: #DCE9F9;
+	
+}
+.data_now ul:nth-child(39){
+	position: absolute;
+	left:491px;
+	top:720px;
+	background-color:white !important;
+}
+.total_span{
+	display:inline-block;
+	margin-right:10px;
+	cursor:pointer;
+	margin-top:5px;
+	padding:5px;
+}
+.total_noraml{
+	background:#dcdcdc;
+}
+.total_active{
+	background:#3bb2d0;
+	color:white;
+}
+.total_title{
+	float:left;
+	width:458px;
+	margin:10px auto 0px 200px;
+	text-align:center;
+	font-size:16px;
+}
+
+.dataactuality{
+	background-color:#3bb2d0;
+	padding:8px;
+	float:right;
+	margin:15px 30px 0px 0px;
+	color:white;
+	font-size:16px;
+	cursor:pointer;
+}
+
+.tab_left{
+	font-size:14px;
+	margin-left:10px;
+	width:488px;
+	float:left;
+	margin-top:50px;
+	line-height:40px;
+}
+
+.tab_right{
+	font-size:14px;
+	margin-right:10px;
+	width:488px;
+	float:right;
+	margin-top:50px;
+	line-height:40px;
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,130 @@
+.main_body{
+	width:1190px; 
+	margin: 0 auto;
+	height: auto;
+}
+
+.button_text{
+	float:left;
+	margin-top:130px;
+	margin-left:100px;
+	font-size:14px;
+	width:10px;
+	font-weight:bold;
+}
+#histogram2{
+	width:600px;
+	height:400px;
+	margin-left:20px;
+ 	padding:30px 0px 0px 0px; 
+ 	float:left;	
+}
+#rightContent {
+	margin-top:110px;
+	margin-right:110px;
+	float:right;
+	padding:10px 20px;
+	background:#f5f5f5;
+
+}
+#rightContent div{
+	margin:20px 10px;
+	font-size:16px;
+}
+
+#tb_content{
+	clear: both;
+	width: 95%;
+	margin: 0 auto;
+	min-height: 503px;
+}
+#btn_place{
+	width: 26%;
+	padding: 2em 0;
+	height:300px;
+}
+#btn_place span{
+	display:block;
+	width:80%;
+	background: #FA915A;
+	margin:0 auto;
+/*	box-shadow: 0.5px 0.5px 0.5px #888888;*/
+	font-size: 18px;
+	text-align: center;
+	cursor: pointer;
+	height: 50px;
+	line-height: 50px;
+	color: #fff;
+	margin-top: 5px;
+}
+#btn_place .btn:hover{
+	background: #FA917C;
+}
+
+
+.bordered {
+	border: none;
+	font-family: Arial;
+	text-align: center;
+/*    *border-collapse: collapse; */
+/*    border-spacing: 0;*/
+    width: 100%;
+    height: 450px;
+}
+.bordered td,th{
+	padding: 1em;
+	height: 10px;
+	font-family: "å¾®è½¯é›…é»‘";
+}
+.bordered td a{
+	cursor: pointer;
+	display: block;
+}
+.bordered td a:visited,.bordered td a:link{
+	text-decoration: none;
+	display: block;
+	color:#1C6A9E;
+}
+.bordered td a:hover,.bordered td a:active{
+	text-decoration: none;
+	display: block;
+	color:#33BBEE;
+}
+#month_contrast{
+	width:990px;
+	height:400px;
+	margin-top:45px;
+}
+.button_style{
+	background-color: #50bfea;
+	display: block;
+	float:left;
+	font-family: 'Î¢ÈíÑÅºÚ';
+	font-size: 18px;
+	color: #FFFFFF;
+	padding: 27px 0px;
+	margin-left: 12px;
+	cursor: pointer;
+	width: 184px;
+	text-align: center;
+}
+#fig_sel{
+	outline: none;
+	border:1px solid gray;
+	height:30px
+}
+
+#month_ranking{
+	border: 1px solid #DCDCDC;
+	margin-bottom: 20px;
+	height:500px;
+	padding-top:35px;
+}
+#month_ranking_center{
+	height:470px;
+}
+
+#histogram{
+	height:450px;
+	width:996px;
+}

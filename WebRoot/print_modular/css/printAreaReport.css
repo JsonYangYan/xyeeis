@@ -1,0 +1,225 @@
+/*清除浮动主流写法*/
+.clearfix:before,
+.clearfix:after {
+  content: ' ';
+  display: table;
+  height: 0;
+}
+.clearfix:after {
+  clear: both;
+}
+#btn_place{
+	width: 30%;
+	float:left;
+}
+
+#btn_place .btn,#showMonth .btnMonth{
+	display:block;
+	width: 80%;
+	background: #FA915A;
+/*	box-shadow: 0.5px 0.5px 0.5px #888888;*/
+	font-size: 18px;
+	text-align: center;
+	cursor: pointer;
+	height: 50px;
+	line-height: 50px;
+	color: #fff;
+	margin: 3px auto;
+}
+#btn_place .btn:hover,#showMonth .btnMonth:hover{
+	background: #FA708C;
+}
+#showMonth{
+	float: left;
+	width: 50%;
+}
+
+.print_body{
+	background-color:#f5f9fc;
+	width:1200px;
+	min-height:1312px;
+	margin: 0 auto;
+}
+.print_outer{
+	width:998px;
+	float:right;
+	margin-right:20px;
+	margin-top:20px;
+	min-height:231px;
+	background:white url(../images/all_report.png) top left no-repeat;
+	border: 1px solid #dcdcdc;
+}
+.print_inside{
+	margin-top:70px;
+	padding:20px 20px;
+	line-height:30px;
+	text-indent: 2em;
+	font-size:14px;
+	font-family:'微软雅黑' "
+}
+.print_allreport{
+	background:url(../images/pdf_download.jpg);
+	width:198px;
+	height:72px;
+	position: relative;
+	top: 20px;
+	left: 276px;
+	cursor:pointer;
+	/*float:left;*/
+	margin-bottom:20px;
+	/*display: none;*/
+}
+#print_allreport{
+	width:198px;
+	height:72px;
+	/*border: 1px solid;*/
+}
+.report_fenlei{
+	width:998px;
+	float:right;
+	margin-right:20px;
+	margin-top:20px;
+	min-height:231px;
+	background:white url(../images/part_report.png) top left no-repeat;
+	border: 1px solid #dcdcdc;
+	margin-bottom:20px;
+}
+.fenlei_inside{
+	width:325px;
+	height:177px;
+	padding-left:auto;
+	text-align:center;
+}
+
+.print_body {
+    background-color: #f5f9fc;
+    margin: 0 auto;
+    min-height: 1642px;
+    width: 1200px;
+}
+.print_report{
+	background:url(../images/excel_download.jpg);
+	width:198px;
+	height:72px;
+	/*float:left;*/
+	/*margin-top:20px;
+	margin-bottom:20px;*/
+	position: relative;
+	left: 520px;
+	cursor:pointer;
+	top: -52px;
+}
+#print_report{
+	width:198px;
+	height:72px;
+	/*border: 1px solid;*/
+}
+.laohekou{
+	width:327px;
+	height:63px;
+	background:url(../images/download_lhk.jpg) 16px 0px no-repeat;
+	margin-left:20px;
+	cursor:pointer;
+}
+#laohe{
+	width:327px;
+	height:63px;
+	/*border: 1px solid;*/
+}
+.guchengxian{
+	width:327;
+	height:63px;
+	background:url(../images/download_gcx.jpg) 44px 0px no-repeat;
+	margin-left:20px;
+	cursor:pointer;
+}
+#gucheng{
+	width:327;
+	height:63px;
+	/*border: 1px solid;*/
+}
+.baokangxian{
+	width:327;height:63px;background:url(../images/download_bkx.jpg) 44px 0px no-repeat;margin-left:20px;cursor:pointer;
+}
+#baokang{
+	width:327;
+	height:63px;
+}
+.fanzhouqu{
+	width:327;height:63px;background:url(../images/download_fzq.jpg) 16px 0px no-repeat;margin-left:20px;cursor:pointer;
+}
+#fanzhou{
+	width:327;
+	height:63px;
+}
+.fanchengqu{
+	width:327;height:63px;background:url(../images/download_fcq.jpg) 44px 0px no-repeat;margin-left:20px;cursor:pointer;
+}
+#fancheng{
+	width:327;
+	height:63px;
+}
+.yichengshi{
+	width:327;height:63px;background:url(../images/download_ycs.jpg) 44px 0px no-repeat;margin-left:20px;cursor:pointer;
+}
+#yicheng{
+	width:327;
+	height:63px;
+}
+.xiangchengqu{
+	width:327;height:63px;background:url(../images/download_xcq.jpg) 16px 0px no-repeat;margin-left:20px;cursor:pointer;
+}
+#xiangcheng{
+	width:327;
+	height:63px;
+}
+.nanzhangxian{
+	width:327;height:63px;background:url(../images/download_nzx.jpg) 44px 0px no-repeat;margin-left:20px;cursor:pointer
+}
+#nanzhang{
+	width:327;
+	height:63px;
+}
+.zaoyangshi{
+	width:327;height:63px;background:url(../images/download_zys.jpg) 44px 0px no-repeat;margin-left:20px;cursor:pointer
+}
+#zaoyang{
+	width:327;
+	height:63px;
+}
+.gaoxinqu{
+	width:327;height:63px;background:url(../images/download_gx.jpg) 16px 0px no-repeat;margin-left:20px;cursor:pointer
+}
+#gaoxin{
+	width:327;
+	height:63px;
+}
+.yuliangzhou{
+	width:327;height:63px;background:url(../images/download_ylz.jpg) 44px 0px no-repeat;margin-left:20px;cursor:pointer
+}
+#yuliang{
+	width:327;
+	height:63px;
+}
+.dongjinxinqu{
+	width:327;height:63px;background:url(../images/download_djx.jpg) 44px 0px no-repeat;margin-left:20px;cursor:pointer
+}
+#dongjing{
+	width:327;
+	height:63px;
+}
+.drop_all li{
+	float:left;
+	margin-left:5px;
+	font-size:16px;
+	color:gainsboro;
+	margin-top:5px;
+}
+.drop_all{
+	display:block;
+	margin-left:20px;
+}
+.drop_all:first-child{
+	margin-top:10px;
+}
+

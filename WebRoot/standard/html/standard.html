@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+	<title>襄阳市教育信息化发展水平评估系统</title>
+	<link rel="icon" href="../images/icon.png"/>
+	<link type="text/css" rel="stylesheet" href="../../base/css/base.css" />
+	<link type="text/css" rel="stylesheet" href="../../standard/css/standard.css" />
+
+	<script type="text/javascript" src="../../base/javascript/lib/jquery1.8.2.min.js"></script>
+	<script type="text/javascript" src="../../base/javascript/lib/trimpath.js"></script>
+</head>
+<body>
+<!-- 	<div id="header"> </div> -->
+<!-- 	<div id="navigation"> </div> -->
+	<div class="header">襄阳市教育信息化发展水平评估系统</div>
+	
+	<div class="main_body" id="container">
+		<div id="floatNavStandard"> </div>
+		<div id="content_box">
+			<div id="assetment_box"> </div>
+			<div class="rule_explain_01">
+			    <h2>襄阳教育信息化影响因素关系引导图</h2>
+			    <img src="../../standard/images/yinsuguanxi.jpg"/>
+			</div>
+			<br/>
+			<div class="rule_explain_02">
+				<h2>算法--线性加权模型</h2>
+				<img src="../../standard/images/suanfa.jpg"/>
+			</div>
+			<div class="clear"> </div>
+		</div>
+	</div><!--container end-->
+	<div class="clear"> </div>
+<!-- 	<div id="footer_top"> </div> -->
+	<div id="footer"> </div>
+
+	<textarea id="assetment_template" style="display: none">
+		<table id="tb_box">
+			<caption>
+				<h2>襄阳市教育信息化绩效评估指标</h2>
+			</caption>
+			<tr>
+				<td class="title">一级指标</td>
+				<td class="column_tb">
+					<table class="title rank2_tb">
+						<tr>
+							<td class="column_rank2">二级指标</td>
+							<td class="assessment">三级指标</td>
+							<!--<td class="weight_3">权重</td>-->
+						</tr>
+					</table>
+				</td>
+			</tr>
+			{for p in list.tb}
+				<tr>
+					<td class="column_rank1" section_id="${p.section_id}" weight_1="${p.weight_1}">${p.rank1}</td>
+					<td class="column_tb">
+						{for t in p.reg_tb} 
+							<table class="rank2_tb">
+								<tr>
+									<td class="column_rank2" rank2_id = "${t.id}" weight_2 = ${t.weight_2}>${t.rank2}</td>
+									<td class="assessment">
+										<ul>
+											{for i in t.detail_tb}
+											<li>${i.detail_id}.${i.detail}</li>
+											{/for}
+										</ul>
+									</td>
+									
+								</tr>
+							</table>
+						{/for}
+					</td>
+				</tr>
+			{/for}
+		</table>
+	</textarea>
+</body>
+</html>
+<script src="../../base/base.js"></script>
+<script type = "text/javascript" src="../../standard/javascript/standard.js"></script>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta content="text/html;charset=utf-8" http-equiv="content-type">
+    <title>襄阳市教育信息化发展水平评估系统</title>
+    <link rel="icon" href="../images/icon.png"/>
+    <link type="text/css" rel="stylesheet" href="../../base/css/base.css" />
+    <link rel="stylesheet" href="../css/statusmap.css"/>
+    <!-- ECharts单文件引入 -->
+    <script type="text/javascript" src="../javascript/esl.js"></script>
+	<script type="text/javascript" src="../javascript/lib/echarts.min.js"></script>
+	<script type="text/javascript" src="../lib/echarts/build/dist/echarts.js"></script>
+	
+	<script type="text/javascript" src="../../base/javascript/lib/jquery1.8.2.min.js"></script>
+    <script type="text/javascript" src="../../base/javascript/lib/trimpath.js"></script>
+    <script type="text/javascript" src="../../base/treeview/jquery.treeview.js"></script>
+    <script type="text/javascript" src="../../base/javascript/lib/highcharts.js"></script>
+    <script type="text/javascript" src="../../base/javascript/lib/highcharts-more.js"></script>
+</head>
+<body>
+	<!-- 加载头部、导航	 -->
+	<div class="header">襄阳市教育信息化发展水平评估系统</div>
+	<div id="container">
+		<div id="floatNavStatusAnalysis"> </div>
+		<div style="height:1px"></div>
+		<div class="total_title">
+			月份：
+	      </div>
+		<div class="main_body">
+		
+		    <!-- 为ECharts准备一个具备大小（宽高）的Dom -->
+		    <div id="main" style="margin-left:20px;margin-top:10px;width:568px; height: 460px;float: left;"> </div>
+		    
+		    <!-- 存放数据 -->
+		    <div style="float: right;width: 400px;height: 376px;margin-top: 100px;margin-right: 10px;">
+		    	<table id="init_tab">
+		    		<tbody>
+		    			<tr>
+							<th>地&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;区</th>
+							<th>发展指数</th>
+							<th>本地区状况</th>
+							<th>襄阳市平均水平</th>
+						</tr>
+						<tr>
+							<td rowspan="5">樊城区</td>
+							<td>基础设施</td>
+							<td style="color:green;">47.22</td>
+							<td>42.98</td>
+						</tr>
+						<tr>
+							<td>教学信息化应用</td>
+							<td style="color:green;">76.42</td>
+							<td>61.76</td>
+						</tr>
+						<tr>
+							<td>教研信息化应用</td>
+							<td style="color:red;">37.87</td>
+							<td>40.33</td>
+						</tr>
+						<tr>
+							<td>管理与服务信息化应用</td>
+							<td style="color:red;">34.42</td>
+							<td>37.21</td>
+						</tr>
+						<tr>
+							<td>信息化保障</td>
+							<td style="color:green;">50.08</td>
+							<td>50.32</td>
+						</tr>
+		    		</tbody>
+		    	</table>
+		    	<table id="sub_tb" cellspacing="0" cellpadding="0" >  </table>
+		    </div>
+			<div  id = "three_area">
+		     	<span id="gaoxin">高新区</span>
+		     	<span id="dongjin">东津新区</span>
+		     	<span id="yuliang">襄阳市直</span>
+		     </div>
+			
+	<!--<div id="area_name" ><h2>襄州区典型指标</h2></div>  -->	
+		
+		<div class="show_pie" >
+		<div id="area_name" ><h2>襄州区典型指标详情</h2></div>
+		
+			<div id="drawPieChart_01"> </div>
+			<div id="drawPieChart_02"> </div>
+			<div id="drawPieChart_03"> </div>
+			<div id="drawPieChart_04"> </div>
+			<div id="pie_01" >
+				
+			</div>
+			<div id="pie_02" >
+				
+			</div>
+			<div id="pie_03">
+				
+			</div>
+			<div id="pie_04" >
+			
+			</div>	
+			<div class="clear"> </div>
+		</div>
+	</div>	
+		<div class="clear"> </div>
+	</div>
+	<div class="clear"> </div>
+	<div id="footer"> </div>
+	
+    
+</body>
+</html>
+<script src="../../base/base.js"></script>
+<script type="text/javascript" src="../../base/javascript/highcharts_func.js"></script>
+<script src="../javascript/drawECharts.js"></script>
+<script src="../javascript/allassessment_pie.js"></script>
+<script src="../javascript/draw_echarts.js"></script>

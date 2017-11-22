@@ -1,0 +1,30 @@
+/*链接的基本设置*/
+a{text-decoration:none;COLOR:black;}
+a:link{text-decoration:none;}
+a:hover{text-decoration:underline;}
+
+#container{
+	width: 1200px;
+	height: 860px;
+	margin: 0 auto;
+	background: #FFFFFF;
+}
+
+.content{
+	width: 958px;
+	height: 1000px;
+	border: solid 1px #DCDCDC;
+	float: right;
+	margin: 20px 20px 0 0;
+	padding:20px;
+	background: url("../../images/xiangyang_map.png") no-repeat 30px 120px;
+}
+
+.cont_text{
+	width: auto;
+	height: 32px;
+	line-height: 32px;
+	color: #787878;
+	margin-left: 20px;
+	font-size: 16px;
+}

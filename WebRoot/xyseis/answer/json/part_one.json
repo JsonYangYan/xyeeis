@@ -1,0 +1,289 @@
+﻿[
+    {
+        "groupId": 1,
+        "children": [
+            {
+                "groupId": "1",
+                "indexType": "1",
+                "testType": "4",
+                "queContent": "学校拥有的校园网出口带宽为",
+                "queId": "121",
+                "userAns": "10",
+                "unitSymbol": "兆，",
+                "children": []
+            },
+            {
+                "groupId": "1",
+                "indexType": "1",
+                "testType": "4",
+                "queContent": "平均带宽为",
+                "queId": "123",
+                "userAns": "1",
+                "unitSymbol": "兆；",
+                "children": []
+            },
+            {
+                "groupId": "1",
+                "indexType": "1",
+                "testType": "4",
+                "queContent": "学校有线网络的覆盖率为",
+                "queId": "124",
+                "userAns": "1",
+                "unitSymbol": "%（比例=有线网络覆盖的建筑数/学校总建筑数），",
+                "children": []
+            },
+            {
+                "groupId": "1",
+                "indexType": "1",
+                "testType": "4",
+                "queContent": "无线网络的覆盖率为",
+                "queId": "125",
+                "userAns": "1",
+                "unitSymbol": "%（比例=无线网络覆盖的建筑数/学校总建筑数）。",
+                "children": []
+            }
+        ]
+    },
+    {
+        "groupId": 2,
+        "children": [
+            {
+                "groupId": "2",
+                "indexType": "1",
+                "testType": "4",
+                "queContent": "学校拥有的电子备课教室数量为",
+                "queId": "126",
+                "userAns": "1",
+                "unitSymbol": "间；",
+                "children": []
+            },
+            {
+                "groupId": "2",
+                "indexType": "1",
+                "testType": "4",
+                "queContent": "计算机教室的数量为",
+                "queId": "127",
+                "userAns": "1",
+                "unitSymbol": "间，",
+                "children": []
+            },
+            {
+                "groupId": "2",
+                "indexType": "1",
+                "testType": "4",
+                "queContent": "总座位数为",
+                "queId": "128",
+                "userAns": "1",
+                "unitSymbol": "个，",
+                "children": []
+            },
+            {
+                "groupId": "2",
+                "indexType": "1",
+                "testType": "4",
+                "queContent": "是否联网",
+                "queId": "129",
+                "userAns": "1",
+                "unitSymbol": "（填写：1-是或0-否），",
+                "children": []
+            },
+            {
+                "groupId": "2",
+                "indexType": "1",
+                "testType": "4",
+                "queContent": "使用率为",
+                "queId": "130",
+                "userAns": "1",
+                "unitSymbol": "课时/周（一课时=45分钟），",
+                "children": []
+            },
+            {
+                "groupId": "2",
+                "indexType": "1",
+                "testType": "4",
+                "queContent": "非故障电脑百分比为",
+                "queId": "131",
+                "userAns": "1",
+                "unitSymbol": "%（比例=在用的非故障电脑数量/在用的电脑总数）；",
+                "children": []
+            },
+            {
+                "groupId": "2",
+                "indexType": "1",
+                "testType": "4",
+                "queContent": "拥有的录播教室的数量为",
+                "queId": "132",
+                "userAns": "1",
+                "unitSymbol": "间，",
+                "children": []
+            },
+            {
+                "groupId": "2",
+                "indexType": "1",
+                "testType": "4",
+                "queContent": "拥有的多媒体教室的数量为",
+                "queId": "133",
+                "userAns": "1",
+                "unitSymbol": "间。（若本学校没有此类教室，此空可不填写）",
+                "children": []
+            }
+        ]
+    },
+    {
+        "groupId": 3,
+        "children": [
+            {
+                "groupId": "3",
+                "indexType": "1",
+                "testType": "2",
+                "queContent": "学校多媒体教室的形态有哪些？",
+                "queId": "134",
+                "unitSymbol": "",
+                "children": [
+                    {
+                        "choiceContent": "无",
+                        "is_checked": "0",
+                        "queId": "134",
+                        "order": "A",
+                        "choiceId": "1",
+                        "autoId": "213",
+                        "hasBlank": "0"
+                    },
+                    {
+                        "choiceContent": "幕布+计算机+投影",
+                        "is_checked": "1",
+                        "queId": "134",
+                        "order": "B",
+                        "choiceId": "2",
+                        "autoId": "214",
+                        "hasBlank": "0",
+                        "answer": "\"null\""
+                    },
+                    {
+                        "choiceContent": "交互式电子白板+计算机",
+                        "is_checked": "1",
+                        "queId": "134",
+                        "order": "C",
+                        "choiceId": "3",
+                        "autoId": "215",
+                        "hasBlank": "0",
+                        "answer": "\"null\""
+                    },
+                    {
+                        "choiceContent": "交互式电子白板一体机",
+                        "is_checked": "1",
+                        "queId": "134",
+                        "order": "D",
+                        "choiceId": "4",
+                        "autoId": "216",
+                        "hasBlank": "0",
+                        "answer": "\"null\""
+                    },
+                    {
+                        "choiceContent": "大屏幕液晶显示器+计算机",
+                        "is_checked": "1",
+                        "queId": "134",
+                        "order": "E",
+                        "choiceId": "5",
+                        "autoId": "217",
+                        "hasBlank": "0",
+                        "answer": "\"null\""
+                    },
+                    {
+                        "choiceContent": "大屏幕液晶一体机 ",
+                        "is_checked": "0",
+                        "queId": "134",
+                        "order": "F",
+                        "choiceId": "6",
+                        "autoId": "218",
+                        "hasBlank": "0"
+                    },
+                    {
+                        "choiceContent": "实物投影仪",
+                        "is_checked": "0",
+                        "queId": "134",
+                        "order": "G",
+                        "choiceId": "7",
+                        "autoId": "219",
+                        "hasBlank": "0"
+                    },
+                    {
+                        "choiceContent": "其他",
+                        "is_checked": "1",
+                        "queId": "134",
+                        "order": "H",
+                        "choiceId": "8",
+                        "autoId": "220",
+                        "hasBlank": "0",
+                        "answer": "\"null\""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "groupId": 4,
+        "children": [
+            {
+                "groupId": "4",
+                "indexType": "1",
+                "testType": "4",
+                "queContent": "在学校提供给教师使用的终端中，台式计算机数量为",
+                "queId": "135",
+                "userAns": "1",
+                "unitSymbol": "台，",
+                "children": []
+            },
+            {
+                "groupId": "4",
+                "indexType": "1",
+                "testType": "4",
+                "queContent": "笔记本电脑数量为",
+                "queId": "136",
+                "userAns": "1",
+                "unitSymbol": "台，",
+                "children": []
+            },
+            {
+                "groupId": "4",
+                "indexType": "1",
+                "testType": "4",
+                "queContent": "平板电脑数量为",
+                "queId": "137",
+                "userAns": "1",
+                "unitSymbol": "台；",
+                "children": []
+            },
+            {
+                "groupId": "4",
+                "indexType": "1",
+                "testType": "4",
+                "queContent": "在学校提供给学生使用的终端中，台式计算机数量为",
+                "queId": "138",
+                "userAns": "1",
+                "unitSymbol": "台，",
+                "children": []
+            },
+            {
+                "groupId": "4",
+                "indexType": "1",
+                "testType": "4",
+                "queContent": "笔记本电脑数量为",
+                "queId": "139",
+                "userAns": "1",
+                "unitSymbol": "台，",
+                "children": []
+            },
+            {
+                "groupId": "4",
+                "indexType": "1",
+                "testType": "4",
+                "queContent": "平板电脑数量为",
+                "queId": "140",
+                "userAns": "1",
+                "unitSymbol": "台。",
+                "children": []
+            }
+        ]
+    }
+]

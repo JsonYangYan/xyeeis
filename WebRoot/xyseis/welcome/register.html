@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type"  charset="UTF-8" />
+    <title>注册</title>
+    <link rel="icon" href="../images/icon.png"/>
+    <link rel="stylesheet" type="text/css" href="../../base/css/base.css" />
+    <link type="text/css" rel="stylesheet" href="css/styles.css" />
+    <!-- <link rel="stylesheet" type="text/css" href="../css/jquery_alert.css"/> -->
+    <script type="text/javascript" src="../base/javascript/lib/jquery1.8.2.min.js" ></script>
+</head>
+    
+<body>
+	<div class="header">襄阳市教育信息化发展水平评估系统
+		<span class="quit"><a href="../../index.html">退出</a></span>
+	</div>
+	
+    <div id="main_admin">
+    	<div id="show">
+    		<img src="images/zhuce.jpg" id="zhuce"/>
+    		<div id="admin">
+    			<div class="lef" id="area">地区：
+    				<select id="area_name">
+    					<option value="0">请选择地区</option>
+    					<option value="1">襄城区</option>
+    					<option value="2">樊城区</option>
+    					<option value="3">襄州区</option>
+    					<option value="4">高新区</option>
+    					<option value="5">东津新区</option>
+    					<option value="7">枣阳市</option>
+    					<option value="8">宜城市</option>
+    					<option value="9">老河口市</option>
+    					<option value="10">南漳县</option>
+    					<option value="11">保康县</option>
+    					<option value="12">谷城县</option>
+    					<option value="13">襄阳市</option>
+    					<option value="20">鱼梁洲</option>
+    				</select>
+    				<span id="areaname_new"></span>
+    			</div>
+    			<div class="lef" id="school_ming">学校名称：
+    			<div id="school_name">
+    				<select id='school_info'>
+    					<option value="0">请选择学校</option>
+    				</select>
+    				<span id="schoolname_new"></span>
+    			</div>
+    			</div>
+	    		<div class="lef use_title">请输入用户名 *<label>必须填写</label><span id="usename_new"></span></div>
+	    		<div class="lef use_input padd"><input id="userName" type="text"/></div>
+	    		<div class="lef use_title ">请输入密码*<label>必须填写</label><span id="beflabel" class="befspan"></span></div>
+	    		<div class="lef padd pwd_input"><input type="password" id="password_one" /></div>
+
+	    		<div class="lef use_title">再次输入密码*<label>必须填写</label> <span id="one_pwd" class="befspan"></span> </div>
+	    		<div class="lef padd pwd_input"><input type="password" id="password_two"/></div>
+	
+	    		<div class="lef butto" id="login"></div>
+		    	
+   			</div>
+   			<!-- 区县用户管理 -->
+    		<div id="user" style="display: none;width:1060px;margin:auto;">
+    			<div id="sldisplayData"></div>
+ 
+    		</div>
+    		<!-- 学校用户管理 -->
+    		<div id="school" style="display:none">
+    		
+    			<div id="selectSchool">
+    				<input type="text" id="schoolName" placeholder="输入学校名称..." name="schoolName" />
+    				<div id="search"></div>
+    			</div>
+    			
+    			<div id="displayData"></div>
+    			<div id="delete_all" style="float:left;margin-top:10px;width:120px;height: 33px;line-height:33px;cursor:pointer;margin-left:100px;text-align:center;background:#0e90d2;color: white; font-size: 16px;">批量删除</div>
+    			<div id="page_school" style="float:left;margin-left:350px;margin-top:10px;width: 550px;"></div>  
+    			
+    		</div>
+    	</div>
+	    
+    </div>
+	<div id="footer"> </div>
+</body>
+</html>
+<script src="javascript/register.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript" src="../base/base.js"></script>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta content="text/html;charset=utf-8" http-equiv="content-type">
+    <title>襄阳市教育信息化发展水平评估系统</title>
+    <link rel="icon" href="../images/icon.png"/>
+    <link type="text/css" rel="stylesheet" href="../../qx_base/css/base.css" />
+    <link rel="stylesheet" href="../css/ranking.css" />
+    <script type="text/javascript" src="../../qx_base/javascript/lib/jquery1.8.2.min.js"></script>
+    <script type="text/javascript" src="../../qx_base/javascript/lib/trimpath.js"></script>
+    <script type="text/javascript" src="../../qx_base/javascript/lib/highcharts.js"></script>
+    <script type="text/javascript" src="../../qx_base/javascript/charts/echarts.min.js"></script>
+	<script type="text/javascript" src="../../qx_base/javascript/lib/paging.js"> </script>
+</head>
+<body>
+	<div class="header">襄阳市教育信息化发展水平评估系统<i id="em">教育局欢迎您</i></div>
+	<div id="container" style="padding-bottom: 20px;">
+		<div id="floatNavRanking"> </div>
+		<div style="height:1px"></div>
+		<div class="total_title">
+			月份：
+	     </div>
+		<div style="width: 998px;float: right;margin-top:20px;margin-right:20px;">
+
+			<div style="border: 1px solid #DCDCDC;margin-bottom: 20px;background: url('../images/score_rangking.png') left top no-repeat">
+		         <div id="histogram2"> </div>
+		        <div id="rightContent">
+		        	<div>最高值:<label id="max_value"></label>(<label id="max_area"></label>)</div>
+		        	<div>最低值:<label id="min_value"></label>(<label id="min_area"></label>)</div>
+		        	<div>平均值:<label id="avg_value"></label></div>
+		        	<div>高于平均值的个数:<label id="up_avg_num"></label></div>
+		        	<div>低于平均值的个数:<label id="down_avg_num"></label></div>
+		        </div>
+		    	<div style="clear: both;height: 20px;"></div>
+		    </div>
+		    
+		     <div id="month_ranking">
+		    	<div id="month_ranking_center">
+		    	</div>
+		    </div>
+			
+			<div style="border: 1px solid #DCDCDC;background: url('../images/class_ranking.jpg') left top no-repeat">
+		 
+		        <div id="histogram"> </div>
+		        <div>
+		    		<span id="0" onclick="changeHisogram(0)" style="background-color: #50bfea;display: block;float:left;font-family: '微软雅黑';font-size: 18px;color: #FFFFFF;padding: 27px 0px;margin-left: 20px;cursor: pointer;width: 184px;text-align: center;">基础设施</span>
+		    		<span id="1" onclick="changeHisogram(1)" style="background-color: #50bfea;display: block;float:left;font-family: '微软雅黑';font-size: 18px;color: #FFFFFF;padding: 27px 0px;margin-left: 10px; cursor: pointer;width: 184px;text-align: center;">教学信息化应用</span>
+		    		<span id="2" onclick="changeHisogram(2)" style="background-color: #50bfea;display: block;float:left;font-family: '微软雅黑';font-size: 18px;color: #FFFFFF;padding: 27px 0px;margin-left: 10px;cursor: pointer;width: 184px;text-align: center;">教研信息化应用</span>
+		    		<span id="3" onclick="changeHisogram(3)" style="background-color: #50bfea;display: block;float:left;font-family: '微软雅黑';font-size: 18px;color: #FFFFFF;padding: 27px 0px;margin-left: 10px;cursor: pointer;width: 184px;text-align: center;">管理与服务信息化应用</span>
+		    		<span id="4" onclick="changeHisogram(4)" style="background-color: #50bfea;display: block;float:left;font-family: '微软雅黑';font-size: 18px;color: #FFFFFF;padding: 27px 0px;margin-left: 10px;cursor: pointer;width: 184px;text-align: center;">信息化保障</span>
+		    	</div>
+		    	<div style="clear: both;height: 20px;"></div>
+		    </div>
+		    
+		    
+		    
+	        <!--表格输出区域-->
+	        <div id="tb_content_all" style="border: 1px solid #DCDCDC;width:998px;margin-top: 20px;background: url('../images/ranking_all.png') left top no-repeat;padding-top: 50px;">
+	        	<select id="fig_sel">
+				<option id="0" value="0">请选择排名方式</option>
+					<option id="1" value="1">基础设施</option>
+					<option id="2" value="2">教学信息化应用</option>
+					<option id="3" value="3">教研信息化应用</option>
+					<option id="4" value="4">管理与服务信息化应用</option>
+					<option id="5" value="5">信息化保障</option>
+					<option id="6" value="6">绩效总得分</option>
+				</select>
+	        	<div id="tb_content" style='width:998px;'> </div>
+	        	<div id="page_numbers" style='margin-bottom:20px ;'> </div>
+	        </div>
+	        
+    	</div>
+    	<div class="clear"> </div>
+	</div>	
+	<div id="footer"> </div>
+	<textarea id="tb_content_template" style="display: none">		
+
+	    <table class="bordered" id="tb_data">
+			
+			<thead >
+				<tr  style="background-color: #FFF;font-size:18px;height:40px;font-weight:bold;align:center;">
+					<td id="tdtitle" colspan="7"></td>
+				</tr>
+			</thead >
+			<tbody>
+			<tr style="font-size:16px;height:40px">
+				<td width=20%>学校</td>
+				<td>基础设施</td>
+				<td>教学信息化应用</td>
+				<td>教研信息化应用</td>
+				<td>管理与服务信息化应用</td>
+				<td>信息化保障</td>
+				<td>绩效总得分</td>
+			</tr>
+			{for p in schoolData}	
+			<tr style="height:40px;"> 
+				<td>${p.schoolName}</td>
+				{for q in p.data}
+				<td>${q}</td>								
+			    {/for}
+			</tr>
+			{/for}
+			</tbody>
+	    </table>
+	</textarea> 	
+</body>
+</html>
+<script type="text/javascript" src="../../qx_base/base.js"></script>
+<script type="text/javascript" src="../../qx_base/javascript/highcharts_func.js"> </script>
+<script type="text/javascript" src="../../ranking/javascript/ranking.js"></script>
+<script type="text/javascript" src="../../ranking/javascript/high.js"></script>

@@ -1,0 +1,192 @@
+[
+    {
+        "groupId": 5,
+        "children": [
+            {
+                "queContent": "学校建设并应用的数字化教学资源有哪些？",
+                "indexType": "2",
+                "queId": "141",
+                "groupId": "5",
+                "testType": "2",
+                "unitSymbol": "",
+                "children": [
+                    {
+                        "choiceId": "1",
+                        "hasBlank": "0",
+                        "queId": "141",
+                        "choiceContent": "无",
+                        "autoId": "221",
+                        "order": "A"
+                    },
+                    {
+                        "choiceId": "2",
+                        "hasBlank": "0",
+                        "queId": "141",
+                        "choiceContent": "PPT、白板类的教学课件",
+                        "autoId": "222",
+                        "order": "B"
+                    },
+                    {
+                        "choiceId": "3",
+                        "hasBlank": "0",
+                        "queId": "141",
+                        "choiceContent": "几何画板等专用学科教学软件",
+                        "autoId": "223",
+                        "order": "C"
+                    },
+                    {
+                        "choiceId": "4",
+                        "hasBlank": "0",
+                        "queId": "141",
+                        "choiceContent": "授课视频",
+                        "autoId": "224",
+                        "order": "D"
+                    },
+                    {
+                        "choiceId": "5",
+                        "hasBlank": "0",
+                        "queId": "141",
+                        "choiceContent": "试题/试卷库",
+                        "autoId": "225",
+                        "order": "E"
+                    },
+                    {
+                        "choiceId": "6",
+                        "hasBlank": "0",
+                        "queId": "141",
+                        "choiceContent": "案例",
+                        "autoId": "226",
+                        "order": "F"
+                    },
+                    {
+                        "choiceId": "7",
+                        "hasBlank": "0",
+                        "queId": "141",
+                        "choiceContent": "教学设计",
+                        "autoId": "227",
+                        "order": "G"
+                    },
+                    {
+                        "choiceId": "8",
+                        "hasBlank": "0",
+                        "queId": "141",
+                        "choiceContent": "导学案",
+                        "autoId": "228",
+                        "order": "H"
+                    },
+                    {
+                        "choiceId": "9",
+                        "hasBlank": "0",
+                        "queId": "141",
+                        "choiceContent": "其他",
+                        "autoId": "229",
+                        "order": "I"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "groupId": 6,
+        "children": [
+            {
+                "queContent": "学校应用的数字化教学系统有哪些？",
+                "indexType": "2",
+                "queId": "142",
+                "groupId": "6",
+                "testType": "2",
+                "unitSymbol": "",
+                "children": [
+                    {
+                        "choiceId": "1",
+                        "hasBlank": "0",
+                        "queId": "142",
+                        "choiceContent": "无",
+                        "autoId": "230",
+                        "order": "A"
+                    },
+                    {
+                        "choiceId": "2",
+                        "hasBlank": "0",
+                        "queId": "142",
+                        "choiceContent": "网络教学平台",
+                        "autoId": "231",
+                        "order": "B"
+                    },
+                    {
+                        "choiceId": "3",
+                        "hasBlank": "0",
+                        "queId": "142",
+                        "choiceContent": "教学资源管理平台",
+                        "autoId": "232",
+                        "order": "C"
+                    },
+                    {
+                        "choiceId": "4",
+                        "hasBlank": "0",
+                        "queId": "142",
+                        "choiceContent": "交互式电子白板教学系统 ",
+                        "autoId": "233",
+                        "order": "D"
+                    },
+                    {
+                        "choiceId": "5",
+                        "hasBlank": "0",
+                        "queId": "142",
+                        "choiceContent": "电子阅览系统",
+                        "autoId": "234",
+                        "order": "E"
+                    },
+                    {
+                        "choiceId": "6",
+                        "hasBlank": "0",
+                        "queId": "142",
+                        "choiceContent": "其他",
+                        "autoId": "235",
+                        "order": "F"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "groupId": 7,
+        "children": [
+            {
+                "queContent": "学校教师在各级平台上开通网络学习空间的比例约为",
+                "indexType": "2",
+                "queId": "143",
+                "groupId": "7",
+                "testType": "4",
+                "isPercent": "1",
+                "unitSymbol": "%（比例=开通网络学习空间的教师数/学校所有在职教师数）；",
+                "children": []
+            },
+            {
+                "queContent": "学生在各级平台上开通网络学习平台的比例约为",
+                "indexType": "2",
+                "queId": "144",
+                "groupId": "7",
+                "testType": "4",
+                "isPercent": "1",
+                "unitSymbol": "%（比例=开通网络学习空间的学生数/学校所有在籍学生数）。（若本学校未开通空间，此题不填写）",
+                "children": []
+            }
+        ]
+    },
+    {
+        "groupId": 8,
+        "children": [
+            {
+                "queContent": "学校应用数字化数学资源的课程比例为",
+                "indexType": "2",
+                "queId": "145",
+                "groupId": "8",
+                "testType": "4",
+                "isPercent": "1",
+                "unitSymbol": "%（比例=学校每学期应用数字化资源的课程数/学校每学期的总课程数）。",
+                "children": []
+            }
+        ]
+    }
+]

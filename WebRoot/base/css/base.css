@@ -1,0 +1,118 @@
+html, body, div, span, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, code,del, dfn, em, q, dl, dt, dd, ol, ul, li,fieldset, form, label, legend{margin: 0;padding: 0;border: 0;vertical-align:baseline;text-decoration:none;}
+table, caption, tbody, tfoot, thead, tr, th, td { margin: 0;padding: 0;border: 0;text-decoration:none;}
+body{font-size:12px;font-family:'Microsoft yahei';font-weight: normal;background-color:#C8E3EE;}
+ul,li{list-style-type:none; zoom: 1;}
+.clear{clear:both;}
+
+a{text-decoration:none;COLOR:black;}
+a:link{text-decoration:none;}
+a:hover{text-decoration:underline;}
+
+
+#container{
+	width: 1200px;
+	min-height: 1100px;
+	margin: 0 auto;
+	background: #FFFFFF;
+	font-family: Microsoft yahei;
+}
+.quit{
+	width: 100px;
+	height: 20px;
+	float: right;
+	font-size: 16px;
+	margin-bottom: 0;
+	cursor: pointer;
+}
+.quit a{
+	text-decoration:none;
+	color: #FFFFFF;
+}
+.quit a:hover{
+	text-decoration:none;
+	color: red;
+}
+.header{
+	width: 1200px;
+	height: 60px;
+	line-height: 60px;
+	font-size: 28px;
+	margin: 0 auto;
+	background-color: #3BB2D0;
+	color:#FFFFFF;
+	text-indent: 20px;
+}
+
+/*************img-nav**********************/
+#img_nav{
+	
+	width: 160px;
+	overflow:hidden;
+	z-index:50;
+	float: left;
+	cursor: pointer;
+	margin-top: 20px;
+	border: none;
+}
+
+#img_nav div,#img_nav img{
+	width: 160px;
+	height: 82px;
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+
+#footer{
+	background-color: #142736; 
+	width: 1200px; 
+	height: 100px; 
+	margin: 0 auto;
+
+}
+
+div.foot{
+	background-color:#3979b7;
+	height:2em;
+	font-size: 1em;
+    text-align: center;
+    padding:4em 0;
+}
+div.head {
+	background-color:#3979b7;
+	height:10em;
+	font-size: 1em;
+    letter-spacing: 0.05em;
+    text-align: center;
+}
+div.head a{
+	color:white;
+	display:block;
+	font-weight:bold;
+	text-decoration:none;
+}
+div.head a:hover{
+	color:yellow;
+}
+.bg_title { padding-top: 1%;font-size:5em;font-family: 'Microsoft yahei';text-align: center;margin-bottom:-7%;letter-spacing: 0.05em;}
+.head div a{ padding-top: 1%;font-size:1em;font-family: 'Microsoft yahei';float:right;padding-top:7%;padding-right:2%;}
+.foot{font-size: 1em;font-family: 'Microsoft yahei';text-align: center;padding-top: 1em;}
+.total_span{
+	display:inline-block;
+	margin-right:10px;
+	cursor:pointer;
+	margin-top:5px;
+	padding:5px;
+}
+.total_noraml{
+	background:#dcdcdc;
+}
+.total_active{
+	background:#3bb2d0;
+	color:white;
+}
+.total_title{
+	margin:10px auto 0px auto;
+	text-align:center;
+	font-size:16px;
+}

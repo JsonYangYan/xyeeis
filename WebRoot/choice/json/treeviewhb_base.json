@@ -1,0 +1,1201 @@
+[
+	{
+		"quizTitle": "湖北省中小学信息化发展状况调研问卷",
+		"id": "2",
+		"children": [
+			{
+				"sectionTitle": "一、资源与应用",
+				"id": "1",
+				"children": [
+					{
+						"FKid": "1",
+						"questionId": "2",
+						"questiontitle": "学校资料室（图书馆）提供的电子图书总量",
+						"standard": "册 ",
+						"type": "5",
+						"children": []
+					}, {
+						"FKid": "2",
+						"questionId": "3",
+						"questiontitle": "学校非视频类数字教学资源总量",
+						"standard": "    GB  ",
+						"type": "5",
+						"children": []
+					}, {
+						"FKid": "3",
+						"questionId": "4",
+						"questiontitle": "其中国家免费提供的占",
+						"standard": " %  ",
+						"type": "5",
+						"children": []
+					}, {
+						"FKid": "4",
+						"questionId": "5",
+						"questiontitle": "自主开发的占",
+						"standard": "%  ",
+						"type": "5",
+						"children": []
+					}, {
+						"FKid": "6",
+						"questionId": "6",
+						"questiontitle": "用于课堂教学的资源约占总量的",
+						"standard": "% ",
+						"type": "5",
+						"children": []
+					}, {
+						"FKid": "5",
+						"questionId": "7",
+						"questiontitle": "学校视频类数字教学资源总量",
+						"standard": " 小时  ",
+						"type": "5",
+						"children": []
+					}, {
+						"FKid": "7",
+						"questionId": "8",
+						"questiontitle": "其中国家免费提供的占",
+						"standard": "%  ",
+						"type": "5",
+						"children": []
+					}, {
+						"FKid": "8",
+						"questionId": "9",
+						"questiontitle": "自主开发的占",
+						"standard": " %  ",
+						"type": "5",
+						"children": []
+					}, {
+						"FKid": "9",
+						"questionId": "10",
+						"questiontitle": "用于课堂教学的资源约占总量的",
+						"standard": " % ",
+						"type": "5",
+						"children": []
+					}, {
+						"FKid": "10",
+						"questionId": "11",
+						"questiontitle": "教师教学使用的数字资源的类型有（　　　　）",
+						"standard": "（可多选）  ",
+						"type": "2",
+						"children": [
+							{
+								"optionId": "1",
+								"content": "无",
+								"order": "A"
+							}, {
+								"optionId": "2",
+								"content": "课堂实录",
+								"order": "B"
+							}, {
+								"optionId": "3",
+								"content": "电子教案",
+								"order": "C"
+							}, {
+								"optionId": "4",
+								"content": "PPT类教学课件",
+								"order": "D"
+							}, {
+								"optionId": "5",
+								"content": "非PPT类教学课件",
+								"order": "E"
+							}, {
+								"optionId": "6",
+								"content": "试题库、试卷库",
+								"order": "F"
+							}, {
+								"optionId": "7",
+								"content": "微课视频",
+								"order": "G"
+							}, {
+								"optionId": "8",
+								"content": "素材库",
+								"order": "H"
+							}, {
+								"optionId": "9",
+								"content": "其它",
+								"order": "I"
+							}
+						]
+					}, {
+						"FKid": "11",
+						"questionId": "12",
+						"questiontitle": "其中最常使用的是（　　　　）",
+						"standard": "（可多选） ",
+						"type": "2",
+						"children": [
+							{
+								"optionId": "10",
+								"content": "无",
+								"order": "A"
+							}, {
+								"optionId": "11",
+								"content": "课堂实录",
+								"order": "B"
+							}, {
+								"optionId": "12",
+								"content": "电子教案",
+								"order": "C"
+							}, {
+								"optionId": "13",
+								"content": "PPT类教学课件",
+								"order": "D"
+							}, {
+								"optionId": "14",
+								"content": "非PPT类教学课件",
+								"order": "E"
+							}, {
+								"optionId": "15",
+								"content": "试题库、试卷库",
+								"order": "F"
+							}, {
+								"optionId": "16",
+								"content": "微课视频",
+								"order": "G"
+							}, {
+								"optionId": "17",
+								"content": "素材库",
+								"order": "H"
+							}, {
+								"optionId": "18",
+								"content": "其它",
+								"order": "I"
+							}
+						]
+					}, {
+						"FKid": "12",
+						"questionId": "13",
+						"questiontitle": "现有教学信息化系统包括（　　　　　）",
+						"standard": " （可多选）  ",
+						"type": "2",
+						"children": [
+							{
+								"optionId": "19",
+								"content": "无",
+								"order": "A"
+							}, {
+								"optionId": "20",
+								"content": "网络教学平台",
+								"order": "B"
+							}, {
+								"optionId": "21",
+								"content": "网络考试系统",
+								"order": "C"
+							}, {
+								"optionId": "22",
+								"content": "网络教研系统",
+								"order": "D"
+							}, {
+								"optionId": "23",
+								"content": "教学资源制作系统",
+								"order": "E"
+							}, {
+								"optionId": "24",
+								"content": "教学资源管理平台",
+								"order": "F"
+							}, {
+								"optionId": "25",
+								"content": "虚拟实验系统",
+								"order": "G"
+							}, {
+								"optionId": "26",
+								"content": "其它",
+								"order": "H"
+							}
+						]
+					}, {
+						"FKid": "13",
+						"questionId": "14",
+						"questiontitle": "其中最常使用的是（　　　　）",
+						"standard": "（可多选） ",
+						"type": "2",
+						"children": [
+							{
+								"optionId": "27",
+								"content": "无",
+								"order": "A"
+							}, {
+								"optionId": "28",
+								"content": "网络教学平台",
+								"order": "B"
+							}, {
+								"optionId": "29",
+								"content": "网络考试系统",
+								"order": "C"
+							}, {
+								"optionId": "30",
+								"content": "网络教研系统",
+								"order": "D"
+							}, {
+								"optionId": "31",
+								"content": "教学资源制作系统",
+								"order": "E"
+							}, {
+								"optionId": "32",
+								"content": "教学资源管理平台",
+								"order": "F"
+							}, {
+								"optionId": "33",
+								"content": "虚拟实验系统",
+								"order": "G"
+							}, {
+								"optionId": "34",
+								"content": "其它",
+								"order": "H"
+							}
+						]
+					}, {
+						"FKid": "14",
+						"questionId": "15",
+						"questiontitle": "2012年9月至2013年8月按照教育局规定学校上信息技术课的学生比例约为",
+						"standard": "% ",
+						"type": "5",
+						"children": []
+					}, {
+						"FKid": "15",
+						"questionId": "16",
+						"questiontitle": "学生每周使用计算机的平均时间（不含课外）约为",
+						"standard": "小时 ",
+						"type": "5",
+						"children": []
+					}, {
+						"FKid": "16",
+						"questionId": "17",
+						"questiontitle": "最常使用信息技术进行辅助教学的学科是（　　　　　　）",
+						"standard": "（可多选） ",
+						"type": "2",
+						"children": [
+							{
+								"optionId": "35",
+								"content": "无",
+								"order": "A"
+							}, {
+								"optionId": "36",
+								"content": "语文",
+								"order": "B"
+							}, {
+								"optionId": "37",
+								"content": "数学",
+								"order": "C"
+							}, {
+								"optionId": "38",
+								"content": "英语",
+								"order": "D"
+							}, {
+								"optionId": "39",
+								"content": "物理",
+								"order": "E"
+							}, {
+								"optionId": "40",
+								"content": "化学",
+								"order": "F"
+							}, {
+								"optionId": "41",
+								"content": "政治",
+								"order": "G"
+							}, {
+								"optionId": "42",
+								"content": "地理",
+								"order": "H"
+							}, {
+								"optionId": "43",
+								"content": "生物",
+								"order": "I"
+							}, {
+								"optionId": "44",
+								"content": "历史",
+								"order": "J"
+							}, {
+								"optionId": "45",
+								"content": "其它",
+								"order": "K"
+							}
+						]
+					}, {
+						"FKid": "17",
+						"questionId": "18",
+						"questiontitle": "教师最常使用信息化手段辅助教学的环节是（　　　　　　）",
+						"standard": " （可多选） ",
+						"type": "2",
+						"children": [
+							{
+								"optionId": "46",
+								"content": "无",
+								"order": "A"
+							}, {
+								"optionId": "47",
+								"content": "备课",
+								"order": "B"
+							}, {
+								"optionId": "48",
+								"content": "课堂教学",
+								"order": "C"
+							}, {
+								"optionId": "49",
+								"content": "实验",
+								"order": "D"
+							}, {
+								"optionId": "50",
+								"content": "作业批改",
+								"order": "E"
+							}, {
+								"optionId": "51",
+								"content": "考试",
+								"order": "F"
+							}, {
+								"optionId": "52",
+								"content": "教研",
+								"order": "G"
+							}, {
+								"optionId": "53",
+								"content": "其它",
+								"order": "H"
+							}
+						]
+					}
+				]
+			}, {
+				"sectionTitle": "二、管理信息化",
+				"id": "2",
+				"children": [
+					{
+						"FKid": "18",
+						"questionId": "19",
+						"questiontitle": "是否建有校外可访问的门户网站（　　）",
+						"standard": " ",
+						"type": "1",
+						"children": [
+							{
+								"optionId": "54",
+								"content": "是",
+								"order": "A"
+							}, {
+								"optionId": "55",
+								"content": "否",
+								"order": "B"
+							}
+						]
+					}, {
+						"FKid": "19",
+						"questionId": "20",
+						"questiontitle": "现有校级信息化应用系统包括（　　　　　　）",
+						"standard": "（可多选）  ",
+						"type": "2",
+						"children": [
+							{
+								"optionId": "56",
+								"content": "无",
+								"order": "A"
+							}, {
+								"optionId": "57",
+								"content": "电子邮件系统",
+								"order": "B"
+							}, {
+								"optionId": "58",
+								"content": "网上个人存储空间",
+								"order": "C"
+							}, {
+								"optionId": "59",
+								"content": "身份管理与认证系统",
+								"order": "D"
+							}, {
+								"optionId": "60",
+								"content": "校园一卡通系统",
+								"order": "E"
+							}, {
+								"optionId": "61",
+								"content": "双向传输视频会议系统",
+								"order": "F"
+							}, {
+								"optionId": "62",
+								"content": "BBS系统",
+								"order": "G"
+							}, {
+								"optionId": "63",
+								"content": "虚拟社区",
+								"order": "H"
+							}, {
+								"optionId": "64",
+								"content": "搜索工具",
+								"order": "I"
+							}, {
+								"optionId": "65",
+								"content": "学习空间",
+								"order": "J"
+							}, {
+								"optionId": "66",
+								"content": "家校互通平台",
+								"order": "K"
+							}, {
+								"optionId": "67",
+								"content": "其它",
+								"order": "L"
+							}
+						]
+					}, {
+						"FKid": "20",
+						"questionId": "21",
+						"questiontitle": "其中最常使用的是（　　　　）",
+						"standard": "（可多选） ",
+						"type": "2",
+						"children": [
+							{
+								"optionId": "68",
+								"content": "无",
+								"order": "A"
+							}, {
+								"optionId": "69",
+								"content": "电子邮件系统",
+								"order": "B"
+							}, {
+								"optionId": "70",
+								"content": "网上个人存储空间",
+								"order": "C"
+							}, {
+								"optionId": "71",
+								"content": "身份管理与认证系统",
+								"order": "D"
+							}, {
+								"optionId": "72",
+								"content": "校园一卡通系统",
+								"order": "E"
+							}, {
+								"optionId": "73",
+								"content": "双向传输视频会议系统",
+								"order": "F"
+							}, {
+								"optionId": "74",
+								"content": "BBS系统",
+								"order": "G"
+							}, {
+								"optionId": "75",
+								"content": "虚拟社区",
+								"order": "H"
+							}, {
+								"optionId": "76",
+								"content": "搜索工具",
+								"order": "I"
+							}, {
+								"optionId": "77",
+								"content": "学习空间",
+								"order": "J"
+							}, {
+								"optionId": "78",
+								"content": "家校互通平台",
+								"order": "K"
+							}, {
+								"optionId": "79",
+								"content": "其它",
+								"order": "L"
+							}
+						]
+					}, {
+						"FKid": "21",
+						"questionId": "22",
+						"questiontitle": "单位电子邮件用户范围（　　　　）",
+						"standard": "（可多选） ",
+						"type": "2",
+						"children": [
+							{
+								"optionId": "80",
+								"content": "无",
+								"order": "A"
+							}, {
+								"optionId": "81",
+								"content": "学生",
+								"order": "B"
+							}, {
+								"optionId": "82",
+								"content": "教师",
+								"order": "C"
+							}, {
+								"optionId": "83",
+								"content": "行政人员",
+								"order": "D"
+							}, {
+								"optionId": "84",
+								"content": "工勤和教辅人员",
+								"order": "E"
+							}, {
+								"optionId": "85",
+								"content": "校友",
+								"order": "F"
+							}, {
+								"optionId": "86",
+								"content": "其它",
+								"order": "G"
+							}
+						]
+					}, {
+						"FKid": "22",
+						"questionId": "23",
+						"questiontitle": "校园一卡通已经实现的功能包括（　　　　　　）",
+						"standard": "（可多选）",
+						"type": "2",
+						"children": [
+							{
+								"optionId": "87",
+								"content": "无",
+								"order": "A"
+							}, {
+								"optionId": "88",
+								"content": "学生证",
+								"order": "B"
+							}, {
+								"optionId": "89",
+								"content": "教职工证",
+								"order": "C"
+							}, {
+								"optionId": "90",
+								"content": "图书证",
+								"order": "D"
+							}, {
+								"optionId": "91",
+								"content": "医疗卡",
+								"order": "E"
+							}, {
+								"optionId": "92",
+								"content": "上机卡",
+								"order": "F"
+							}, {
+								"optionId": "93",
+								"content": "餐卡",
+								"order": "G"
+							}, {
+								"optionId": "94",
+								"content": "银行卡",
+								"order": "H"
+							}, {
+								"optionId": "95",
+								"content": "考勤卡",
+								"order": "I"
+							}, {
+								"optionId": "96",
+								"content": "洗浴卡",
+								"order": "J"
+							}, {
+								"optionId": "97",
+								"content": "门禁卡",
+								"order": "K"
+							}, {
+								"optionId": "98",
+								"content": "购物卡",
+								"order": "L"
+							}, {
+								"optionId": "99",
+								"content": "校内乘车证",
+								"order": "M"
+							}, {
+								"optionId": "100",
+								"content": "校内对公资金结算卡",
+								"order": "N"
+							}, {
+								"optionId": "101",
+								"content": "水卡",
+								"order": "O"
+							}, {
+								"optionId": "102",
+								"content": "其它",
+								"order": "P"
+							}
+						]
+					}, {
+						"FKid": "23",
+						"questionId": "24",
+						"questiontitle": "已有的教学系统是否有考核标准及制度（          ）",
+						"standard": " ",
+						"type": "1",
+						"children": [
+							{
+								"optionId": "103",
+								"content": "是",
+								"order": "A"
+							}, {
+								"optionId": "104",
+								"content": "否",
+								"order": "B"
+							}
+						]
+					}, {
+						"FKid": "24",
+						"questionId": "25",
+						"questiontitle": "现有校级管理信息系统包括（　　　）",
+						"standard": "（可多选）    ",
+						"type": "2",
+						"children": [
+							{
+								"optionId": "105",
+								"content": "无",
+								"order": "A"
+							}, {
+								"optionId": "106",
+								"content": "教学教务信息系统",
+								"order": "B"
+							}, {
+								"optionId": "107",
+								"content": "图书馆信息系统",
+								"order": "C"
+							}, {
+								"optionId": "108",
+								"content": "办公自动化（OA）系统",
+								"order": "D"
+							}, {
+								"optionId": "109",
+								"content": "设备资产管理信息系统",
+								"order": "E"
+							}, {
+								"optionId": "110",
+								"content": "人事管理信息系统",
+								"order": "F"
+							}, {
+								"optionId": "111",
+								"content": "后勤服务信息系统",
+								"order": "G"
+							}, {
+								"optionId": "112",
+								"content": "学生管理信息系统",
+								"order": "H"
+							}, {
+								"optionId": "113",
+								"content": "毕业信息系统",
+								"order": "I"
+							}, {
+								"optionId": "114",
+								"content": "档案管理信息系统",
+								"order": "J"
+							}, {
+								"optionId": "115",
+								"content": "财务信息系统",
+								"order": "K"
+							}, {
+								"optionId": "116",
+								"content": "其它",
+								"order": "L"
+							}
+						]
+					}
+				]
+			}, {
+				"sectionTitle": "三、基础设施",
+				"id": "3",
+				"children": [
+					{
+						"FKid": "25",
+						"questionId": "26",
+						"questiontitle": "列入学校固定资产的供学生使用的个人计算机数量",
+						"standard": "台  ",
+						"type": "5",
+						"children": []
+					}, {
+						"FKid": "26",
+						"questionId": "27",
+						"questiontitle": "列入学校固定资产的供教师使用的个人计算机数量",
+						"standard": "台  ",
+						"type": "5",
+						"children": []
+					}, {
+						"FKid": "27",
+						"questionId": "28",
+						"questiontitle": "学校教室总数为",
+						"standard": "间    ",
+						"type": "5",
+						"children": []
+					}, {
+						"FKid": "28",
+						"questionId": "29",
+						"questiontitle": "其中配有计算机和投影仪的多媒体教室",
+						"standard": "间  ",
+						"type": "5",
+						"children": []
+					}, {
+						"FKid": "29",
+						"questionId": "30",
+						"questiontitle": "配有交互式电子白板的教室有",
+						"standard": "间 ",
+						"type": "5",
+						"children": []
+					}, {
+						"FKid": "37",
+						"questionId": "36",
+						"questiontitle": "学校是否建有教学用计算机机房（　　）",
+						"standard": " ",
+						"type": "1",
+						"children": [
+							{
+								"optionId": "124",
+								"content": "是",
+								"order": "A"
+							}, {
+								"optionId": "125",
+								"content": "否（若否  跳过下一题）",
+								"order": "B"
+							}
+						]
+					}, {
+						"FKid": "31",
+						"questionId": "32",
+						"questiontitle": "教学用计算机机房计算机总台数",
+						"standard": "  台    ",
+						"type": "5",
+						"children": []
+					}, {
+						"FKid": "33",
+						"questionId": "33",
+						"questiontitle": "学校网络接入互联网的总带宽",
+						"standard": "Mbps   ",
+						"type": "5",
+						"children": []
+					}, {
+						"FKid": "34",
+						"questionId": "34",
+						"questiontitle": "其中教育网接入带宽为",
+						"standard": " Mbps  ",
+						"type": "5",
+						"children": []
+					}, {
+						"FKid": "35",
+						"questionId": "35",
+						"questiontitle": "学校网络出口情况（　　　　　）（可多选）",
+						"standard": "  ",
+						"type": "2",
+						"children": [
+							{
+								"optionId": "119",
+								"content": "教育网",
+								"order": "A"
+							}, {
+								"optionId": "120",
+								"content": "电信",
+								"order": "B"
+							}, {
+								"optionId": "121",
+								"content": "联通",
+								"order": "C"
+							}, {
+								"optionId": "122",
+								"content": "移动",
+								"order": "D"
+							}, {
+								"optionId": "123",
+								"content": "其它",
+								"order": "E"
+							}
+						]
+					}, {
+						"FKid": "39",
+						"questionId": "37",
+						"questiontitle": "是否建有校园网（　　）",
+						"standard": " ",
+						"type": "1",
+						"children": [
+							{
+								"optionId": "126",
+								"content": "是",
+								"order": "A"
+							}, {
+								"optionId": "127",
+								"content": "否（若否  跳过下一题）",
+								"order": "B"
+							}
+						]
+					}, {
+						"FKid": "40",
+						"questionId": "38",
+						"questiontitle": "校园网主干带宽（　　）",
+						"standard": " ",
+						"type": "1",
+						"children": [
+							{
+								"optionId": "128",
+								"content": "十兆级",
+								"order": "A"
+							}, {
+								"optionId": "129",
+								"content": "百兆级",
+								"order": "B"
+							}, {
+								"optionId": "130",
+								"content": "千兆级",
+								"order": "C"
+							}, {
+								"optionId": "131",
+								"content": "万兆级",
+								"order": "D"
+							}, {
+								"optionId": "132",
+								"content": "其它",
+								"order": "E"
+							}
+						]
+					}, {
+						"FKid": "41",
+						"questionId": "39",
+						"questiontitle": "是否建有教育卫星数据接收系统（　　）",
+						"standard": " ",
+						"type": "1",
+						"children": [
+							{
+								"optionId": "133",
+								"content": "是",
+								"order": "A"
+							}, {
+								"optionId": "134",
+								"content": "否",
+								"order": "B"
+							}
+						]
+					}, {
+						"FKid": "42",
+						"questionId": "40",
+						"questiontitle": "学校信息安全系统包括（　　　　　）（可多选）",
+						"standard": "  ",
+						"type": "2",
+						"children": [
+							{
+								"optionId": "135",
+								"content": "无",
+								"order": "A"
+							}, {
+								"optionId": "136",
+								"content": "信息过滤系统",
+								"order": "B"
+							}, {
+								"optionId": "137",
+								"content": "网络防病毒系统",
+								"order": "C"
+							}, {
+								"optionId": "138",
+								"content": "网络运行故障监测系统",
+								"order": "D"
+							}, {
+								"optionId": "139",
+								"content": "入侵检测系统",
+								"order": "E"
+							}, {
+								"optionId": "140",
+								"content": "数据备份和容灾系统",
+								"order": "F"
+							}, {
+								"optionId": "141",
+								"content": "其它",
+								"order": "G"
+							}
+						]
+					}, {
+						"FKid": "43",
+						"questionId": "41",
+						"questiontitle": "学校信息过滤系统功能包括（　　　　　）（可多选）",
+						"standard": "  ",
+						"type": "2",
+						"children": [
+							{
+								"optionId": "142",
+								"content": "无",
+								"order": "A"
+							}, {
+								"optionId": "143",
+								"content": "网页内容过滤",
+								"order": "B"
+							}, {
+								"optionId": "144",
+								"content": "搜索引擎过滤",
+								"order": "C"
+							}, {
+								"optionId": "145",
+								"content": "BBS信息过滤",
+								"order": "D"
+							}, {
+								"optionId": "146",
+								"content": "垃圾邮件过滤",
+								"order": "E"
+							}, {
+								"optionId": "147",
+								"content": "其它",
+								"order": "F"
+							}
+						]
+					}
+				]
+			}, {
+				"sectionTitle": "四、保障措施",
+				"id": "4",
+				"children": [
+					{
+						"FKid": "44",
+						"questionId": "42",
+						"questiontitle": "学校是否有专门领导负责信息化建设（　　）",
+						"standard": "  ",
+						"type": "1",
+						"children": [
+							{
+								"optionId": "148",
+								"content": "是",
+								"order": "A"
+							}, {
+								"optionId": "149",
+								"content": "否（若否，跳过下一题）",
+								"order": "B"
+							}
+						]
+					}, {
+						"FKid": "45",
+						"questionId": "43",
+						"questiontitle": "负责信息化建设的领导职位级别（　　）",
+						"standard": " ",
+						"type": "1",
+						"children": [
+							{
+								"optionId": "150",
+								"content": "正校级",
+								"order": "A"
+							}, {
+								"optionId": "151",
+								"content": "副校级",
+								"order": "B"
+							}, {
+								"optionId": "152",
+								"content": "教务处主任",
+								"order": "C"
+							}, {
+								"optionId": "153",
+								"content": "其它",
+								"order": "D"
+							}
+						]
+					}, {
+						"FKid": "46",
+						"questionId": "44",
+						"questiontitle": "学校信息化发展规划制定情况（　　）",
+						"standard": " ",
+						"type": "1",
+						"children": [
+							{
+								"optionId": "154",
+								"content": "已发布",
+								"order": "A"
+							}, {
+								"optionId": "155",
+								"content": "制定中",
+								"order": "B"
+							}, {
+								"optionId": "156",
+								"content": "无计划（若无计划，跳过下一题）",
+								"order": "C"
+							}
+						]
+					}, {
+						"FKid": "47",
+						"questionId": "45",
+						"questiontitle": "学校信息化发展规划制定形式（　　）",
+						"standard": " ",
+						"type": "1",
+						"children": [
+							{
+								"optionId": "157",
+								"content": "单列信息化规划",
+								"order": "A"
+							}, {
+								"optionId": "158",
+								"content": "分散在总体规划中",
+								"order": "B"
+							}
+						]
+					}, {
+						"FKid": "48",
+						"questionId": "46",
+						"questiontitle": "学校信息化经费预算制定形式（　　）",
+						"standard": " ",
+						"type": "1",
+						"children": [
+							{
+								"optionId": "159",
+								"content": "单列专项预算",
+								"order": "A"
+							}, {
+								"optionId": "160",
+								"content": "纳入各部门预算",
+								"order": "B"
+							}, {
+								"optionId": "161",
+								"content": "无",
+								"order": "C"
+							}
+						]
+					}, {
+						"FKid": "49",
+						"questionId": "47",
+						"questiontitle": "2012年9月至2013年8月学校信息化经费投入中，建设费用约占",
+						"standard": "%  ",
+						"type": "5",
+						"children": []
+					}, {
+						"FKid": "50",
+						"questionId": "48",
+						"questiontitle": "运行维护费用约占",
+						"standard": "%  ",
+						"type": "5",
+						"children": []
+					}, {
+						"FKid": "51",
+						"questionId": "49",
+						"questiontitle": "培训及研究经费约占",
+						"standard": "%  ",
+						"type": "5",
+						"children": []
+					}, {
+						"FKid": "52",
+						"questionId": "50",
+						"questiontitle": "总计投入",
+						"standard": "万元  ",
+						"type": "5",
+						"children": []
+					}, {
+						"FKid": "53",
+						"questionId": "51",
+						"questiontitle": "占学校同期教育总经费支出的比例约为",
+						"standard": "% ",
+						"type": "5",
+						"children": []
+					}, {
+						"FKid": "54",
+						"questionId": "52",
+						"questiontitle": "教师信息技术技能学习途径包括（　　　　　）（可多选）",
+						"standard": " ",
+						"type": "2",
+						"children": [
+							{
+								"optionId": "162",
+								"content": "基本自学",
+								"order": "A"
+							}, {
+								"optionId": "163",
+								"content": "校级培训",
+								"order": "B"
+							}, {
+								"optionId": "164",
+								"content": "市（县）级培训",
+								"order": "C"
+							}, {
+								"optionId": "165",
+								"content": "省级培训",
+								"order": "D"
+							}, {
+								"optionId": "166",
+								"content": "国家培训",
+								"order": "E"
+							}, {
+								"optionId": "167",
+								"content": "网络培训（网络研修）",
+								"order": "F"
+							}, {
+								"optionId": "168",
+								"content": "其它",
+								"order": "G"
+							}
+						]
+					}, {
+						"FKid": "55",
+						"questionId": "53",
+						"questiontitle": "教师主要接受的教育技术培训内容包括（　　　　）（可多选）",
+						"standard": "  ",
+						"type": "2",
+						"children": [
+							{
+								"optionId": "169",
+								"content": "无",
+								"order": "A"
+							}, {
+								"optionId": "170",
+								"content": "信息技术基本操作",
+								"order": "B"
+							}, {
+								"optionId": "171",
+								"content": "课件制作技术",
+								"order": "C"
+							}, {
+								"optionId": "172",
+								"content": "信息化教学设计",
+								"order": "D"
+							}, {
+								"optionId": "173",
+								"content": "学科教学工具使用",
+								"order": "E"
+							}, {
+								"optionId": "174",
+								"content": "信息化教育资源获取技能",
+								"order": "F"
+							}, {
+								"optionId": "175",
+								"content": "其它",
+								"order": "G"
+							}
+						]
+					}, {
+						"FKid": "56",
+						"questionId": "54",
+						"questiontitle": "其中最受教师欢迎的是（　　　）（可多选）",
+						"standard": " ",
+						"type": "2",
+						"children": [
+							{
+								"optionId": "176",
+								"content": "无",
+								"order": "A"
+							}, {
+								"optionId": "177",
+								"content": "信息技术基本操作",
+								"order": "B"
+							}, {
+								"optionId": "178",
+								"content": "课件制作技术",
+								"order": "C"
+							}, {
+								"optionId": "179",
+								"content": "信息化教学设计",
+								"order": "D"
+							}, {
+								"optionId": "180",
+								"content": "学科教学工具使用",
+								"order": "E"
+							}, {
+								"optionId": "181",
+								"content": "信息化教育资源获取技能",
+								"order": "F"
+							}, {
+								"optionId": "182",
+								"content": "其它",
+								"order": "G"
+							}
+						]
+					}, {
+						"FKid": "57",
+						"questionId": "55",
+						"questiontitle": "教师完成教育部中小学教学人员初级教育技术能力培训的比例为",
+						"standard": "%   ",
+						"type": "5",
+						"children": []
+					}, {
+						"FKid": "58",
+						"questionId": "56",
+						"questiontitle": "教师完成教育部中小学教学人员中级教育技术能力培训的比例为",
+						"standard": "  %  ",
+						"type": "5",
+						"children": []
+					}, {
+						"FKid": "59",
+						"questionId": "57",
+						"questiontitle": "学校信息技术专任教师人数",
+						"standard": "人  ",
+						"type": "5",
+						"children": []
+					}, {
+						"FKid": "60",
+						"questionId": "58",
+						"questiontitle": "信息化技术支撑全职岗位数量",
+						"standard": "人 ",
+						"type": "5",
+						"children": []
+					}
+				]
+			}
+		]
+	}
+]	

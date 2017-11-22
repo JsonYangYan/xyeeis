@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+<html lang="zh-cn">
+<head>
+    <meta http-equiv="Content-Type"  content="text/html; charset=utf-8" />
+    <meta name="viewpoint" content="width=device-width; initial-scale=1" />
+    <title>襄阳市教育信息化发展水平评估系统</title>
+    <link rel="icon" href="../images/icon.png"/>
+    <link type="text/css" rel="stylesheet" href="../../base/treeview/jquery.treeview.css" />
+    <link type="text/css" rel="stylesheet" href="../../base/treeview/screen.css" />
+    <link type="text/css" rel="stylesheet" href="../../base/css/base.css" />
+    <link type="text/css" rel="stylesheet" href="../css/allassessment.css" />
+    <script type="text/javascript" src="../../base/javascript/lib/jquery1.8.2.min.js"></script>
+    <script type="text/javascript" src="../../base/javascript/lib/trimpath.js"></script>
+    <script type="text/javascript" src="../../base/treeview/jquery.treeview.js"></script>
+    <script type="text/javascript" src="../../base/javascript/lib/highcharts.js"></script>
+    <script type="text/javascript" src="../../base/javascript/lib/highcharts-more.js"></script>
+</head>
+<body>
+	<div class="header">襄阳市教育信息化发展水平评估系统</div>
+    <div id="container">
+    	<div id="floatNavAllassessment"> </div>
+    	<div style="height:1px"></div>
+		<div class="total_title">
+			月份：
+	     </div>
+    	<div class="allassessment_top">
+    		<div class="total_situation" > </div>
+	        <div id="left_side" class="left_side"> </div>
+	        <div id="right_side" class="right_side"> </div>
+	        <div class="clear"> </div>
+        </div>
+        <div class="show_pie">
+        	<div class="typical_standard" > </div>
+        	<div class="teacher_terminal">
+        		<div id="teacher_terminal_pie"> </div>
+        		<!-- <div id="teacher_terminal_colum"> </div>
+        		<div id="teacher_terminal" > </div> -->
+        	</div>
+        	
+        	<div class="student_terminal">
+        		<div id="student_terminal_pie"> </div>
+        		<!-- <div id="student_terminal_colum"> </div>
+        		<div id="student_terminal" > </div> -->
+        	</div>
+        	<div class="clear"> </div>
+   			<div id="teacher_resources_colum"> </div>	<!--  教师用数字教学资源		 -->
+    		<div id="teacher_practice_colum"> </div>	<!-- 教师使用的信息化教学环节 -->
+        	<div id="school_management_system"> </div>  <!-- 学校使用信息管理系统 -->
+        	<div id="teacher_information_training"> </div>  <!-- 教师参加教育信息化培训 --> 
+        	<div id="Multimedia_class_form"> </div>  <!-- 学校多媒体教室形态 134-->
+        	<div id="manager_system"> </div>  <!-- 学校应用信息管理系统 148-->
+        </div>
+        <div class="show_tree_data">
+        	<div class="detail_standard" > </div>
+        	<!--树形结构-->
+	        <div id="treeview_conainer_12">
+	            <div>襄阳市教育信息化发展绩效评估</div>
+	            <div class="sub_nav_ul treeview" id="treeview_list"> </div>
+	        </div>
+	        <div class="charts_container">       
+	            <div id="container_colum" style="min-width:200px; min-height:200px;overflow: hidden"> </div>
+	            <div id="containeravg" style="display:none; font-weight:bolder;font-size: 18px;color: #333333;"> </div>
+	        </div>       	
+        </div>
+        <div class="clear"> </div>     
+    </div>
+	<div class="clear"> </div>
+	<div id="footer"> </div>
+		
+	<!--treeview template-->
+	<textarea id="treeview_template" style="display:none">
+		<ul class="nav_treeview">
+	 	{for nav_1 in quizs.children}
+		   <li>
+		   		<span>${nav_1.rank1}</span>
+		   		<ul>
+	   		   		{for nav_2 in nav_1.children }
+	   		   	    	<li>
+	   		   	    		<a style="text-decoration: none;cursor: pointer" onclick="eventBind(${nav_2.rank2id})">
+	   		   	    			<span id="${nav_2.rank2id}">${nav_2.rank2}</span>
+	   		   	    		</a>
+		   	    		</li>
+	   		  	 	{/for}
+		   		</ul>
+		   	</li>
+		{/for}
+	   	</ul>	
+	</textarea>
+</body>
+</html>
+<script src="../../base/base.js"></script>
+<script type="text/javascript" src="../../base/javascript/highcharts_func.js"></script>
+<script type="text/javascript" src="../../allassessment/javascript/allassessment.js"></script>
+ <script type="text/javascript" src="../../allassessment/javascript/allassessment_pie.js"></script>
+<script type="text/javascript" src="../../allassessment/javascript/allassessment_treeview.js"></script> 

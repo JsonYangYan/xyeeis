@@ -1,0 +1,138 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#container{
+	min-height: 1600px;
+	padding-bottom:20px;
+}
+.school_ranking {
+    background:url("../images/score_ranking.png");
+    height: 45px;
+    width: 120px;
+}
+.heigh_score{
+	width: 998px;
+	height: 485px;
+	border: 1px solid #CCCCCC;
+	margin: 20px 20px 0 0 ;
+	float: right;
+/*	padding-bottom: 20px;*/
+}
+
+.ranking_title{
+	width: 996px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 14px;
+	margin: 0 auto;
+	background-color: #DCE9F9;
+}
+.ranking_title li{
+	float: left;
+	width: 280px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	border-right: 2px solid #FFFFFF;
+}
+.ranking_title li:first-child{
+	float: left;
+	width: 148px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+}
+.ranking_title li:last-child{
+	border-right: none;
+}
+
+.top_10,.middle_80, .last_10{
+	width: 998px;
+	height: 400px;
+	margin: 0 auto;
+	font-size: 14px;
+}
+
+.top_10 ul,.middle_80 ul, .last_10 ul{
+	width: 994px;
+	width:auto\9;
+	height: 40px;
+	line-height: 40px;
+	font-size: 14px;
+	margin: 0 auto;
+	background-color: #FFFFFF;
+}
+.top_10 ul li, .middle_80 ul li, .last_10 ul li{
+	float: left;
+	width: 280px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	border-right: 2px solid #FFFFFF;
+}
+.top_10 ul li:first-child, .middle_80 ul li:first-child, .last_10 ul li:first-child{
+	float: left;
+	width: 148px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+}
+.top_10 ul li:last-child, .middle_80 ul li:last-child, .last_10 ul li:last-child{
+	border-right: none;
+}
+
+.middle_score{
+	width: 998px;
+	height: 525px;
+	border: 1px solid #CCCCCC;
+	margin: 20px 20px 0 0 ;
+	float: right;
+	padding: 0 0 20px 0;
+	font-size: 14px;
+}
+
+.low_score{
+	width: 998px;
+	height: 485px;
+	border: 1px solid #CCCCCC;
+	margin: 20px 20px 0 0 ;
+	float: right;
+}
+
+/************page_menu**************/
+#page_numbers{
+	width: 1000px;
+	height: 20px;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.page_menu A {
+	color: #000000; 
+	text-decoration: none;
+}
+.page_menu A:hover {
+	color: red;
+}
+.page_menu A:active {
+	color: #666;
+}
+.page_menu .current {
+	font-weight: bold;  
+
+	color: #fff; 
+	background: #036cb4;
+}
+.page_menu .disabled {
+
+	color: #AAA;
+}
+
+#page_numbers_city{margin-top:12px;}
+#topTitle{
+	font: 38px/1.5 Tahoma,Helvetica,Arial,'ËÎÌו',sans-serif;
+	font-weight:bold;
+	margin-top:15px;
+	margin-left:20px;
+}

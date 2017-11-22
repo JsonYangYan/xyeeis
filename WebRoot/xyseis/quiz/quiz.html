@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	<meta name="viewpoint" content="width=device-width; initial-scale=1" />
+	<title>襄阳市中小学教育信息化发展水平填报系统</title>
+	<link rel="icon" href="../images/icon.png"/>
+	<link type="text/css" rel="stylesheet" href="../base/css/base.css" />
+	<link type="text/css" rel="stylesheet" href="quiz.css" />
+	<script src="../base/javascript/lib/jquery1.8.2.min.js"></script>
+	<script src="../base/javascript/lib/trimpath.js"></script>
+	<style type="text/css">
+		.hide_input{
+		display:none;
+		}
+	</style>
+</head>
+<body>
+	<div class="header">
+		<span class="header_title">襄阳市中小学教育信息化发展水平填报系统</span>	
+		
+		<span class="quit"><a href="../login.html">退出</a></span>
+		<span class="back">返回</span>
+	</div>
+	<div id="container"> 
+		<div id="main_container">
+			<div class="tab_content1">
+				<!--tab-->
+	            <ul class="tab_container" id="tab_container">
+	                 <li class="tab_infrastructure">基础设施</li>
+	                 <li class="tab_teaching">教学信息化</li>
+	                 <li class="tab_research">教研信息化</li>
+	                 <li class="tab_management">管理与服务信息化</li>
+	                 <li class="tab_security">信息化保障</li> 
+	            </ul>
+			</div>
+			<div class="tab_content2">
+				<div class="ques_list">
+					<ul class="content_container" id="content_container">
+						<li class="li_content" id="infrastructure_ques_list"> </li>
+						<li class="li_content" id="teaching_ques_list"> </li>
+						<li class="li_content" id="research_ques_list"> </li>
+						<li class="li_content" id="management_ques_list"> </li>
+						<li class="li_content" id="security_ques_list"> </li>
+					</ul> 				
+				</div>
+			</div>			
+		</div>		
+		
+	</div>	
+	<div class="clear"> </div>
+	<!-- 问卷的问题输出模板 -->
+	<textarea id="ques_detail_template" style="display: none">
+	 <!-- 保存的标志 -->
+	 <input type="hidden" name="flag" value="0">
+		<!--显示该部分指标下的问题题目--->          	 		           	                    
+		{for p in question}
+		<ul class="groupId_contain" id="${p.groupId}" groupnum="0">
+            <li  class="groupId_title"><!--显示题组标题--->
+            	<span>${p.groupId}、</span>                   
+            </li>
+		{for q in p.children}<!--显示题组包含的题目-->
+    	<ul class="ques_contain" id="${q.queId}" num="0" style="vertical-align: top">	                                
+          	<li class="question_title">
+                  <span>${q.queContent}</span> 
+             </li>  
+		{if q.testType == 1} <!--分成单选以及多选的情况--->                      
+        <span>${q.unitSymbol}</span>
+        <div class="clear"> </div>
+        <ul class="radio_contain">
+		<!--num标记是否已经填写-->
+        {for y in q.children}<!--单选显示形式-->                                         
+              <li >	
+              	<span>
+              	 <input type="radio" value="${y.autoId}" name="radio_${q.queId}" ques="ques_${q.queId}" onclick="radio_change(this.name); " {if y.is_checked ==1 }checked{/if}/>
+              	</span>                           
+                <span>${y.order}.${y.choiceContent}</span>
+              </li>
+             {/for}
+		</ul>
+        {elseif q.testType == 2}<!--多选题-->
+        	<span>${q.unitSymbol}</span>
+        	<div class="clear"> </div>
+       		<ul class="checkbox_contain">
+           		{for y in q.children}<!--多选显示形式-->
+              	<li class="multi_content">
+              		{if y.hasBlank == 1}<!--选项点击后出现文本输入框-->
+                    <span>
+                    	<input type="checkbox" value="${y.autoId}" name="checkbox_${y.choiceId}" class="option_others"  ques="ques_${q.queId}" onclick="textbox_change(this); "  {if y.is_checked == 1} checked="checked"{/if}/>
+                    </span>
+                	{else if y.hasBlank == 0}
+                     <span>
+                     <input type="checkbox" value="${y.autoId}" name="checkbox_${y.choiceId}" class="multi_choice"  ques="ques_${q.queId}"  onclick="textbox_change(this); "  {if y.is_checked == 1} checked="checked"{/if}/></span>                                  	                            	                                                
+                	{/if}               		
+              		<span>${y.order}.${y.choiceContent}</span>
+              		{if y.hasBlank == 1}
+              			{if y.answer!=null}
+              			<input type="text"  value="${y.answer}" onchange="choice_change(330)" id="text_choice_330"/>
+              			{/if}
+              		{/if}
+             	</li>
+           		{/for}
+	  		</ul>
+			{elseif q.testType == 3} <!--填空题--> 
+                <ul class="text_contain">
+                    <input ques="ques_${q.queId}"	type="text" name="text_${q.queId}" onchange="text_change(this.name);" value="${q.answer}"/><span>${q.unitSymbol}</span>
+                </ul>	                                         
+            {elseif q.testType == 4}<!--数字填空题-->
+                <ul class="text_num_contain">
+                {if q.isPercent == 0}
+                    <input ques="ques_${q.queId}" type="text" name="text_${q.queId}" onchange="text_change(this.name);"  value="${q.userAns}"/><span>${q.unitSymbol}</span>
+                    {elseif q.isPercent == 1 }
+                    <input ques="ques_${q.queId}" class="isPrecent" type="text" name="text_${q.queId}" onchange="text_change(this.name);" value="${q.userAns}"/><span>${q.unitSymbol}</span>
+                	{elseif q.isPercent == 2}
+                	<input ques="ques_${q.queId}" class="yesOrNo" type="text" name="text_${q.queId}" onchange="text_change(this.name);" value="${q.userAns}" /><span>${q.unitSymbol}</span>
+                	
+                	{/if}
+                </ul>
+            {/if}                                                                           
+    	</ul>
+		{/for}
+		<div class="clear"> </div>
+		<div class="errorAnswer"> </div>
+		</ul>
+		{/for}
+	        <div class="clear"> </div>		
+		</textarea>
+		
+	<div class="bottom_content">
+		<!--进度条-->
+          <div class="barbox">
+              <div class="barline"><div style="width:0px;" class="charts"> </div></div>
+              <div class="last"> </div>
+          </div>
+	
+		<!-- 		保存、提交问卷		 -->
+		
+		<div class="answer_button" >
+			<button type="submit" name="submit_button" id="submit_button">提&nbsp;&nbsp;&nbsp;&nbsp;交</button>
+		</div>
+		<div class="save_button" >
+			<button type="submit" name="save_button" id="save_button">保&nbsp;&nbsp;&nbsp;&nbsp;存</button>
+		</div>
+	</div>
+		
+	<div id="footer"> </div>
+	<div id="base_answer"></div>
+</body>
+</html>
+<script type="text/javascript" src="../base/base.js"></script>
+<script type="text/javascript" src="quiz.js"></script>
