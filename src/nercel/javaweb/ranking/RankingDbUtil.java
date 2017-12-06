@@ -38,7 +38,7 @@ public class RankingDbUtil {
 			}
 		} finally {
 			con = null;
-			System.gc();
+			//System.gc();
 		}
 	}
 

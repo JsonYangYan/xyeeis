@@ -134,6 +134,7 @@ public class PrintPdfInfor {
 		arrayListId = pdfDb.getAllSchoolIdNumber(areaName, currentTime);
 		float totalSchoolNum=arrayListId.size();
 		HashMap<Integer, Integer> schTerHashMap=pdfDb.getTerminalNum(areaName,currentTime);
+		//System.out.println(schTerHashMap);
 		for (int i = 0; i < totalSchoolNum; i++) {
 			float terminalNum = schTerHashMap.get(arrayListId.get(i));
 			if (terminalNum < 20) {
